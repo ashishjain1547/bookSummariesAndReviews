@@ -1,31 +1,7 @@
 <head>
     <script crossorigin="anonymous" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $.ajax({
-                url: window.location.protocol + "//" + window.location.hostname + "/p/personal-posts-menu.html",
-                success: function (result) {
-                    $("div.customTemporaryCodeHolder").html(result);
-                    $("nav.customDynamicNav").html(
-                        $("div.customTemporaryCodeHolder nav.customBitsWilpMenu").html()
-                    );
-                }
-            });
 
-            $.ajax({
-                url: window.location.protocol + "//" + window.location.hostname + "/p/follow-us-on-social-media.html",
-
-                success: function (result) {
-                    $("span.customTempCodeHolderForSocialMedia").html(result);
-                    $("div.customSocialMediaBtnsWrapper").html(
-                        $("span.customTempCodeHolderForSocialMedia div.customSocialMediaWrapper").html()
-                    );
-                }
-
-            });
-        }); 
-    </script>
     <!-- Google AdSense Using Machine Learning Code -->
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <script>
@@ -34,12 +10,7 @@
             enable_page_level_ads: true
         });
     </script>
-
     <style>
-        .customTempCodeHolderForSocialMedia {
-            display: none;
-        }
-
         pre {
             white-space: pre-wrap;
             white-space: -moz-pre-wrap;
@@ -47,14 +18,62 @@
             white-space: -o-pre-wrap;
             word-wrap: break-word;
         }
+
+        .dot {
+            height: 12px;
+            width: 12px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        .arrow {
+            border: solid black;
+            border-width: 0 3px 3px 0;
+            display: inline-block;
+            padding: 3px;
+        }
+
+        .right {
+            transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+        }
+
+        .left {
+            transform: rotate(135deg);
+            -webkit-transform: rotate(135deg);
+        }
+
+        .up {
+            transform: rotate(-135deg);
+            -webkit-transform: rotate(-135deg);
+        }
+
+        .down {
+            transform: rotate(45deg);
+            -webkit-transform: rotate(45deg);
+        }
+
+        .customLink {
+            background-color: #4CAF50;
+            border: none;
+            color: white !important;
+            padding: 8px 13px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        .customLink:hover {
+            text-decoration: none;
+        }
     </style>
 </head>
-<div class="customTemporaryCodeHolder"> </div>
-<span class="customTempCodeHolderForSocialMedia"> </span>
 
-<nav class="customDynamicNav"> </nav> <br />
-<div class="customSocialMediaBtnsWrapper"> </div> <br />
-<!-- End of 'Personal Posts Menu Template For Copy-Paste'. It started from the top of the page from <HEAD> tag. -->
+<a class="customLink toggleBtn" href="https://github.com/ashishjain1547/public_nlp_books" target="_blank">Download Books</a>
 
 <pre>1. Natural Language Processing with Python
 Book by Edward Loper, Ewan Klein, and Steven Bird, 2009, OReilly
@@ -210,3 +229,4 @@ Book by Emmanuel Ameisen, 2020
 51. TinyML: Machine Learning with TensorFlow Lite on Arduino and Ultra-Low-Power Microcontrollers
 Book by Daniel Situnayake and Pete Warden, 2019
 </pre>
+<span style="display: none;">Tags: List of Books,Natural Language Processing,</span>
