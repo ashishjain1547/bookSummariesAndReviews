@@ -4,16 +4,6 @@
     <script>
         $(document).ready(function () {
             $.ajax({
-                url: window.location.protocol + "//" + window.location.hostname + "/p/personal-posts-menu.html",
-                success: function (result) {
-                    $("div.customTemporaryCodeHolder").html(result);
-                    $("nav.customDynamicNav").html(
-                        $("div.customTemporaryCodeHolder nav.customBitsWilpMenu").html()
-                    );
-                }
-            });
-
-            $.ajax({
                 url: window.location.protocol + "//" + window.location.hostname + "/p/follow-us-on-social-media.html",
 
                 success: function (result) {
@@ -47,16 +37,36 @@
             white-space: -o-pre-wrap;
             word-wrap: break-word;
         }
+
+        .customLink {
+            background-color: #4CAF50;
+            border: none;
+            color: white !important;
+            padding: 8px 13px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        .customLink:hover {
+            text-decoration: none;
+        }
     </style>
 </head>
-<div class="customTemporaryCodeHolder"> </div>
-<span class="customTempCodeHolderForSocialMedia"> </span>
 
-<nav class="customDynamicNav"> </nav> <br />
+<div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYFmI1Tnq5xUsEzWgfbYv5v6w4iBi02nWsPm-oZ0nq8Kut6Qpw5NPavOu9RjyL5GQb77zMWwPd827KCpX3yJrBDWVuFqt0lRW3E05eDqrLDaknl-FcE7UVh6Fkd-xnXfUPRNDKVfc4vYyVyXdZ20vc0z34rQylobbdB-COCxd7P2jKA-lps_x2h2f7xyqv/s269/finding%20ghosts%20in%20your%20data.png" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="400" data-original-height="267" data-original-width="269" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYFmI1Tnq5xUsEzWgfbYv5v6w4iBi02nWsPm-oZ0nq8Kut6Qpw5NPavOu9RjyL5GQb77zMWwPd827KCpX3yJrBDWVuFqt0lRW3E05eDqrLDaknl-FcE7UVh6Fkd-xnXfUPRNDKVfc4vYyVyXdZ20vc0z34rQylobbdB-COCxd7P2jKA-lps_x2h2f7xyqv/s400/finding%20ghosts%20in%20your%20data.png"/></a></div>
+
+<span class="customTempCodeHolderForSocialMedia"> </span>
 <div class="customSocialMediaBtnsWrapper"> </div>
 <!-- End of 'Personal Posts Menu Template For Copy-Paste'. It started from the top of the page from <HEAD> tag. -->
 
-<pre>1. Anomaly Detection Principles and Algorithms
+<pre>
+<a class="customLink" href="https://github.com/ashishjain1547/anomaly_detection_books" target="_blank">Download Books</a>
+    
+1. Anomaly Detection Principles and Algorithms
 Book by Chilukuri Krishna Mohan, HuaMing Huang, and Kishan G. Mehrotra
 
 2. Practical Machine Learning: A New Look at Anomaly Detection
@@ -143,4 +153,8 @@ Originally published: 2014
 26. Applications of Data Mining in Computer Security
 Book
 Originally published: 31 May 2002
+
+27. Finding Ghosts in Your Data: Anomaly Detection Techniques with Examples in Python
+Kevin Feasel, 2022
 </pre>
+<span style="display: none;">Tags: Technology,Machine Learning,List of Books,</span>
