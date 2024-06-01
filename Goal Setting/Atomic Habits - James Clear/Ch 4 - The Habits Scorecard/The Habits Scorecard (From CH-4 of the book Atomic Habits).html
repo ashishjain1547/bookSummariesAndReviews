@@ -14,9 +14,9 @@
     <script>
         $(document).ready(function () {
             $.ajax({
-                url: "https://raw.githubusercontent.com/ashishjain1547/pubLessonsInTechnology/main/links_to_tech_clubs.json", 
+                url: "https://raw.githubusercontent.com/ashishjain1547/bookSummariesAndReviews/main/links_to_book_clubs.json", 
                 success: function (result) {
-                    let grouplink = JSON.parse(result)['Beta Tech Club'];
+                    let grouplink = JSON.parse(result)['current book club'];
                     $("#customWhatsAppGroupLinkWrapper").html(
                         `
                         <h2 class="custom_link_h2"><a href="${grouplink}" target="_blank"> 
