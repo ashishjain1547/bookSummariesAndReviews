@@ -1,7 +1,7 @@
 <head>
     <script crossorigin="anonymous" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-
+  
     <!-- Google AdSense Using Machine Learning Code -->
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <script>
@@ -10,6 +10,29 @@
             enable_page_level_ads: true
         });
     </script>
+  
+    <script>
+        $(document).ready(function () {
+            $.ajax({
+                url: "https://raw.githubusercontent.com/ashishjain1547/pubLessonsInTechnology/main/links_to_tech_clubs.json", 
+                success: function (result) {
+                    let grouplink = JSON.parse(result)['Beta Tech Club'];
+                    $("#customWhatsAppGroupLinkWrapper").html(
+                        `
+                        <h2 class="custom_link_h2"><a href="${grouplink}" target="_blank"> 
+                            <span>Join us on:</span>
+                            <span class="customLink"><i class="fa fa-whatsapp"></i> Whatsapp </span>
+                            </a>
+                        </h2>
+                        `    
+                    );
+                }
+            });
+        });
+    </script>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
     <style>
         pre {
             white-space: pre-wrap;
@@ -18,42 +41,7 @@
             white-space: -o-pre-wrap;
             word-wrap: break-word;
         }
-
-        .dot {
-            height: 12px;
-            width: 12px;
-            background-color: #bbb;
-            border-radius: 50%;
-            display: inline-block;
-        }
-
-        .arrow {
-            border: solid black;
-            border-width: 0 3px 3px 0;
-            display: inline-block;
-            padding: 3px;
-        }
-
-        .right {
-            transform: rotate(-45deg);
-            -webkit-transform: rotate(-45deg);
-        }
-
-        .left {
-            transform: rotate(135deg);
-            -webkit-transform: rotate(135deg);
-        }
-
-        .up {
-            transform: rotate(-135deg);
-            -webkit-transform: rotate(-135deg);
-        }
-
-        .down {
-            transform: rotate(45deg);
-            -webkit-transform: rotate(45deg);
-        }
-
+  
         .customLink {
             background-color: #4CAF50;
             border: none;
@@ -66,12 +54,63 @@
             margin: 4px 2px;
             cursor: pointer;
         }
-
+  
         .customLink:hover {
             text-decoration: none;
         }
+  
+        div.code-block-decoration.footer {
+            display: none;
+        }
+  
+        button.export-sheets-button-wrapper {
+            display: none;
+        }
     </style>
+  
+    <style>
+        .custom_link_h2 a {
+            color: black;
+            text-decoration: none;
+            text-align: center;
+        }
+  
+        .custom_link_h2 a:hover {
+            color: black;
+        }
+  
+        .custom_link_h2 a:active {
+            color: black;
+        }
+  
+        .custom_link_h2 span {
+            translate: 0px -5px;
+            display: inline-block;
+        }
+  
+        .custom_link_h2 img {
+            width: 100px;
+            padding: 0px;
+            border: none;
+            box-shadow: none;
+        }
+    </style>
+    <style>
+      .customul {
+        list-style: none;
+      }
+  
+      [aria-hidden='true'] {
+        display: none;
+      }
+    </style>
+  
 </head>
+  
+<div id="customWhatsAppGroupLinkWrapper"></div>
+
+To See All Tech Related Book Lists: <a class="customLink" href="https://survival8.blogspot.com/2024/06/index-of-book-lists-and-downloads.html#customTechRelatedBookLists" target="_blank">Index of Book Lists And Downloads</a>
+<br>
 
 <a class="customLink toggleBtn" href="https://github.com/ashishjain1547/public_nlp_books" target="_blank">Download Books</a>
 
@@ -228,9 +267,5 @@ Book by Emmanuel Ameisen, 2020
 
 51. TinyML: Machine Learning with TensorFlow Lite on Arduino and Ultra-Low-Power Microcontrollers
 Book by Daniel Situnayake and Pete Warden, 2019
-
-52. Getting Started with Google BERT. Build and train state-of-the-art NLP models
-Sudharsan Ravichandiran
-Packt (2021)
 </pre>
 <span style="display: none;">Tags: List of Books,Natural Language Processing,</span>
