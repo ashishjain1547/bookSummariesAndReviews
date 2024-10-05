@@ -157,6 +157,39 @@
 <br>
 <span class="customLink toggleBtn">Toggle All Sections</span>
 <br>
+<br>
+<h2 class="customVideosHeader"><span class="arrow up"></span> Videos in Hindi</h2>
+
+<div id="customVideos"> 
+    <div id="customBiosAutobiosVids">
+        <h3>Biographies / Autobiographies Videos</h3>
+        <ol>
+            <li>
+                <a href="https://survival8.blogspot.com/2024/09/elon-musk-by-ashlee-vance-book-summary.html" target="_blank">
+                    Elon Musk - By Ashlee Vance (Book Summary in Hindi via Video)
+                </a>
+            </li>
+        </ol>
+    </div>
+
+    <div id="customInvestmentVids">
+        <h3>Investment Videos</h3>
+        <ol>
+            <li>
+                <a href="https://survival8.blogspot.com/2024/09/psychology-of-money-book-summary-in.html" target="_blank">
+                    Psychology of Money - Book Summary in Hindi via Video
+                </a>
+            </li>
+
+            <li>
+                <a href="https://survival8.blogspot.com/2024/09/rich-dad-poor-dad-book-summary-in-hindi.html" target="_blank">
+                    Rich Dad Poor Dad - Book Summary in Hindi via Video
+                </a>
+            </li>
+        </ol>
+    </div>
+</div>
+<br>
 <h2 class="customBookSummariesHeader"><span class="arrow up"></span> Book Summaries</h2>
 <div id="customBookSummaries">
     <div id="customEmotionalIntelligence">
@@ -385,20 +418,8 @@
             </li>
 
             <li>
-                <a href="https://survival8.blogspot.com/2024/09/psychology-of-money-book-summary-in.html" target="_blank">
-                    Psychology of Money - Book Summary in Hindi via Video
-                </a>
-            </li>
-
-            <li>
                 <a href="https://survival8.blogspot.com/2023/04/summary-of-book-rich-dad-poor-dad.html" target="_blank">
                     'Rich Dad Poor Dad' (Summary, Robert Kiyosaki)
-                </a>
-            </li>
-
-            <li>
-                <a href="https://survival8.blogspot.com/2024/09/rich-dad-poor-dad-book-summary-in-hindi.html" target="_blank">
-                    Rich Dad Poor Dad - Book Summary in Hindi via Video
                 </a>
             </li>
 
@@ -764,7 +785,7 @@
         </li>
     </ol>
 </div> <!-- Book Summaries End Here -->
-
+<br>
 <h2 class="customBooksHeader"><span class="arrow up"></span> Books</h2>
 <div id="customBooks">
     <div id="customNegotiationBooks">
@@ -1116,6 +1137,11 @@
 </div>
 
 <script>
+    $('h2.customVideosHeader').click(function () {
+        $("div#customVideos").fadeToggle();
+        $("h2.customVideosHeader > .arrow").toggleClass('up').toggleClass('down');
+    });
+
     $('h2.customBookSummariesHeader').click(function () {
         $("div#customBookSummaries").fadeToggle();
         $("h2.customBookSummariesHeader > .arrow").toggleClass('up').toggleClass('down');
