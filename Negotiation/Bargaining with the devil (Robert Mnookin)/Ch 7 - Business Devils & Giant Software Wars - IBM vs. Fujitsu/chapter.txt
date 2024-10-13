@@ -1,0 +1,1301 @@
+Giant Software Wars: IBM vs. Fujitsu
+I had often spoken to large audiences, but I had never addressed a press
+conference in a ballroom with a live feed to Japan. Nor had I ever helped
+resolve a dispute with so much at stake. It was September 15, 1987, and I
+was standing with my co-arbitrator, Jack Jones, on a stage in the Villard
+Ballroom at the Helmsley Palace Hotel in New York City, about to
+announce a major turning point in the legal war between IBM and Fujitsu.
+IBM was the biggest computer company in the world, Fujitsu was its
+biggest competitor, and their dispute dealt with software that was essential
+to both of them. The parties still despised each other—that hadn’t changed.
+Jack often joked that they couldn’t agree on anything, even the color of a
+stoplight. The news was that Jack and I, with the help of the parties, had
+found a creative solution.
+But our story was complicated, involving arcane computer tech-nology,
+an undeveloped area of law, and a solution that had never been tried before.
+The core issue was whether Fujitsu had illegally copied IBM’s operating
+system software.1 This was back in the days of mainframe computers—
+gigantic machines used by banks, insurance companies, and other large
+institutions. IBM had long dominated this market, but Fujitsu had made
+inroads by selling computers that were “IBM-compatible”—that is, capable
+of running applications originally written for an IBM. The problem, from
+IBM’s point of view, was that Fujitsu had not created its own operating
+system from scratch. It had copied IBM’s programming materials.
+In the view of IBM and its proud engineers, this was stealing—hitching a
+free ride on decades of hard work and financial investment. But to what
+extent did copyright law protect IBM’s software? The law wasn’t clear.In 1983 these two rivals had themselves negotiated a settlement, but
+within a year it had broken down, destroying any hope of coopera-tion.
+They were like two spouses in a bitter divorce whose settlement had fallen
+apart. When IBM discovered that Fujitsu was still poaching, or so it
+believed, the top brass at IBM exploded. “This time, when we caught
+Fujitsu copying, our cup boiled over,” recalls Dan Evangelista, former
+general counsel of IBM. “We assumed that they would behave honorably.
+From then on, we didn’t trust anything they said or did.”2
+Fujitsu, believing it had honored the agreement, was equally enraged by
+what it viewed as IBM’s disrespectful claims and arrogant demands.
+Takuma Yamamoto, the CEO of Fujitsu, had been a pilot during World War
+II and had been assigned to go on a suicide mission just before the Japanese
+surrendered. He had seen himself as a guardian of Japan’s honor during the
+war and had transferred these feelings to Fujitsu. Yamamoto had put his
+trust in IBM in reaching the prior settlement. When IBM refused to work
+things out in what he understood as a civil manner, he felt Fujitsu had been
+betrayed. “A betrayal is the worst thing in life,” another Fujitsu executive
+explained to me recently. Fujitsu “could never trust IBM again. IBM was
+not simply a competitor, it was an enemy.”3
+Jack and I were determined to keep this mutual demonization under strict
+control during the press conference. As a result, we had orchestrated it
+down to the smallest detail. There would not be one moment of spontaneity
+in it.
+As we gazed out over the ballroom, we saw grim-faced executives from
+both sides sitting in stony silence. For their own good, we had put them
+under a gag order. Left to their own devices, each side would spin the story
+not simply as a “win” for themselves but as a big loss for their rival. That
+wouldn’t be accurate: our solution would protect the interests of both firms,
+not to mention their customers, who needed to know that their business
+would not be disrupted because these two giants were brawling over the
+scope of intellectual property law. Therefore, Jack and I would be the only
+ones speaking at the press conference.
+We had hired Burson-Marsteller, one of the biggest public relations firms
+in the world, to help us hone the message. Because of the significance of
+the story in Japan, we had arranged to have the event beamed live bysatellite to Tokyo (the first such telecast in history) so the news could be
+reported simultaneously in both countries. We had taken out full-page ads in
+the Wall Street Journal, the New York Times, and Japan’s leading
+newspapers, summarizing our decision in our own words so there could be
+no question about what we were saying. Finally, Jack and I had spent the
+last three days being drilled by a team of media coaches until our
+presentation was as sharp as we could make it. (I was not a natural. My
+coaches kept telling me not to be so professorial. Or perhaps the word was
+didactic.)
+We opened the press conference and explained the key points. We had
+created a framework—and just a framework, we emphasized—for resolving
+all past and future disputes between these two companies. With regard to
+past disputes, we would order Fujitsu to pay IBM a single lump sum—in
+effect, a “coerced license”—for its previous use of IBM programming
+materials. In return, Fujitsu and its customers could continue to use all of
+Fujitsu’s existing software without fear of legal challenges. Going forward,
+we would establish a set of standards, accompanied by strict and elaborate
+safeguards, that would define precisely what Fujitsu could do with IBM
+materials in the future—and the price Fujitsu would pay for it. (We had not
+yet determined the total dollar amounts, but IBM would collect nearly $1
+billion between 1983 and 1995.)
+The beauty of this regimen, we thought, was that it would liberate the
+parties from the realm of ordinary intellectual property law, which wasn’t
+developed enough to be of much use to them in this conflict. Instead, it
+empowered Jones and Mnookin to create private law that would apply only
+to the relationship between IBM and Fujitsu. And we would not leave them
+unsupervised to get into further trouble. We would retain jurisdiction for
+another decade and resolve all future software disputes between them.
+There would be no appeal. If we did our job well—and much remained to
+be done to flesh out and implement our framework—these two giants would
+compete in the marketplace, not the courtroom.
+We answered reporters’ questions for about an hour and gave individual
+interviews to CNN and other stations. All three U.S. networks reported the
+story that evening, and the next day it would be front-page news around the
+world. When the last reporter had left, Jack and I retired to the hotel bar and
+enjoyed a few rounds of drinks. We looked at each other with amusementand a certain amount of disbelief. Jack clinked my glass and grinned: “Who
+would have thought a farm boy from Iowa and a Jewish kid from Kansas
+City would end up doing something like this?”
+Jack’s question was a good one. How did we come to be responsible for
+solving this enormously complicated problem?
+In my case, it was a fluke. In the late spring of 1985, as I was sitting in
+my office at Stanford Law School, I got a call from Dave Nelson, a senior
+partner at Morrison & Foerster, a large law firm based in San Francisco. At
+the time I was a forty-three-year-old professor.
+I knew Dave Nelson but not well. I hadn’t seen or spoken to him in five
+years, not since I’d left the law faculty at the University of California at
+Berkeley to join the faculty at Stanford. (When I lived in Berkeley, we had
+both served on the board of the private school my daughters attended.)
+Nelson said that he was representing a client involved in a major software
+dispute with another large company, and it looked like the conflict was
+headed for arbitration. He couldn’t disclose the name of either party, but
+soon his client would have to nominate someone to serve as its designated
+arbitrator on a three-person panel. Nelson had thought of me because he had
+recently read an article of mine in the California Bar Journal.
+Life takes strange turns. The short article that had reminded Nelson of
+my existence was so trivial that I hadn’t even bothered to put it on my
+résumé. Titled “Spreading the Word about Spreadsheet Software,”4 the
+article explained how electronic spreadsheets could be useful in a variety of
+legal contexts. At most, the article showed that I was an early adopter and
+reasonably sophisticated user of spreadsheet software (which was unusual
+for a lawyer in those days).
+I told Nelson I had no expertise in software programming and only a
+little experience as a mediator or arbitrator. The field of “alternative dispute
+resolution” (ADR) was still in its infancy and I was hardly a big name in it.
+Nelson brushed aside these disclaimers and invited me to San Francisco
+to talk with his partner Bob Raven, who would handle the case if arbitration
+proved necessary. I accepted the invitation. I was curious. Who was this
+secret client? What was the fight all about?The next week I drove to San Francisco for my first meeting with Raven,
+one of the brightest stars in California’s legal galaxy. He was then about
+sixty years old, a physically imposing man of at least six-foot-three with a
+full head of gray hair. With his rugged features and confident air, Raven
+looked as if he would be just as happy wearing jeans and riding a horse as
+wearing a suit and tie and sitting in a conference room. (I later learned he
+owned a ranch.) He was an easy man to like, exuding an appealing
+combination of energy, strength, and warmth. But behind his charm was a
+fiercely competitive and ambitious temperament, which I would also come
+to appreciate.
+Raven asked about my background and seemed particularly glad to hear
+that I had studied economics and taught antitrust law. (I would later learn
+why.) But when he asked about my knowledge of computer programming
+and intellectual property law, I trotted out my disclaimers again. I told him
+that if he wanted a real expert in these fields, he should talk to two of my
+Stanford colleagues who were far more qualified.
+I enjoyed the interview and left persuaded that nothing more would come
+of it.
+To my surprise, about two weeks later Nelson called again and asked me
+to come back to San Francisco. It was at this second meeting that I finally
+learned the identity of the client, Fujitsu, and its opponent, IBM. (Given
+IBM’s dominance, I suddenly understood why Raven had been so interested
+in my background in antitrust.) Raven told me only the bare bones of the
+dispute—that it involved operating system software for mainframe
+computers—because if I were appointed as an arbitrator I would be serving
+a quasi-judicial role. But he did tell me that IBM would be represented by
+Tom Barr of Cravath, Swaine & Moore.
+When I heard Barr’s name, I realized that the stakes in this conflict had
+to be enormous. In terms of big-case commercial litigation, Tom Barr was a
+five-star general. He had successfully defended IBM in a massive antitrust
+suit brought by the U.S. government and scores of private plaintiffs. By
+enlisting Barr in this fight with Fujitsu, IBM was signaling to the world that
+it would spend whatever it took to prevail.
+After confirming that I had had no conflicts of interest in the case, Raven
+popped the question: Was I interested enough to go to Japan and let the
+client look me over? He would send Mike Jacobs, a young associate, tokeep me company. (I was amused. Did I need a chaperone? It was the first
+sign that Fujitsu, too, was sparing no expense.) Perhaps I could give an
+academic talk of some sort to Fujitsu employees, but that wasn’t critical.
+The point was that the company’s senior executives wanted to meet me in
+the flesh before they nominated me.
+I asked for a couple of days to think it over. Raven had said the case
+would take about half my time for the next eighteen months—little did we
+know how off the mark that guess would turn out to be—and that I’d be
+well compensated for my time. I thought it all sounded extremely
+interesting, but I worried that the whole exercise might be a distraction from
+my academic career. Fortunately, my Stanford buddy Ron Gilson stepped in
+and told me I’d be crazy not to do it. This assignment would put me in the
+middle of an important high-tech dispute between two giant companies
+represented by superb lawyers. I would learn a great deal about dispute
+resolution, an emerging interest of mine. “Stanford is in the middle of
+Silicon Valley. You have tenure,” Gilson urged me. “The dean would surely
+grant you half-time leave. Do it!”
+So I said yes. Mike Jacobs and I flew to Japan. We spent a day visiting
+Fujitsu’s executive headquarters in Tokyo, a large, modern office tower
+overlooking the Imperial Garden. I was given a tour of several museum-like
+rooms that traced the company’s phenomenal growth. In 1949, it had been
+an obscure company that made telephone switching equipment and had
+about 2,300 employees. (That was the year that Takuma Yamamoto, the
+company’s future CEO, graduated from Tokyo Uni-versity and was steered
+to Fujitsu by a professor. As Yamamoto later confessed in his memoir, he
+was “totally crushed” when the professor placed him at Fujitsu because
+Yamamoto had “never even heard” of the tiny company.5) By the time of
+my visit in 1985, Fujitsu was Japan’s largest computer company, with
+annual revenues in the billions of dollars.
+As requested, I gave a thirty-minute talk in English to some software
+engineers and mid-level managers. It was a bit of a farce. Although Yuri
+Morita (then a young manager) ably served as translator, the engineers had
+no clue what I was talking about, or even why I was there. Those who
+managed to stay awake were impeccably polite. The real point of the trip
+was for the top executives to meet me in person. I remember having a ratherelegant lunch in an executive dining room and being introduced to a
+number of distinguished-looking, extremely polite men, none of whom had
+attended my lecture. (Morita again served as translator.) I learned that all
+had spent their entire careers at Fujitsu and were extremely proud of the
+company’s growth.
+The man who made the strongest impression on me was Michio Naruto.
+Voluble and self-confident, younger than the other top executives, he was a
+member of the Fujitsu board and in charge of international operations. I
+would later learn that this charming and outgoing man was independently
+wealthy (his family owned vast forestlands in Japan) and had a passion for
+golf. Naruto traveled the world and played whenever he could. He owned at
+least three matched sets of clubs and kept one in California, another on the
+East Coast, and a third in Europe so he could play during his travels. He
+said nothing to me about Fujitsu’s conflict with IBM except to underscore
+the arbitration’s extreme importance. I responded that if I were appointed, I
+would work very hard to resolve this conflict.
+About a week after my return to the United States, Nelson called to tell
+me that the trip had gone well. Fujitsu wanted to nominate me as an
+arbitrator. I was pleased but puzzled by Fujitsu’s decision-making process.
+What had Fujitsu learned of importance about me during my visit? Nelson
+later told me that I was hired because Naruto liked my face.
+I first met my co-arbitrator, Jack Jones, in the lobby of the Ritz hotel in
+London. We had flown there as part of a large entourage, including Raven
+of Morrison & Foerster and Tom Barr of Cravath, to interview candidates
+for the position of chair of the arbitration panel. The parties’ earlier
+settlement required them to resolve disputes by arbitration—a common
+commercial practice. Substantial international arbitrations are typically
+resolved by a panel of three arbitrators, one chosen by each party and a
+third who acts as chair. Fujitsu had chosen me, IBM had chosen Jack, and
+now our group had to complete the panel by selecting the third arbitrator.6
+Why London? Because Fujitsu had refused to accept an American
+chairperson and IBM had refused to accept one who was Japanese. Because
+the proceedings were going to be in English, the parties had decided to
+focus our search in the United Kingdom and Canada.The night before our first interviews, Jack and I met in the bar to get
+acquainted over a couple of drinks. He was not a lawyer and had never been
+involved in an arbitration case, but he knew a lot about computers and had
+served as a witness for IBM in the antitrust suit brought by the U.S.
+government. As the executive vice president of the Norfolk Southern
+Corporation, he was in charge of purchasing millions of dollars’ worth of
+computer equipment. He bought a lot of IBM machines, but he bought from
+many other companies as well. He personally used an Apple computer,
+which he adored.
+As he talked, I remember thinking, “This guy would be a hell of a
+witness.” He was an impressive-looking man, about sixty years old, who
+seemed comfortable in his own skin and completely credible. He was
+articulate and straightforward. His manner was relaxed. He obviously was
+very knowledgeable about computers and software, but he avoided the use
+of jargon. His stature was imposing—both tall (about six-foot-four) and
+big-boned. Best of all from IBM’s point of view, he didn’t always buy
+equipment from IBM. He could make the case that IBM was not a
+monopoly and had plenty of competition. That was how Jack had gotten to
+know Tom Barr, who had chosen him for this arbitration.
+I soon discovered that Jack and I were both from the Midwest, but that
+was about all we had in common. He drank bourbon; I drank scotch. He
+liked country and western music, and Willie Nelson was his favorite. I
+preferred classical music, especially Bruckner symphonies. More important,
+Jones had grown up on a small family farm in Iowa, the only child of
+Lutheran parents of German ancestry. He had been the first in his family to
+go to college—choosing nearby Luther College in Decorah, Iowa, a tiny
+church-affiliated school. His big break was a scholarship to MIT, where he
+got a master’s degree in electrical engineering with a minor in mathematics.
+I had grown up in Kansas City as a rather privileged kid from an
+assimilated Jewish background. I spent my high school years in a private
+boys’ school and went off to Harvard College without considering it all that
+unusual.
+Nor did Jack and I share much in way of recreational interests. He loved
+to hunt and fish. I didn’t. He asked me if I had ever gone to a pig roast,
+grinning at the question: he knew I had not. He had a huge pig-roasting pit
+in his backyard, and nothing pleased him more than staying up all nightroasting an entire pig for a party. His home was a huge log house in the
+middle of fifteen acres of woods outside Chesapeake, Virginia. Jack had
+little interest in foreign travel with one exception: every year he would take
+his wife, Nancy, and their entire clan of seven grown children and spouses
+to Munich for Oktoberfest. Year after year they would stay at the same
+hotel, drink beer in the same beer gardens, and sing the same songs. Much
+of this struck me as charming but completely alien. I could not imagine the
+Mnookin clan going on an annual pilgrimage to Munich, much less to drink
+beer and belt out German drinking songs. I’d never met anyone like Jack
+before.
+Over the next twelve years Jack and I would become something of an
+odd couple, partners who grew very close but couldn’t be more different.
+Looking back, I realize that our knowledge and talents were
+complementary. I knew a lot about law and process; he knew a lot about
+computers. I was talkative and intense; he was laconic and very calm. I was
+an academic who fretted over nuances of language and loved to analyze
+everything to death; he was an executive who, to my endless admiration,
+could make decisions quickly and never look back.
+In London, our group interviewed five candidates who looked promising on
+paper. Most were prominent English barristers, called Queen’s Counsel,
+who were experienced in international arbitration. One candidate, a crusty
+old lord and retired judge, disqualified himself within minutes. After
+greeting us, he said, “I’ve heard of IBM. But this other company …
+Fujitsu? Or is it Jujitsu? What is it?” Another barrister assumed he’d
+already been picked and took over the interview. He didn’t make the cut,
+either. Nor did the others. None seemed very technologically sophisticated,
+and Tom Barr saw several of them as stuffy and pretentious.
+This was my first exposure to Barr, who was not a bit stuffy. I discovered
+that he, too, was from Kansas City. Rather short and slightly stocky, partial
+to elegant suits that might well have been hand-tailored in London, he
+exuded supreme self-confidence. At fifty-four, he was at the very pinnacle
+of his career.
+I had heard all kinds of stories about Barr, whose defense of IBM in the
+antitrust cases was legendary. The battle had started in the late 1960s, whenIBM customers and competitors, claiming that IBM was a monopoly,
+sought billions of dollars in damages. In 1969, the U.S. government joined
+the attack and sought to break it up into several separate companies.
+
+
+~~~
+
+
+IBM fought back in a fierce legal campaign that lasted some thirteen
+years. (A top IBM executive quipped that during these years the IBM legal
+team had no budget, but every year exceeded it.7) Tom Barr was its
+commanding general and ultimately triumphed,8 in what one commentator
+dubbed “the most brilliant and sustained legal representation in history.”9
+Barr had served in the Marines, he was proud of the Corps, and the
+experience had shaped his view of litigation as all-out combat. He hated to
+lose cases and rarely did. He was once quoted as saying, “I never know
+exactly what people mean by the ‘theory of the case.’ My theory of the case
+is ‘We’re right and the other guy’s wrong. We’re going to win and the other
+guy is going to lose.’ ”10 He demanded total commitment from his troops,
+which were famous for working harder, preparing more thoroughly, and
+fighting more aggressively than any opponent. In Barr’s office hung a
+poster depicting a scowling Marine drill sergeant with veins popping out of
+his neck. The caption read, “We Don’t Promise You a Rose Garden.”
+I didn’t see this aspect of Barr in London. He and Raven, who already
+knew each other on a first-name basis, were very friendly not only to Jack
+and me but to each other. They shared an interest in finding a third
+arbitrator they could agree on.
+Although they found no one to their liking in London, they ultimately
+found the man they were looking for in Donald Macdonald, a Toronto
+lawyer with extraordinary credentials. He had been a member of the
+Canadian Parliament and had held five cabinet posts in the first government
+of Pierre Trudeau. When we three arbitrators met for the first time in the
+fall of 1985, simply to organize ourselves and establish a schedule, I found
+Macdonald equally impressive in person: urbane and polished, as tall as
+Jack and as well dressed as Barr. At my suggestion, we made an important
+decision about our roles as arbitrators—that all three of us serve strictly as
+neutrals.11 Later I would be very glad we had taken this course.
+What exactly were these two computer giants fighting about? Boiled down
+to its essentials, the fight was about operating system software and othersophisticated software programs, sometimes called “middleware,” which
+work in close cooperation with the operating system. Some background is
+necessary to see why this was such a big deal for both companies.
+An operating system is an organized collection of software used to
+manage the flow of work inside the computer and provide services to other
+programs. Middleware is software that works closely with the operating
+system, using its services and providing specialized services to application
+programs. Software applications, such as programs to manage a company’s
+payroll, inventory, or customer orders, are written to run “on top of” a
+particular operating system and associated middleware programs. Today, for
+example, the operating system for PCs is typically some version of
+Microsoft Windows. If you own a PC and use Word or Excel, those
+applications are written to run “on top of” your Windows operating system.
+In 1969, IBM completely dominated the mainframe market, selling about
+70 percent of all computers in the world.12 The overwhelming majority of
+applications for mainframes were written to run on the IBM operating
+system.13
+In the early 1970s, the Japanese government aimed to get a piece of the
+action for Japanese computer manufacturers, especially in Japan, which was
+by then the second-largest computer market in the world. As a matter of
+industrial policy, the powerful Ministry of International Trade and Industry
+(“MITI”) decided to develop the Japanese computer industry into a force
+capable of taking on IBM. It encouraged two companies, Fujitsu and
+Hitachi, to manufacture and market “IBM compatible” computers.14 These
+machines would be virtually interchangeable with IBM machines, able to
+run any application written for an IBM mainframe.
+The big question was what to do about the operating system. In
+retrospect, Fujitsu could have saved itself a world of trouble if it had simply
+let its customers license an operating system from IBM.15 Instead, Fujitsu
+made the fateful decision to develop its own operating system, which would
+be IBM-compatible and contain special features of its own. At the outset,
+Fujitsu may have believed this would not be overly difficult. Throughout
+the 1970s, IBM distributed to its customers the source code for the IBM
+operating system. With the source code, a programmer could figure out just
+how IBM had programmed its software.16 Copyright constraints weren’t anobvious concern back then. (IBM didn’t claim copyright protection for its
+software until 1977, and even then no one knew whether copyright law
+applied.) But as Takuma Yamamoto would confess in his memoir,
+developing a compatible operating system “posed a challenge of far greater
+and more severe dimension” than Fujitsu had anticipated17 and would “sow
+the seeds of the software dispute destined to be fought farther down the
+road with IBM.”18
+In the short run, the compatibility strategy appeared to pay off. In 1976,
+Fujitsu sold its first IBM-compatible mainframe, the M Series. Six years
+later, Fujitsu mainframes were outselling IBM’s in Japan—the first time
+any company had outsold IBM in a major market.
+But IBM had long suspected that Fujitsu and Hitachi were copying its
+technology, and in 1982, it got the goods on each of them.
+Hitachi fell first, in a “sting operation” in California that received
+worldwide attention. Several Hitachi employees were caught on videotape
+trying to buy IBM hardware design manuals. Criminal indictments followed
+for the individuals caught in the sting and for the company.19 The scandal
+was humiliating for both Hitachi and the Japanese nation: a tremendous loss
+of face. A Japanese cabinet official was quoted as saying that Japan had
+been “slapped in the face.”20
+All this took place against a backdrop of intense economic rivalry
+between the United States and Japan. American firms were alarmed because
+Japanese firms were undercutting them in the marketplace, often through
+industrial espionage. Japanese firms feared that America would adopt
+discriminatory trade policies toward Japan. Waves of xenophobia swept
+both countries. American commentators claimed the Japanese were
+engaging in “sneak attacks.” Shortly after the Hitachi incident, a Japanese
+newspaper reported that an anonymous Ameri-can IBM engineer had made
+the following boast: “Guess you’ve been reading about what IBM did to
+those Japs in California. We sure got them good. It took a little time, but we
+made sure they knew who was boss. … [I]n a sense we are at war with
+Japan all over again.”21
+Later that year, IBM caught up with Fujitsu as well, after acquiring a
+Fujitsu mainframe and some of its software. Operating software contains
+hundreds of programs, but IBM had to analyze only a few of these toconfirm its worst fears. There was a vast amount of copying. (This was not
+a criminal matter, but a potential civil case of copyright infringement.)
+The news immediately went to the very top of IBM. The concern was:
+How many more programs had Fujitsu copied—and placed in the hands of
+its customers? IBM had reviewed only a tiny sample. There was no telling
+how far the damage had spread. What was clear was that Fujitsu’s copying
+had to be stopped.
+The first shot was fired in October 1982, when the president of IBM wrote
+directly to the president of Fujitsu to declare that Fujitsu had infringed
+IBM’s copyrights. He demanded that Fujitsu pay for these offenses and
+clean up its software development process.
+Fujitsu parried these claims with equal vigor. First, it said, IBM hadn’t
+even bothered to copyright its operating system until 1978, well after
+Fujitsu had started selling compatible computers. Second, Japanese
+copyright law did not apply to operating system software.22 Third, IBM so
+dominated the mainframe market that its operating system had become the
+de facto standard; therefore, Fujitsu had every right to develop and maintain
+a compatible operating system.
+The legal conflict had begun. Eight months of arduous negotiations
+ensued.23
+On June 29, 1983, the parties signed a pair of documents—the “1983
+Agreements”—that attempted to square the circle. But as you already know,
+these contracts didn’t solve the problem and in some respects made the
+relationship worse. Because they play such a prominent role in our story, I
+will explain a bit about them here.
+The first document, called the Settlement Agreement, tried to get a grip
+on the copying problem. The parties appeared to have three simple goals: to
+identify Fujitsu’s “tainted” programs, to compensate IBM for their use, and
+to prevent further copying disputes. But because the contract language is
+quite complex, some paraphrasing may help nonlawyers understand it. IBM
+had the greater bargaining power, so imagine IBM saying the following to
+Fujitsu:“Okay, let’s start by making a list of all the programs that arguably
+contain copying. You compile the list, because we don’t know how many
+programs are affected. Include as many programs as you want—anything
+you’re worried we might sue you for. We will sell you immunity for those
+programs. We’ll call them ‘Designated Programs’—‘DPs’ for short—a nice
+neutral term so you don’t have to admit to copyright violation.
+“You will pay us a lump sum of $65 million. In exchange, we promise
+not to sue you—or your customers—for having used these programs in the
+past.
+“As for the future, well, we could make you call up all your customers
+and pull the programs off the market, or we could sue your customers who
+are using your tainted software. But that would be terribly inconvenient for
+them—and you. We understand. So we’ll let you leave the programs in your
+customers’ hands, but only on one condition: you pay us a license fee twice
+a year, equal to what we charge our customers for the corresponding IBM
+program.” (These semiannual fees would soon dwarf the $65 million lump-
+sum payment.)
+That addressed the first two goals of the Settlement Agreement. The third
+related to Fujitsu’s future programming activities and its new programs. To
+what extent could Fujitsu use IBM programming ma-terials? And, what use,
+if any, could Fujitsu make of its DPs in future programs?
+Here’s where things got a little vague. Fujitsu promised to “refrain from
+infringing the copyright and other legally protectable rights [of IBM] under
+applicable law.” But the scope of these rights was not defined. Fujitsu
+promised to adopt an internal protective procedure to make sure its
+programmers didn’t have access to IBM programming materials and
+wouldn’t do any more copying. But there were important exceptions to this
+rule that were poorly defined.24 Fujitsu promised to make copies of all its
+new software available in a special depository so that IBM could inspect
+them for compliance. But exactly what material it would provide, and
+when, weren’t spelled out. What was spelled out was the stiff penalty for
+cheating: Fujitsu would have to pay three times the normal license fee and
+immediately withdraw the program from its customers.
+Moreover, as murky as the Settlement Agreement was, the second
+contract was even murkier and would later cause IBM untold grief. Blandlytitled the “Externals Agreement,” it was Fujitsu’s consolation prize—and
+gave Fujitsu hope that it might remain compatible as IBM technology
+changed. At the time both Fujitsu and IBM made available to their own
+customers certain interface information that allowed the customer to write
+their own application programs that would work with the operating
+system.25 The parties called this “external” information. In this second
+agreement, the two companies promised to provide, upon request, the other
+with external information in exchange for a license fee.
+At the time, IBM may not have thought this Externals Agreement was of
+much consequence. IBM had no interest in licensing information pertaining
+to Fujitsu’s operating system. But Fujitsu felt this second agreement, and a
+license to use IBM interface information, was essential if it was to maintain
+IBM compatibility. And it was willing to pay for this information.
+But the Externals Agreement didn’t define in any detail what counted as
+external information. Nor did the parties even bother to fill out the exhibits,
+which should have listed the programs covered by the contract—and the
+price.
+They were on a collision course of their own making.
+It wasn’t long before IBM once again found what it considered flagrant
+evidence of copying, and it showed no mercy. IBM demanded that Fujitsu
+pay triple fees for all the offending programs and pull them off the market
+immediately. Fujitsu couldn’t possibly agree to these terms, which would
+have dismantled much of its software base. There were confrontations, even
+yelling and screaming.26
+Later on, Jack and I would often ask ourselves: How could sophisticated
+parties represented by counsel be foolish enough to think that the 1983 deal
+could possibly have resolved this conflict? I am now more sympathetic.
+With the benefit of hindsight, I think many factors played a role, including
+different cultural perceptions of the obligations created by contract.27
+For an American company, the details of a contract are critical. In IBM’s
+view, the Settlement Agreement created specific obligations that were
+legally enforceable. IBM had caught Fujitsu breaking its word, the contract
+spelled out the remedies, and IBM was entitled to them. Period!
+In Japanese culture, the precise words of a contract are far less important
+than the underlying spirit, which should be interpreted with an eye topreserving relationships. For Fujitsu, the purpose of the 1983 Agreements
+was to repair a damaged relationship and create a new one in which both
+parties would behave reasonably. In Japan, litigation over contracts is rare.
+Fujitsu assumed that if new disputes arose, the parties would sit down and
+work out their concerns in a reasonable way. Instead, what was IBM doing?
+Impugning Fujitsu’s honor and issuing ultimatums. Its behavior was
+insulting and its demands humiliating. To meet them would be
+economically ruinous.
+As the feelings of betrayal mounted, each side viewed the other’s
+behavior as increasingly outrageous. Fujitsu belatedly offered to add a slew
+of additional programs to the DP list, even ones that IBM hadn’t
+complained about. IBM thought this was sneaky and disingenuous. IBM
+said, in essence, “Too late! Read the Settlement Agreement! You missed the
+deadline. You owe us triple fees for these programs and you have to pull
+them off the market.”
+IBM’s hard line never softened. In IBM’s view, it was losing both
+hardware and software profits because Fujitsu had copied. In June 1985, it
+sent Fujitsu a “Final Report” of its alleged offenses, coupled with a
+nonnegotiable demand: If Fujitsu didn’t withdraw all offending programs
+from the market and pay damages amounting to hundreds of millions of
+dollars, IBM would seek to impose these remedies in arbitration.28
+As I’ve since learned, President Yamamoto saw the Final Report as a
+declaration of war—the final betrayal of the new relationship he had hoped
+to create with the 1983 Agreements. Those agreements had been terribly
+one-sided, in his view, but Fujitsu had shown its good faith by paying IBM
+vast sums of money—more than $150 million in fees since the agreements
+were signed. Now IBM was coming back with new demands that threatened
+the very survival of his company. Under a Japanese code of honor, you
+didn’t negotiate with such an enemy. You said through gritted teeth: “I will
+fight you; my son will fight your son; and my grandson will fight your
+grandson.”29
+Both parties had chosen war. Was this wise? What would Spock have
+said? I will return to this question later.The panel decided to hold the first formal arbitration hearing in Palo Alto,
+California, conveniently located between Tokyo and New York (it is also
+the home of Stanford University). The parties booked a conference room in
+a local hotel and made the necessary arrangements. Meanwhile, I hired
+Jonathan Greenberg, a former law student of mine, to work half-time with
+me on the arbitration as my law clerk. A gifted lawyer (and playwright),
+Jonathan would become an indispensable part of the process and later serve
+as counsel to the Arbitration Panel.
+On the appointed day in February 1986, I met Jack Jones and Don
+Macdonald in the hotel lobby, and we entered the conference room
+precisely at 9:00 a.m.
+I was stunned by what I saw. There were at least a hundred people in the
+room, probably more, arranged in two hostile phalanxes like the armies of
+Athens and Sparta. In the front row on one side sat Tom Barr, accompanied
+by his lieutenants: Cravath partners and Dan Evangelista, soon to be the top
+in-house lawyer from IBM.30 Behind them sat their troops: associates and
+paralegals wielding huge black litigation briefcases. Behind them glowered
+a platoon of IBM executives and managers, each wearing the uniform—
+suit, tie, and white shirt—specified by the IBM dress code.
+On the other side of the aisle, Raven commanded an army that looked
+even bigger than Barr’s. I guessed that Raven had told his clients something
+along these lines: “I know from earlier battles that IBM will spare no
+expense. They will try to beat you into submission by outspending you.
+Your only hope is to demonstrate that you will match them man for man—
+that you have the will and resources to fight all the way. Open your
+checkbooks. If they put 1,000 men on the battlefield, you should field
+1,100.”
+Fujitsu had done just that. Among the Japanese troops I recognized
+Michio Naruto, the gregarious golfer, and his immediate boss, Shoichi
+Ninomiya, a taciturn chain-smoker whom I had also met during my Tokyo
+visit. I spotted Yuri Morita, the young man who had served as our translator.
+Many of the other Japanese men looked familiar to me because they had
+been forced to sit through my lecture on American law.
+Every seat in the room was equipped with a headset that could be set to
+either Japanese or English. The room teemed with translators. A glass boothat the back of the room had been provided for the simultaneous translators,
+whose murmurings would provide a constant babble during the hearing. In
+addition, each side had its own translator, and there was one “neutral.” A
+court reporter was there to create a transcript in English. Perhaps she
+consulted with the neutral. Who knows? A table for the panel had been
+placed at the front of the room. I took a seat on Macdonald’s right; Jack sat
+on his left.
+The hearing lasted about two days and focused mainly on procedural
+matters. The Palo Alto weather was miserable. A cold, torrential rain
+wrapped us in a gloom worthy of Bleak House, the Dickens novel about the
+grotesque inefficiency of the English chancery courts. My most vivid
+memory was when the arbitration panel allowed Tom Barr to question
+Ninomiya. We all perked up because we thought something interesting was
+about to happen. Ninomiya was Fujitsu’s top executive for hardware and
+software development and had made many decisions central to the case.
+Barr wanted Ninomiya to describe exactly how Fujitsu was currently using
+IBM’s programming materials in its software development.
+
+~~~
+
+It should have been a moment of high drama. Barr was a great courtroom
+lawyer and no doubt had looked forward to this confrontation. Instead he
+found himself moving in slow motion with a stone-faced enemy who
+wouldn’t engage. He would ask a question of Ninomiya. It would be
+translated from English to Japanese. Ninomiya would then mumble some
+short answer in Japanese. One of the translators would translate his
+response into English. Another translator would sometimes object to the
+first translator’s translation. All three translators would then get into a
+dispute while the rest of us sat there impatiently. Barr would then
+characterize the answer as unresponsive and ask the same question again,
+phrased somewhat differently.
+This went on for hours. It was excruciatingly boring. The high point
+came as Barr was trying to get Ninomiya to explain how Fujitsu had
+decided which programs belonged on the DP list. Barr wanted to force
+Ninomiya to acknowledge in front of the panel that the DPs contained
+copied material. But Ninomiya parried with a double negative that gave the
+translators quite a workout. As I recall, the English version was something
+like, “Fujitsu put a program on the DP list when it could not be concluded
+that the program had not been influenced by an IBM program.” Even intranslation, it was obvious that Ninomiya had been well coached by
+counsel. (Note the words “influenced by” rather than “copied.”) Recently I
+learned that one of the young Morrison & Foerster lawyers had nicknamed
+him “Garbo” because he was so elusive.
+
+During the next ten months, like a traveling circus, we met in various cities
+around the United States, Japan, and even Canada. The parties fought about
+everything. For example, the panel needed some education on operating
+system software and the technology underlying the conflict, but these
+seminars were difficult to arrange because the parties so deeply distrusted
+each other and worried we would somehow be brainwashed in this process.
+Although our instructors were always neutral experts who weren’t affiliated
+with either party, the lawyers fought about who would educate us and they
+fretted about what these experts might say. Each side insisted on having a
+representative pres-ent at every session so they could carefully monitor
+everything we were told.
+The parties also submitted an astounding volume of letters, memoranda,
+documents, and exhibits to educate us about their conflict. The parties’
+submissions also gave us a much clearer sense of the legal questions we
+would need to address, although the answers each proposed were
+diametrically opposed. Fujitsu argued that it had broad rights to IBM
+information under the Externals Agreement, and IBM argued that its
+obligations were extremely narrow. IBM argued that copyright law
+provided very broad protection for its software, while Fujitsu claimed that
+copyright law applied narrowly, if at all, to IBM’s operating system
+software.31
+Unfortunately, copyright law itself didn’t provide much guidance. For
+one thing, it wasn’t clear whether U.S. or Japanese law applied. But either
+way, the case posed very difficult questions about the scope of protection.
+If copyright law applied to operating system software at all—and we
+assumed it did—it obviously prohibited line-by-line copying. IBM’s Final
+Report gave some compelling examples of this. (One “smoking gun”
+involved a subroutine, or loop, which an IBM programmer had named after
+his wife, Lucy. The corresponding Fujitsu program included the very same
+loop—also named “Lucy.”) But we didn’t know how important thoseexamples were in the context of the full program. In other instances, IBM
+claimed that Fujitsu had simply paraphrased the IBM material. This, too,
+would be a violation.
+But we had a growing sense that the heart of IBM’s case involved a
+much more subtle claim: that Fujitsu had copied the “structure, sequence
+and organization” of an IBM program without actually quoting or
+paraphrasing any lines of IBM code. When, if ever, would this be enough to
+prove the “substantial similarity” required for infringement? Deciding this
+issue would require us to apply the most elusive doctrine found in copyright
+law, the distinction between “ideas,” which are not protected, and
+“expression,” which is.
+Even with literary works, it can be hard to draw that line. The following
+hypothetical is often used in law school copyright courses: Imagine that the
+descendants of William Shakespeare still owned a copyright on his play,
+Romeo and Juliet. Would the Broadway musical West Side Story violate the
+copyright? The actual words in the two productions are entirely different.
+But the story line in West Side Story was plainly copied from Shakespeare’s
+play. The plots are similar. (Two families are feuding. Boy from one
+feuding family falls in love with girl from the other. They decide to secretly
+marry and run off together. After a series of mishaps, all ends tragically
+with death of both.) How similar do the two plots have to be before the later
+work violates the copyright of the original? Many years ago Learned Hand,
+a distinguished federal circuit court judge, said that drawing this line
+requires an “ad hoc judgment” based on a careful comparison of the two
+works. There’s no rule to tell you how to do it. It all depends on the
+particular facts and a detailed comparison of the two works.
+And there was the rub. IBM had brought scores of claims against Fujitsu,
+each concerning a different software program. To draw the line between
+idea and expression, we’d have to conduct a detailed analysis of each
+disputed program and its IBM counterpart. How similar would the
+sequence, structure, and organization have to be to prove a violation? Each
+program contained hundreds of thousands (in some cases millions) of lines
+of code. Would we have to examine each program, function by function,
+data area by data area, line by line? That would take years.
+IBM hoped to limit this process by delivering a knockout blow in the
+form of a motion for summary judgment, but to my mind this hope wasnearly delusional. One of the requirements for summary judgment is that no
+material facts are in dispute. The idea/expression distinction and most of
+Fujitsu’s other defenses clearly involved “mixed questions of law and fact.”
+So we denied IBM’s motion32—and its request for triple license fees, which
+we held to be punitive—and ruled that we would have to analyze the
+disputed Fujitsu programs one at a time, by comparing each with its IBM
+corresponding program. We told the parties that a detailed comparison of
+the first pair of programs would be due in forty-five days.
+The parties immediately began to fight about which pair of programs to
+compare first. There were three pairs under consideration. On behalf of
+IBM, Barr argued that the panel should start with a pair that he thought
+would reveal blatant line-by-line copying. Fujitsu, naturally, wanted to start
+with a pair that was deep in the gray area, involving similarities in structure,
+sequence, and organization. The third example had features of both.
+While the panel was struggling with this issue, Barr suddenly changed
+course. “Why choose now, before you’ve seen the evidence?” he asked the
+panel. “IBM can submit detailed memoranda on each of the three Fujitsu
+programs comparing them to the corresponding IBM program. You can
+choose later, after you’ve read our analysis and anything Fujitsu wants to
+submit,” he purred. Perhaps, fearing that the panel was about to choose the
+wrong set of programs, he wanted to make sure we saw the worst of
+Fujitsu’s copying before we made a decision. Whatever his motives, I saw
+jaws dropping in horror among his troops. Barr was improvising. He
+obviously hadn’t discussed this offer with the enlisted men and women who
+would actually be looking at millions of lines of code. From their ashen
+faces, I figured some of them wouldn’t be seeing their families for a while.
+Meanwhile, I had my own, more basic concern. Was conventional
+arbitration a sensible way to resolve this conflict? While we were looking
+backward at old disputes, new ones were cropping up. IBM was still
+investigating Fujitsu’s alleged misdeeds and adding claims, and Fujitsu was
+still developing new programs. I feared the new conflicts would multiply
+faster than we could dispose of the old ones. I thought, This is crazy. Like
+Sisyphus with his boulder, the panel might never reach the end of its labors.
+Moreover, a case-by-case process would miss the forest for the trees.33 Itwouldn’t directly answer the core question: To what extent can Fujitsu use
+IBM programming material in the future?
+I began to believe that the most effective way to help the parties was to
+adopt a radically different approach, one that looked forward as well as
+backward. But designing a new process was not part of an arbitrator’s job
+description.
+I have never been good at hiding my impatience. Even when I’m not
+speaking, my facial expressions often give me away. Shortly after the panel
+denied summary judgment, we held a session at a beautiful Japanese resort
+in Hakone National Park, in the shadow of Mount Fuji. During a break in
+the hearing, I decided to take a walk in the woods nearby—and ran into
+Tom Barr. I may have made some offhand comment to the effect that we all
+had “our work cut out for us.” If I didn’t say it, that certainly was what I
+was feeling. Barr may have sensed my frustration with what lay ahead, and
+perhaps even shared it.
+In any case, he said something that would change the course of the entire
+proceeding: “Why don’t you and Jack put your heads together and figure
+out some more efficient way to cut through all this crap and get this matter
+resolved?”
+I was stunned by his directness but leaped at the opportunity. “Do you
+mean IBM would be open to some sort of mediation process, with Jack and
+me helping the parties see if some kind of deal might be negotiated?”
+Barr said, “Yes! I can assure you IBM would participate.”
+I found this an appealing prospect. Barr didn’t say why he had not
+included Macdonald in his suggestion, but that made sense to me. It would
+protect Macdonald, who, after all, had been chosen by both parties. It is
+highly unconventional—and some would say improper—for a sitting
+arbitrator to change roles and become a mediator. The two roles are
+completely different. The former is a decision-maker who imposes a
+solution on the parties; the latter is a facilitator who helps the parties
+negotiate a solution with each other. If this mediation didn’t work, either
+party could probably disqualify Jack or me from returning to an arbitral
+role. Leaving Macdonald out of the mediation process was the solution: he
+could carry on as arbitrator.I immediately went to find Jack. He liked the idea. The two of us went to
+Macdonald and told him about Barr’s suggestion. Macdonald thought the
+whole thing was a bit unorthodox and probably doomed to failure, but
+worth a try—as long as Fujitsu was willing.
+I naïvely thought, Of course Fujitsu will be willing. It’s obviously a great
+idea to look for a global solution that doesn’t require comparing scores of
+programs! But to my surprise, it wasn’t that easy.
+When Jack and I first proposed mediation to the Morrison & Foerster
+team, we told them that the idea had initially come from the other side. Bob
+Raven and Dave Nelson listened with poker faces and solemnly said they
+would consult with their client and get back to us. Eventually Fujitsu agreed
+to participate, on one condition: that they not be required to meet or
+negotiate directly with IBM. They would participate only if Jack and I met
+with both sides separately, gener-ated proposals for the parties, and refined
+those ideas through shuttle diplomacy.
+As a mediator, this is not my preferred method of mediating. I prefer
+working primarily with the parties and their lawyers together, in the same
+room. That way, each side hears directly from the other side their story of
+what happened in the past and what their needs and future interests are. In
+most cases, I believe, this is the best way to solve hard problems and
+promote mutual understanding.34
+But here, I was forced to realize that was impossible. We had one party
+that was very cautious—indeed, fearful that somehow IBM was going to
+trick them again. From Fujitsu’s perspective, they had already been burned
+once in a negotiation with IBM: the 1983 Agreements had resolved nothing
+and IBM had used them to assault Fujitsu. Now here was IBM suggesting
+mediation. How could that be good for Fujitsu?
+Looking back, I realize that the entire arbitration process must have
+seemed terribly alien and risky to Fujitsu. Fujitsu probably resented being
+forced to participate in a process so dominated by Americans, and in which
+it was so dependent on American lawyers. I recently learned from a Fujitsu
+executive that, in the eyes of some of his colleagues, the arbitration was
+“four against one”: (1) IBM was an American company; (2) Cravath was anAmerican law firm; (3) the panel consisted entirely of Americans;35 and (4)
+Morrison & Foerster was an American law firm.
+Nelson and Raven showed great sensitivity to this problem. They were
+always at pains to keep their clients fully informed and to strengthen their
+sense of control.
+One ingenious idea helped improve the quality of communication
+between Morrison & Foerster and its clients. Bob Raven suggested to
+Fujitsu, “Lend us one of your young in-house lawyers. Have him move to
+San Francisco and work out of our San Francisco offices. You have my
+word he will be allowed to sit in on all of our internal meetings when we
+discuss the strategy we are developing for the arbitration. Your Mr. Katoh
+would be perfect.” Masanobu Katoh was fluent in English and served from
+then on as a key link between the American lawyers and the Fujitsu top
+brass, most of whom were engineers. With a smile, Katoh recently told me
+that when he was assigned to the San Francisco post, one of his Fujitsu
+colleagues told him he was being sent as a “hostage” to the Americans.36
+Cultural differences permeated the mediation process as well. For Jack
+and me, there was a big difference between the kinds of conversations we
+could have with each side. When we met with the IBM team, lawyers Tom
+Barr and Dan Evangelista, IBM’s general counsel, had broad authority to
+act on their client’s behalf. They and the IBM executives were comfortable
+exploring new ideas with us, telling us what they thought, and even making
+decisions on the spot. That was never the case with Fujitsu. Bob Raven and
+Dave Nelson attended all the mediation sessions but never claimed
+authority to make decisions for their client. Naruto would typically speak
+on behalf of Fujitsu but he would usually just report Fujitsu’s reaction to
+what had been discussed at the last meeting. He might indicate which
+aspects were acceptable and which ones were not.
+
+Once I understood
+Fujitsu’s objection, I would invariably suggest some modification and ask
+whether this would solve Fujitsu’s problem. The Japanese would typically
+say nothing one way or the other. They would be completely nonresponsive.
+I was initially very frustrated by this. I wondered, Why can’t they simply
+say what they think? Why won’t they work with us?
+After one of these sessions, in which the Japanese had once again
+declined to respond to one of my “brilliant” ideas, Nelson pulled me asideand gave me a coaching tip. When you are negotiating with a Japanese
+company, he said, don’t expect movement at the table when something new
+is proposed. The Japanese negotiating team needs time to discuss the idea
+within the team and build a new consensus before they can proceed. In a
+Japanese organization, no one at the negotiating table typically has the
+authority to deviate from the position announced at the outset of a meeting.
+“Bob, be patient,” Nelson said. “In due course, after they have discussed it
+internally, I suspect they will come around.”
+Barr was probably aware of these cultural differences and Raven’s more
+limited authority. At one point in the mediation, Jack and I suggested that
+the two top lawyers get together and try to work out a couple of details.
+They happened to meet on Valentine’s Day, in an IBM conference room that
+some staffer had decorated with hearts and valentines. When Barr entered
+the room and saw the decorations, he didn’t say “Be My Valentine.” He
+quipped, “Remember the St. Valentine’s Day Massacre!” (That was when
+Al Capone’s men lined up six members of an opposing gang and shot
+them.) Raven laughed. Barr went on to make a concrete proposal to deal
+with the questions the panel had asked counsel to work on. Perhaps wanting
+to needle Raven, Barr said to him, “Bob, in all seriousness, I want to assure
+you that the IBM Corporation has given me full authority to make a deal on
+the two questions we’ve been asked to address. What authority has Fujitsu
+given you?” Raven, who had a good sense of humor, grinned and said,
+“Tom, I want to assure you that I have full authority to report back to
+Fujitsu everything you say today.”
+What did we actually do during the mediation phase? Ultimately we
+designed an entirely new process that was custom-made for this dispute.
+Here’s how we got there.
+As a first step, Jack and I tackled the mess that was the DP list. This
+turned out to be fairly easy because the parties were now both motivated.
+We had already dispelled IBM’s fantasy with regard to getting triple
+damages for the “new DPs” that Fujitsu had wanted to add. Fujitsu,
+meanwhile, still wanted immunity for those programs and was prepared to
+pay.After less than four weeks of shuttle diplomacy, we had a deal: Fujitsu
+would add 295 programs to the DP list and would pay IBM a lump sum of
+$30 million for past use. Going forward, as with the original DPs, it would
+pay a semiannual license fee for each customer installation. Thus, in one
+fell swoop, the panel and the parties were freed from the task of slogging
+through those particular programs case by case.
+But that was only a baby step. We had more ambitious goals.
+In our meetings with each side, Jack and I had begun asking the sorts of
+questions that Spock would ask: What are your company’s interests? Think
+about the legitimate interests of the other side. How might we together
+develop some creative options that might serve the interests of both sides
+better than conventional arbitration?
+IBM’s primary interest, clearly, was to protect its intellectual property. To
+the extent that Fujitsu used its technology, IBM also had an interest in being
+adequately paid for that use.
+Fujitsu’s primary interest was to stay in the compatibility business. It
+wanted a real shot at being able to develop compatible software through its
+independent development efforts.
+That much was easy to figure out. But our discussions also suggested to
+me that the parties had a common interest in something they hadn’t yet
+identified: certainty. Certainty about what materials Fujitsu was entitled to
+use in its development of IBM-compatible software. That clarity was what
+the 1983 Agreements had failed to provide. I said, “Look, for this conflict
+ever to end, we’ve got to have a set of standards. There have got to be more
+precise rules. Unless clear standards are established, won’t you be stuck
+fighting for all eternity?” I asked each side, “Wouldn’t both companies be
+better off if Fujitsu knew in advance what information it can use, rather
+than fighting these things out after Fujitsu has released a program to its
+customers?”
+We were now deep in a Spockian process of thinking things through—
+trying to solve a hard problem with all the creativity we could muster. This
+was more fun than anything we had done so far. In fact, for me it was
+thrilling.
+In my mind, the shape of a possible deal gradually emerged, one that
+would involve tearing up the old 1983 Agreements and starting fromscratch. With the benefit of hindsight, I saw that these agreements had been
+doomed from the start.
+One flaw related to the DP list—which had not been a bad idea in theory.
+Fujitsu wanted to escape the onerous burden of the continuing semiannual
+license fees, and the 1983 Agreement had given it an incentive to “clean
+up” its tainted programs by writing successor programs that somehow
+didn’t violate IBM’s rights. But without any meeting of the minds about
+when a successor was “clean enough” or what part of a DP Fujitsu could
+use in some future program, new fights were inevitable.
+In actual operation, the DP scheme struck me as incredibly inefficient.
+Fujitsu was spending time and money redeveloping old programs to get rid
+of the taint. IBM was spending time and money monitoring and tracking
+Fujitsu’s successor programs and fighting over whether the new programs
+were clean enough. Wouldn’t it make more sense, I thought, to avoid these
+disputes by simply allowing Fujitsu to use the DPs any way it wanted in its
+future software development—for a price? I suggested to IBM, what you
+ought to care about is that Fujitsu pays you adequately for this privilege.
+Let’s get rid of the ongoing license fee and establish a lump-sum payment
+that allows Fujitsu to use its own DPs freely.
+This, too, took some persuasion. IBM was attached to the ongoing
+license fees. They liked the income stream. I also sensed that IBM valued
+the whole setup as a way to make Fujitsu’s life as miserable as possible. I
+said, “Fujitsu has taken this material from your old programs. Sell them a
+paid-up license and let them use their DPs anyway they want. Admittedly, a
+fair price will need to be established for a paid-up license. You and Fujitsu
+will have to negotiate the amount—or the arbitration panel will have to set
+it—but that will only happen once. And then you’re done!”
+Gradually IBM came around.
+
+~~~
+
+
+A second flaw in the 1983 Agreements was its total lack of guidance
+with regard to the “external information.” IBM was required to pro-vide
+some information to Fujitsu, but exactly what was it? At what price? How
+would Fujitsu developers get access to that information and only that
+information?
+This was the most difficult conundrum of all.
+The simple solution, Jack and I thought, would be for IBM to write down
+the “external information” for each program on a piece of paper and thensell Fujitsu a license to use it. When we asked Fujitsu whether this would be
+acceptable, they not only rejected the idea but ridiculed it. They actually
+laughed. IBM would have every incentive to leave something out, they
+explained—something essential but not obvious. It would be like buying an
+expensive kit to build an elaborate model airplane. You would spend weeks
+trying to assemble it, only to find that an essential piece was missing and
+the plane wouldn’t fly. And you wouldn’t know which piece was missing!
+No, Fujitsu would only trust its own people to extract the externals.
+IBM in turn found that idea ridiculous. Giving Fujitsu access to IBM
+source code would be like opening up the cookie jar to a child with a
+ravenous sweet tooth, IBM protested. No matter how strictly the rules were
+defined, Fujitsu would take more than they were entitled to.
+Jack and I eventually found an answer, but it wasn’t simple. We would
+come to call it, somewhat ponderously, the Secured Facility Regime.
+First, we decided, we would create a precise definition of external
+information. “Instructions” would articulate that definition. Then we would
+set up a secure work site managed by an independent expert, in a location
+far away from all of Fujitsu’s operations. “Secure” would be an
+understatement: the place would be tighter than Fort Knox. A handful of
+Fujitsu programmers would work there, isolated and under guard. They
+would be permitted to examine IBM programming materials, yes, but
+they’d only be allowed to write down (on “survey sheets”) the external
+information as it had been defined in the Instructions. That’s all they would
+be allowed to do. They would have absolutely no role in writing software
+and no contact with their colleagues who did. (I didn’t envy the lonely souls
+who would end up working in our airless little capsule.) Before the survey
+sheets left the building, they would be vetted by IBM or an independent
+expert. If approved, they would be sent to the Fujitsu engineers who were
+writing new programs. Needless to say, that second group would have no
+access to anything but the survey sheets.
+It was an exhausting process to contemplate, but the parties liked the
+concept because it offered real security to each.
+But how could this scheme become operational? Many details remained
+to be filled in. Were the parties prepared to negotiate these issues directly
+with each other? Both parties said they’d try, but neither had any confidence
+that they would ever reach agreement. Then what?The parties had the 1983 Agreements to fall back on, but that wasn’t a
+big comfort. So I made a bold suggestion: Why not give the panel the
+power to make any decisions necessary to implement this new regime—but
+only to the extent IBM and Fujitsu were unable to agree?
+Barr rather quickly responded that IBM would give the panel this
+sweeping power. He had only one condition: that going forward, the panel
+would consist only of Jack and me. He didn’t say why he didn’t want
+Macdonald to be part of the new regime, and I didn’t ask. Barr did say IBM
+had a good deal of trust in Jack and me, largely because they knew we
+understood their interests.
+Fujitsu, however, really struggled with this decision, I later learned.
+Certainty sounded good in theory, but ambiguity, after all, has its
+advantages. Specificity can be terrifying, especially if it forces you to
+accept fewer benefits and tighter restrictions than you think you are entitled
+to. Moreover, Fujitsu had been hauled into arbitration unwillingly, and the
+idea of giving the panel so much coercive authority was a bitter pill. But
+what was the alternative? Fighting things out under the 1983 Agreements?
+If they wanted to continue down the compatibility path, they were stuck.
+They were going to have conflicts with IBM. The only decision was
+whether the Jones-Mnookin regime would be better than conventional
+arbitration.
+Fujitsu took the leap. Jack and I were willing to serve without
+Macdonald, and Macdonald gracefully resigned.37
+In February 1987, the parties signed a new accord laying out this
+framework. (We called it the “Washington Agreement” because it was
+signed in Washington, D.C.) The agreement was only a few pages long and
+had taken only four months to create.
+We gave the parties sixty days to negotiate the details. As expected, they
+failed.
+A new hybrid process was about to begin—one in which Jack and I would
+each be wearing two hats. We would mediate where possible and rule when
+necessary. Over the summer, Jonathan Greenberg and I wrote an Opinion
+and Order describing the framework. (Jonathan became counsel to the panel
+and would remain closely involved in its work for the next ten years.)In September, Jack and I held our first big press conference and let the
+world in on our secret. As you’ve no doubt gathered, we thoroughly
+enjoyed our fifteen minutes of fame.
+Then the hard work really began.
+During the next year, our biggest challenge was to create Instructions
+that defined with real precision just what information from IBM programs
+Fujitsu would be allowed to extract in the Secured Facility and then later
+use in software development.
+The judgment calls were tough. Before we could define external
+information, we had to grapple with such metaphysical questions as “What
+does IBM-compatibility mean?” Or to be more precise, to what extent
+should Fujitsu’s operating system legitimately aim to be IBM-compatible?
+We soon realized that compatibility was not a point, but a spectrum. Where
+did Fujitsu deserve to come out on this spectrum?
+I can assure you the two parties fought like crazy over this issue. After
+briefs and argument, Jack and I decided that Fujitsu was entitled to a
+reasonable opportunity to maintain certain types of compatibility, but not
+others.38
+
+
+
+
+There was no way Jack and I could have done this without technical
+help. Barr and Raven were equally clueless. To assist us, we assembled
+superb technical teams from both companies who did most of the heavy
+lifting.
+These teams worked surprisingly well together, and we protected them
+from the litigators as much as possible. (Some of the lawyers were not
+happy to be sidelined and remained a bit dubious about the whole regime.)
+The teams were headed by Ron Alepin of Fujitsu and Bill McPhee of IBM,
+two software geniuses whom I could occasionally understand, and by
+lawyers Tony Clapes (of IBM in-house) and Mike Jacobs of Morrison &
+Foerster, who understood programming at a sophisticated level and could
+articulate the concepts in a way that could be consistently applied.
+In less than a year the Instructions were completed. As you may recall,
+the 1983 Externals Agreement had tried to define “external information” in
+two sentences. Our Instructions ended up being more than forty single-
+spaced pages.39 Through a rule-making process, we also ended up
+promulgating hundreds of pages of detailed rules providing strict andelaborate safeguards governing the operation of the Secured Facility, and
+ensuring that Fujitsu software programmers outside the facility did not have
+access to IBM programming materials.40
+Finally, we had to resolve two conflicts over money.
+The big issue was the price for the new paid-up license: how much
+Fujitsu would pay for the right to use the DPs in its own software
+development. Needless to say, the litigators were primed for a fight on this
+issue. IBM was asking for more than $2 billion. After receiving preliminary
+briefs, we announced the legal standard to be applied and the key variables
+we would be estimating in determining an amount.41
+Although the financial stakes were high, Jack and I didn’t find the task of
+determining the lump-sum payment all that daunting. Indeed, Jack had been
+a top executive at a huge railroad and had made lots of big financial
+decisions. I found his attitude comforting. “After all,” he told me, “it’s only
+money! And both companies have plenty of it.” I agreed. In our view, the
+really important work was creating and implementing the new regime so
+that both companies could get on with their real business: competing in the
+marketplace. Setting a price for the paid-up license was just cleaning up
+their old mess.
+But that was easy for us to say. Each company assembled vast teams of
+lawyers, engineers, and consultants who spent many person-years preparing
+massive submissions concerning the variables we had identified as relevant
+to the determination of the price for the paid-up license. I’m sure each party
+spent millions. At times the strain on the lawyers showed. A few of the
+younger lawyers got so caught up in the fight that they started to attack each
+other in letters to the panel. Personal insults were flying back and forth.
+Jack and I eventually lost patience with this nonsense. We warned them that
+if they didn’t cut out the personal attacks, we would impose fines on
+individual lawyers. Fortunately, we never had to carry out the threat.
+In the end, we found it neither difficult nor time consuming to establish a
+fair price for the paid-up license. While some courts might have heard
+months of live testimony and argument, we limited the actual hearings to
+one week. The only live testimony consisted of the cross-examination of
+each party’s experts.42 We gave counsel a chance to make oral arguments,and submit post-hearing briefs. Then we promptly made a decision,43
+setting the total price of the paid-up license at $396 million.44
+The smaller money issue related to the annual fee that Fujitsu would pay
+for the “external information.” (As you will recall, the 1983 Externals
+Agreement was useless in this regard—the parties had neglected to set a
+price.) After briefs and argument, we decided that for the first year in which
+the regime was in operation, Fujitsu would pay between $25 million and
+$52 million, depending on how many IBM programs it wanted access to.
+This gave Fujitsu an incentive to save money by accessing fewer IBM
+programs.
+It was then again time to go public, with another carefully orchestrated
+round of press conferences both in New York and Tokyo. In our first round,
+Jack and I had simply sketched out a framework. Now we had put meat on
+the bones and we wanted people to see what we and the parties had created.
+We released an opinion, prepared with Jonathan Greenberg’s able
+assistance, explaining the details, including the Instructions and the dollar
+amounts Fujitsu would be required to pay.
+Again, there were hundreds of newspaper articles around the world, most
+very laudatory. As the Wall Street Journal reported, some observers hailed
+what we had done as “a model for resolving arcane, high-tech lawsuits.”
+But others considered our role controversial. A Dean Witter analyst
+harrumphed, “This is a warning to other large companies: don’t throw your
+fate in the hands of an arbitrator. You never know what they’ll do, and
+they’ll order you not to say anything about it. They are above the lawyers
+and above the courts.”45 Ah, those were the days!
+In May 1989, the final piece fell into place: the Secured Facility was up and
+running. Of course, its location was a carefully guarded secret. In our rather
+quiet announcement of this milestone, we just said it was in Japan.
+No expense was spared in creating this hermetically sealed chamber. If
+we and the parties could have put it on the moon, we would have. Instead
+we located it in Sakura, an obscure town about forty miles outside Tokyo,
+on the top two floors of an eight-story office building. Inside the building’s
+sole elevator, you would never know that floors seven and eight even
+existed. We had the buttons and numbers for those floors removed from theelevator panel. You could only gain access to these floors with an elevator
+key, and only the facility manager and the guards had them. No one else
+reached the seventh or eighth floor unless their names were on a list, and
+even then they had to be personally escorted. There were guards on both
+floors twenty-four hours a day, 365 days a year. As far as we knew, no one
+in Sakura—or even the building—ever knew what was going on in there.
+The handful of Fujitsu programmers who worked in the facility were not
+permitted to bring anything in or out of the inner sanctum—not a cell
+phone, not a wallet, not a scrap of paper. (Personal items had to be checked
+in a locker.) They had no access to a phone. Every time they went in or out,
+their movements were documented. The IBM source code was kept in a
+locked safe. We used security consultants to design the system, of course,
+and before the facility opened we hired a different security expert, whose
+primary client was the CIA, to check things out. He said our facility was
+more secure than either the Pentagon or the CIA headquarters in Langley,
+Virginia.
+For the next seven years the regime operated without a hitch. As an extra
+safeguard, IBM built its own secured facility in Hampton, New Hampshire,
+to inspect Fujitsu’s new programs. IBM had the right to bring a claim
+before the panel if it found evidence that Fujitsu was breaking the rules—
+and I assure you, IBM looked. But it never brought a claim.
+Let me begin my assessment by turning back the clock to June 1985, just
+before the arbitration began. Both IBM and Fujitsu were awash in strong
+currents of demonization and tribalism. Was it wise for them to give up on
+negotiation and go to war? Or did they simply get caught in emotional
+traps?
+To answer this question, let’s suppose each side had been able to consult
+with Spock and consider his advice dispassionately. In 1985, could they
+have resolved their conflict through negotiation? What could they have
+done differently?
+With regard to IBM, Spock would have pressed them on whether their
+hardball strategy in 1984 was wise. As you recall, Fujitsu offered to add
+many programs to the DP list in 1984, plainly signaling that it was prepared
+to negotiate a deal in which it would buy immunity for these programs.IBM refused this offer and demanded a draconian remedy: triple fees and
+the withdrawal of the offending software from Fujitsu’s customers. It was
+these continued demands—and the threat of arbitration—that triggered the
+complete breakdown of negotiations in 1985.
+Spock would have asked IBM and its lawyers, “How likely is it that an
+arbitration panel would grant you this harsh remedy?” Spock would have
+given them slim odds. He would have pointed out that the 1983 Settlement
+Agreement was a contract, and contract law does not allow punitive
+damages. He would have noted that an arbitration panel probably wouldn’t
+order Fujitsu to pull the offending programs off the market because it would
+disrupt the business operations of innocent bystanders. In fact, I have a
+hunch that the lawyers on both sides of this case made similar assessments
+at the time.46
+So was it irrational for IBM to persist in these demands? I don’t think so.
+In fact, I think IBM would have responded to Spock, “As long as Fujitsu
+insists that it has the right to engage in what we see as illegal copying, why
+should we give up the leverage of a demand for draconian sanctions?” And
+I think Spock would have seen this as rational.
+On the Fujitsu side, Spock would surely have focused on its strategic
+decision to persist with a business model based on maintaining an IBM-
+compatible operating system. Spock would have asked Fujitsu: “There is a
+long-term risk that you won’t be able to sustain an IBM-compatible
+strategy. Even if you get the ‘external information’ you need, what are the
+odds that you can keep producing compatible operating software, given
+copyright constraints?” I’m sure Fujitsu asked itself the same question.
+Spock would have pushed Fujitsu to consider abandoning that model
+altogether, saying: “If you agree to leave the compatibility business after a
+reasonable transition period, or agree to sell IBM’s software to your
+customers, IBM might be willing to negotiate a reasonable deal with respect
+to the other terms.” I’m sure Fujitsu considered this possibility. But in 1985,
+my guess is that Fujitsu was not prepared to abandon its compatibility
+strategy. It had no ready alternative. Whatever the long-term risks of that
+strategy, I strongly suspect that Fujitsu perceived that abandoning it was
+even riskier. And I don’t think Spock could have characterized this
+conclusion as irrational.That leaves us with an interesting question. With the benefit of hindsight,
+we know there was a solution to this conflict: the Secured Facility Regime,
+which the panel and the parties devised jointly. Could the parties have
+figured this out on their own—two years earlier—and avoided warfare
+altogether?
+To put it another way, suppose either side had offered the other a deal
+identical to the one we later imposed: the same lump-sum amount for the
+paid-up license; the same Instructions; the same annual access fee; the same
+Secured Facility safeguards. In 1985, would either have accepted such a
+deal from their adversary?
+I think the answer is no—it’s inconceivable. And more important, I don’t
+think Spock would have considered either party’s refusal to be irrational or
+unwise, even though, with the benefit of hindsight, both would have been
+better off with the Secured Facility Regime.
+Why is this so? Why couldn’t they have saved themselves all that pain?
+The answer, I think, lies in the nature of uncertainty and its role in
+decision-making. This conflict was full of uncertainty on both sides. The
+legal issues were so unclear that the parties’ lawyers could reasonably make
+very different predictions of what an arbitration panel would decide. The
+parties were fierce competitors and didn’t trust each other, with good
+reason. Moreover, I suspect that within each company there were powerful
+constituencies that would have opposed the radical concessions necessary to
+create the Secured Facility.
+Therefore, I am sure that IBM would never have agreed to give Fujitsu
+access to its source code, no matter what the safeguards. IBM would have
+said, “Are you crazy? Fujitsu is a major competitor. The 1983 Agreements
+don’t give them the right to inspect our source code, and they’ll never get it
+in arbitration. So why should we give it to them now? No way!”47
+Similarly, I can’t imagine Fujitsu accepting a deal as restrictive as the
+one we eventually imposed. The elaborate safeguards contained in the
+Security Facility Regime were highly intrusive of Fujitsu’s programming
+practices. And we gave Fujitsu far less access to “external information”
+than its lawyers might reasonably have expected.
+In short, both sides would probably have said, “No thanks. We’ll do
+better in arbitration.” And they wouldn’t have been crazy to think so. Nordo I think they realized in 1985 how poorly suited arbitration was for their
+type of dispute. Even if they had been capable of such foresight and had
+seen that the Secured Facility Regime served their interests better than
+warfare, I don’t think they could have made the mental leaps necessary to
+erect such a structure, absent the panel’s coercive power.
+This conclusion has implications that extend well beyond this unique
+case. In some conflicts, the intervention of third parties with coercive power
+may be necessary to overcome a host of barriers: not only distorted thinking
+created by psychological or ideological traps, but uncertainty and internal
+organizational constraints.
+Moreover, the type of coercive process used, and when, can make a real
+difference.
+
+~~~
+
+A conventional lawsuit, for example, would have been a disaster in this
+case. The parties were right to avoid it. Can you imagine a jury trying to
+deal with the technological and copyright issues involved? Or even a judge,
+for that matter? Moreover, I doubt the parties could have agreed on venue.
+Fujitsu would have refused to try this case in an American court and IBM
+would have refused to try it in Japan. So arbitration had its advantages,
+including the fact that the parties could choose the decision-makers.
+Once the parties were in conventional arbitration, the panel’s rulings in
+response to the motions for summary judgment could not appropriately
+resolve the core copyright issue, but they did remove one of IBM’s favorite
+cudgels, the threat of draconian penalties—nudging the parties closer to
+settlement.
+Although many disputants do settle after summary judgment, these
+parties didn’t. As you recall, they tried and failed. They needed a third way.
+What ultimately worked was a hybrid process that started out as a
+conventional arbitration and evolved into something more complex—a kind
+of “grab bag” in which Jack and I were free to play many different roles,
+depending on the conflicts that arose over time. Our mind-set was
+facilitative: We were always eager to help the parties reach agreement,
+directly or indirectly, through their own negotiations. We always had in
+mind that the parties knew far more than we ever could about the
+technology and their own priorities and constraints. We always wanted to
+build on what they and their lawyers knew about the problem. But we hadmuscle in reserve. Without the flexibility of this hybrid system, we never
+would have resolved this case.
+For example, in setting the price for the paid-up license, we used a
+process similar to traditional arbitration. (Indeed, it was not that different
+from what a court might have done, although I think it was quicker.) In
+creating the Instructions, we employed something akin to an administrative
+rule-making process. Once the regime was up and running, we acted like a
+regulatory commission charged with ensuring compliance. Imagine trying
+to mediate those issues! It would have been a nightmare. But because the
+parties had given us the power to use clout when necessary, they were able
+to capture the efficiencies of a coercive process without losing the tailor-
+made nature of the system itself.
+Another lesson of this case is that a third party, acting as mediator, can
+facilitate voluntary settlements when it is impossible for bitter enemies even
+to sit down at the negotiation table together. You will recall that during the
+initial mediation phase of our process, Fujitsu refused to negotiate directly
+with IBM. But as go-betweens, Jack and I helped the parties make a deal in
+which Fujitsu added hundreds of programs to the DP list.
+Why should it matter whether negotiations are direct or indirect?
+Because for a party locked in a heated conflict, direct negotiations may be
+perceived as imposing greater risks and offering fewer benefits. Any
+proposal coming directly from the enemy may be devalued,48 and the mere
+act of sitting down at the negotiating table with a distrusted adversary may
+subject the leader to intense criticism from hard-liners. Indirect negotiations
+may feel much safer, both psychologically and politically. International
+relations provides many examples of intermediaries permitting indirect
+negotiations where adversaries are not willing to meet together. Switzerland
+acted as a go-between for the United States and Iran in 2003, and Turkey
+played a similar role for Syria and Israel in 2008.
+Our mediation process provided Fujitsu’s leaders with analogous
+protective cover. Fujitsu decision-makers could tell themselves—and their
+constituents—that they weren’t bargaining with the Devil. Instead, they
+were working with Jones and Mnookin to explore any options we might
+suggest.When mediation didn’t work, Jack and I found that our ability to impose
+an outcome also lifted strategic and emotional burdens. It relieved one side
+or the other from agreeing to a compromise that might have been politically
+unacceptable behind the table. “I was made to do it by the panel” was a
+refrain that provided some psychological comfort and organizational
+protection.
+This combination of roles—sometimes called “med-arb” because it
+combines the functions of both mediation and arbitration—is not only
+unusual but typically frowned upon.49 There are two concerns. One is that a
+mediator who also has coercive powers won’t really mediate at all—instead
+he or she will simply twist arms under the guise of being facilitative. The
+parties won’t get the full benefit of a facilitative approach. The second
+concern is that the neutral will learn things during a private mediation
+session that may later corrupt his judgment as an arbitrator.
+Both of these concerns are legitimate, but I think that sophisticated and
+informed disputants should have the option of choosing a mixed process in
+which the same person plays multiple roles. This can have obvious
+efficiencies. The information that Jack and I gained at each stage of the
+process was never wasted. Moreover, parties may grow to trust particular
+neutrals and want them to play a mixed role.
+This hybrid process turned out to be congruent with the Japanese cultural
+tradition captured by the word gaiatsu, or “outside pressure or guidance.”
+As neutrals, Jack and I adopted what we hoped would be a flexible,
+problem-solving mantra backed up by arbitral authority. In some ways such
+a mantra is consistent with the Japanese historical preference for informal
+dispute resolution mechanisms, based on well-developed relationships.
+This case teaches a lesson about the role of lawyers as well. Lawyers can
+do more than conduct litigation as usual. The lawyers in this case played
+very constructive roles in designing a dispute system and getting this
+conflict resolved. Without the leadership and support of Raven and Barr, the
+clients would never have agreed to this process.
+In 1997, five years before our regime was scheduled to end, the parties
+jointly decided that it was no longer necessary. Jack and I weren’t surprised.
+Fujitsu had not requested access to new IBM source code for about threeyears. We sensed that Fujitsu had been winding down its IBM-compatible
+line of business and was focusing its energies elsewhere. Indeed, our regime
+had given Fujitsu time to make an orderly transition to a new business
+model that was not based on IBM compatibility. As always, the computer
+world was changing. Mainframes, while still important, were no longer the
+center of the computer universe.
+The parties made their final public announcement: Their conflict was
+officially over, and the special regime had ended. The two com-panies
+jointly declared their return to “an ordinary business relationship” governed
+by ordinary law. But sometimes an ordinary thing can knock your socks off,
+or at least give you pause. Imagine Palestinians and Israelis announcing that
+they had established ordinary relations in Jerusalem.
