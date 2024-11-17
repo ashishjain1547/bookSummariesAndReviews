@@ -1,0 +1,364 @@
+<head>
+    <script crossorigin="anonymous" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <!-- Google AdSense Using Machine Learning Code -->
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-3071098372371409",
+            enable_page_level_ads: true
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $.ajax({
+                url: "https://raw.githubusercontent.com/ashishjain1547/bookSummariesAndReviews/main/links_to_book_clubs.json",
+                success: function (result) {
+                    let grouplink = JSON.parse(result)['current book club'];
+                    $("#customWhatsAppGroupLinkWrapper").html(
+                        `
+                        <h2 class="custom_link_h2"><a href="${grouplink}" target="_blank"> 
+                            <span>Join us on:</span>
+                            <span class="customLink"><i class="fa fa-whatsapp"></i> Whatsapp </span>
+                            </a>
+                        </h2>
+                        `
+                    );
+                }
+            });
+        });
+    </script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        pre {
+            white-space: pre-wrap;
+            white-space: -moz-pre-wrap;
+            white-space: -pre-wrap;
+            white-space: -o-pre-wrap;
+            word-wrap: break-word;
+        }
+
+        .customLink {
+            background-color: #4CAF50;
+            border: none;
+            color: white !important;
+            padding: 8px 13px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        .customLink:hover {
+            text-decoration: none;
+        }
+
+        div.code-block-decoration.footer {
+            display: none;
+        }
+
+        button.export-sheets-button-wrapper {
+            display: none;
+        }
+    </style>
+
+    <style>
+        .custom_link_h2 a {
+            color: black;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .custom_link_h2 a:hover {
+            color: black;
+        }
+
+        .custom_link_h2 a:active {
+            color: black;
+        }
+
+        .custom_link_h2 span {
+            translate: 0px -5px;
+            display: inline-block;
+        }
+
+        .custom_link_h2 img {
+            width: 100px;
+            padding: 0px;
+            border: none;
+            box-shadow: none;
+        }
+
+        .customul {
+            list-style: none;
+        }
+
+        [aria-hidden='true'] {
+            display: none;
+        }
+    </style>
+
+    <style>
+        pre {
+            white-space: pre-wrap;
+            white-space: -moz-pre-wrap;
+            white-space: -pre-wrap;
+            white-space: -o-pre-wrap;
+            word-wrap: break-word;
+        }
+
+        .dot {
+            height: 12px;
+            width: 12px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        .arrow {
+            border: solid black;
+            border-width: 0 3px 3px 0;
+            display: inline-block;
+            padding: 3px;
+        }
+
+        .right {
+            transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+        }
+
+        .left {
+            transform: rotate(135deg);
+            -webkit-transform: rotate(135deg);
+        }
+
+        .up {
+            transform: rotate(-135deg);
+            -webkit-transform: rotate(-135deg);
+        }
+
+        .down {
+            transform: rotate(45deg);
+            -webkit-transform: rotate(45deg);
+        }
+    </style>
+</head>
+
+<div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuofh6OtIVi28plVRs4fDPywJ8UNooNi7NNbK_QqfQP9YviVmpLg0aOQRAHMyKUZ21yjHN6B23YbeoW1xkD7Y3SzlkvE-4AQwGU5MU80iBtx40OmduJcvTD37ckqPz3Gt4z1OpTH0bA1LBYQlsLlXwUVCA2YCph5NKqQ6ly2NSTM-9_4CzU5BBHhRrArcJ/s876/cover.png" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="600" data-original-height="355" data-original-width="876" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuofh6OtIVi28plVRs4fDPywJ8UNooNi7NNbK_QqfQP9YviVmpLg0aOQRAHMyKUZ21yjHN6B23YbeoW1xkD7Y3SzlkvE-4AQwGU5MU80iBtx40OmduJcvTD37ckqPz3Gt4z1OpTH0bA1LBYQlsLlXwUVCA2YCph5NKqQ6ly2NSTM-9_4CzU5BBHhRrArcJ/s600/cover.png"/></a></div>
+
+<a class="customLink toggleBtn" href="https://github.com/ashishjain1547/books_on_small_talk" target="_blank">Download Books</a>
+
+<div id="customWhatsAppGroupLinkWrapper"></div>
+
+<pre>
+1:
+Think faster, talk smarter
+Matt Abrahams, 2007
+
+2:
+The Fine Art of Small Talk: How to Start a Conversation, Keep It Going, Build Networking Skills -- and Leave a Positive Impression!
+Debra Fine, 2023
+
+3:
+Better Small Talk: Talk to Anyone, Avoid Awkwardness, Generate Deep Conversations, and Make Real Friends
+Patrick King, 2020
+
+4:
+How to Talk to Anyone
+Leil Lowndes, 1999
+
+5:
+Small Talk: How to Start a Conversation, Truly Connect with Others and Make a Killer First Impression
+Diane Weston, 2019
+
+6:
+How to Talk to Anyone, Anytime, Anywhere: The Secrets to Good Communication
+Larry King, 1994
+
+7:
+Simple Small Talk: An Everyday Social Skills Guidebook for Introverts on How to Lose Fear and Talk to New People. Including Hacks, Questions and Topics to Instantly Connect, Impress and Network
+Gerard Shaw, 2020
+
+8:
+Small Talk: How to Talk to People, Improve Your Charisma, Social Skills, Conversation Starters & Lessen Social Anxiety
+Aston Sanderson, 2016
+
+9:
+Small Talk Techniques: Smart Strategies for Personal and Professional Success
+2020
+
+10:
+Conversationally Speaking: Tested New Ways to Increase Your Personal and Social Effectiveness
+Alan Gardner, 1989
+
+11:
+Fierce Conversations
+Susan Scott, 2002
+
+12:
+The Serious Business of Small Talk: Becoming Fluent, Comfortable, and Charming
+Carol A. Fleming, 1996
+
+13:
+Small Talk Hacks: The People and Communication Skills You Need to Talk to Anyone and Be Instantly Likeable
+Akash Karia, 2015
+
+14:
+The Science of Effective Communication: Improve Your Social Skills and Small Talk, Develop Charisma and Learn How to Talk to Anyone
+Ian Tuhovsky, 2017
+
+15:
+How to Make Small Talk: Conversation Starters, Exercises, and Scenarios
+Melissa Wadsworth, 2017
+
+16:
+The Charisma Myth: How Anyone Can Master the Art and Science of Personal Magnetism
+Olivia Fox Cabane, 2012
+
+17:
+Small Talk: 10 ADHD Lies and How to Stop Believing Them
+Richard Pink, 2024
+
+18:
+How to Start a Conversation and Make Friends
+Don Gabor, 1983
+
+19:
+Small Talk: An Introvert's Guide to Small Talk - Talk to Anyone & Be Instantly Likeable
+Gary Allman, 2016
+
+20:
+Small Talk, Small Ideas: Fifty Ways to Have a Deep Conversation
+Britannia, 2021
+
+21:
+Small Talk: How to Connect Effortlessly With Anyone, Strike Up Conversations with Confidence and Make Small Talk Without the Fear of Being Awkward
+Betty Bohm, 2014
+
+22:
+How to Work a Room
+Susan RoAne, 1988
+
+23:
+Meaningful Small Talk: The Shy Person's Ultimate Guide to Connecting with Anyone
+Dan Chang, 2019
+
+24:
+How To Talk To Absolutely Anyone: Confident Communication for Work, Life and Relationships
+Mark Rhodes, 2017
+
+25:
+End Small Talk: Deep Questions for Better Conversations
+Cory Stout, 2023
+
+26:
+How to Talk to Anybody - Learn The Secrets To Small Talk, Business, Management, Sales & Social Skills & How to Make Real Friends (Communication Skills)
+Derek Borthwick, 2022
+
+27:
+Get Honest Or Die Lying: Why Small Talk Sucks
+Charlamagne tha God, 2024
+
+28:
+Small Talk that Doesn’t Suck: Stop Talking About the Weather & Start Making Real Connections
+Patrick King, 2024
+
+29:
+Small Talk for Introverts: How to Start Conversations and Make Friends Managing Social Anxiety and Shyness
+Larry Newman, 2019
+
+30:
+Smalltalk by Example: The Developer's Guide
+Alec Sharp, 1997
+
+31:
+The Art of Small Talk: Go Shallow to Go Deep
+Casey Wilson, 2024
+
+32:
+Small Talk Method: Communication Skills To Win Friends, Talk To Anyone, and Always Know What To Say
+Matt Morris, 2014
+
+33:
+You Can Be Funny and Make People Laugh: No Fluff. No Theories. 35 Humor Techniques That Work for Everyday Conversations
+Gregory Peart, 2019
+
+34:
+Smart Speaking: Sixty-second Strategies
+Laurie Schloff, 1991
+
+35:
+The Conversation Code: How to Upgrade Your Social Skills and Your Life
+Geoffrey Gregory Peart, 2015
+
+36:
+The Art of Focused Conversation: 100 Ways to Access Group Wisdom in the Workplace
+1997
+
+37:
+The art of civilized conversation
+Margaret Shepherd, 2005
+
+38:
+On to Smalltalk
+Patrick Winston, 1998
+
+39:
+Small Talk: Unlocking the Hidden Power of Casual Conversations to Forge Authentic Connections and Elevate Your Personal and Professional Life
+Andy Gardner, 2024
+
+40:
+Smalltalk best practice patterns
+Kent Beck, 1996
+
+41:
+The Art of Mingling
+Jeanne Martinet, 1996
+
+42:
+Small Talk: Simple Ways to Boost Your Child's Speech and Language Development from Birth
+Nicola Lathey, 2013
+
+43:
+Summary of Debra Fine's the Fine Art of Small Talk
+2021
+
+44:
+Small Talk New
+Richard C Woolfson, 2002
+
+45:
+Small Talk: Master the Art of Small Talk Easily and Effectively with These 10 Easy Steps
+Jessica Forrest, 2016
+
+46:
+The Art of Witty Banter: Be Clever, Quick, & Magnetic
+Patrick King, 2020
+
+47:
+Small Talk
+Richard C Woolfson, 2002
+
+48:
+Small Talk: The Definitive Guide to Talking to Anyone in Any Situation
+Michael Wakefield, 2016
+
+49:
+The Art Of Small Talk & Effective Conversation Techniques: The book on improving conversational intelligence & conversation starters & the fine art of small talk for teens, couples, introverts etc.
+Irina Bristow, 2022
+
+50:
+Pharo by Example
+Oscar Nierstrasz, 2010
+
+51:
+Squeak by Example
+Oscar Nierstrasz, 2007
+</pre>
+<span style="display: none;">Tags: List of Books,Communication Skills,</span>
