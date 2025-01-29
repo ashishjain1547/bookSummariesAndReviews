@@ -1,0 +1,363 @@
+<head>
+    <script crossorigin="anonymous" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <!-- Google AdSense Using Machine Learning Code -->
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-3071098372371409",
+            enable_page_level_ads: true
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $.ajax({
+                url: "https://raw.githubusercontent.com/ashishjain1547/bookSummariesAndReviews/main/links_to_book_clubs.json",
+                success: function (result) {
+                    let grouplink = JSON.parse(result)['current book club'];
+                    $("#customWhatsAppGroupLinkWrapper").html(
+                        `
+                        <h2 class="custom_link_h2"><a href="${grouplink}" target="_blank"> 
+                            <span>Join us on:</span>
+                            <span class="customLink"><i class="fa fa-whatsapp"></i> Whatsapp </span>
+                            </a>
+                        </h2>
+                        `
+                    );
+                }
+            });
+        });
+    </script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        pre {
+            white-space: pre-wrap;
+            white-space: -moz-pre-wrap;
+            white-space: -pre-wrap;
+            white-space: -o-pre-wrap;
+            word-wrap: break-word;
+        }
+
+        .customLink {
+            background-color: #4CAF50;
+            border: none;
+            color: white !important;
+            padding: 8px 13px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        .customLink:hover {
+            text-decoration: none;
+        }
+
+        div.code-block-decoration.footer {
+            display: none;
+        }
+
+        button.export-sheets-button-wrapper {
+            display: none;
+        }
+    </style>
+
+    <style>
+        .custom_link_h2 a {
+            color: black;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .custom_link_h2 a:hover {
+            color: black;
+        }
+
+        .custom_link_h2 a:active {
+            color: black;
+        }
+
+        .custom_link_h2 span {
+            translate: 0px -5px;
+            display: inline-block;
+        }
+
+        .custom_link_h2 img {
+            width: 100px;
+            padding: 0px;
+            border: none;
+            box-shadow: none;
+        }
+
+        .customul {
+            list-style: none;
+        }
+
+        [aria-hidden='true'] {
+            display: none;
+        }
+    </style>
+
+    <style>
+        pre {
+            white-space: pre-wrap;
+            white-space: -moz-pre-wrap;
+            white-space: -pre-wrap;
+            white-space: -o-pre-wrap;
+            word-wrap: break-word;
+        }
+
+        .dot {
+            height: 12px;
+            width: 12px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        .arrow {
+            border: solid black;
+            border-width: 0 3px 3px 0;
+            display: inline-block;
+            padding: 3px;
+        }
+
+        .right {
+            transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+        }
+
+        .left {
+            transform: rotate(135deg);
+            -webkit-transform: rotate(135deg);
+        }
+
+        .up {
+            transform: rotate(-135deg);
+            -webkit-transform: rotate(-135deg);
+        }
+
+        .down {
+            transform: rotate(45deg);
+            -webkit-transform: rotate(45deg);
+        }
+
+        i.red {
+            color: red
+        }
+
+        i.blue {
+            color: blue
+        }
+    </style>
+</head>
+
+<div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCC0QEaupr31GJJlJMC1SsooeTSsckhRHis0gkeI2BPOtYzb2qDb6gBuX_G9xEosexGmHyBxuCpS8etrC4cq_WaSnVWbOaOJwCP3N74LtDPiOryy_VZmvT8AQ9gzD-S7-9NHqfYu1DPuL8ZBaSkGU_Eoi4ur_wwnM_I6CcD2NO7rzq7gV9hDxrTpeKAfhv/s1080/68rhdvcp37461.webp" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="600" data-original-height="688" data-original-width="1080" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCC0QEaupr31GJJlJMC1SsooeTSsckhRHis0gkeI2BPOtYzb2qDb6gBuX_G9xEosexGmHyBxuCpS8etrC4cq_WaSnVWbOaOJwCP3N74LtDPiOryy_VZmvT8AQ9gzD-S7-9NHqfYu1DPuL8ZBaSkGU_Eoi4ur_wwnM_I6CcD2NO7rzq7gV9hDxrTpeKAfhv/s600/68rhdvcp37461.webp"/></a></div>
+
+<div id="customWhatsAppGroupLinkWrapper"></div>
+
+<a class="customLink toggleBtn" href="https://github.com/ashishjain1547/negotiation_books" target="_blank">Download Books</a>
+
+<pre><b>Legend</b>
+<i class="red">Red</i>: Also present in <a href="https://survival8.blogspot.com/2022/08/negotiation-books-aug-2019.html" target="_blank">Aug 2019</a> Listing
+<i class="blue">Blue</i>: New Additions in this list 
+
+~~~
+
+<i class="red">1. 
+Never Split the Difference: Negotiating As If Your Life Depended On It
+Christopher Voss, 2016
+
+2.
+Getting to Yes
+Roger Fisher, 1981
+
+3.
+Negotiation Genius: How to Overcome Obstacles and Achieve Brilliant Results at the Bargaining Table and Beyond
+Max H. Bazerman, 2007
+
+4.
+Bargaining for Advantage: Negotiation Strategies for Reasonable People
+G. Richard Shell, 1999
+
+5.
+Getting Past No
+William Ury, 1991
+
+6.
+You Can Negotiate Anything
+Herb Cohen, 1980
+
+7.
+The Art of Negotiation: How to Improvise Agreement in a Chaotic World
+Michael A. Wheeler, 2013</i>
+    
+<i class="blue">8.
+HBR's 10 Must Reads on Negotiation (with Bonus Article "15 Rules for Negotiating a Job Offer" by Deepak Malhotra)
+Daniel Kahneman, 2019</i>
+
+<i class="red">9.
+Negotiating the Nonnegotiable: How to Resolve Your Most Emotionally Charged Conflicts
+Daniel Shapiro, 2016</i>
+
+<i class="blue">10.
+The Art of Negotiation: How to Get What You Want (Every Time)
+Tim Castle, 2018</i>
+
+11.
+Crucial Conversations: Tools for Talking When Stakes are High
+Kerry Patterson, 2018
+
+12.
+Bargaining with the Devil: When to Negotiate, When to Fight
+Robert Harris Mnookin, 2010
+
+13.
+Difficult Conversations
+Douglas Stone, 1999
+
+14.
+Start with No: The Negotiating Tools That the Pros Don't Want You to Know
+Jim Camp, 2002
+
+15.
+Negotiating the Impossible: How to Break Deadlocks and Resolve Ugly Conflicts (without Money Or Muscle)
+Deepak Malhotra, 2016
+
+16.
+Negotiating at Work: Turn Small Wins Into Big Gains
+Deborah M. Kolb, 2015
+
+17.
+3-D Negotiation: Powerful Tools to Change the Game in Your Most Important Deals
+James K. Sebenius
+
+18.
+Getting to Yes with Yourself CD: (and Other Worthy Opponents)
+William Ury, 2015
+
+19.
+Negotiation: The Brian Tracy Success Library
+Brian Tracy, 2013
+
+20.
+Secrets of Power Negotiating: Inside Secrets from a Master Negotiator
+Roger Dawson, 1987
+
+21.
+Getting More: How to Negotiate to Achieve Your Goals in the Real World
+Stuart Diamond, 2010
+
+22.
+The Negotiation Book: Your Definitive Guide to Successful Negotiating
+Steve Gates, 2010
+
+23.
+The First Move: A Negotiator's Companion
+Alain Pekar Lempereur, 2010
+
+24.
+Getting More: How You Can Negotiate to Succeed in Work and Life
+Stuart Diamond, 2010
+
+25.
+Dealmaking: The New Strategy of Negotiauctions (Second Edition)
+Guhan Subramanian, 2020
+
+26.
+Influence: The Psychology of Persuasion
+Robert Cialdini, 1984
+
+27.
+Beyond Winning: Negotiating to Create Value in Deals and Disputes
+Scott R. Peppet, 2000
+
+28.
+Beyond Reason: Using Emotions as You Negotiate
+Roger Fisher, 2005
+
+29.
+Win-Win Negotiation Techniques: Development the Mindset, Skills and Behaviours of Winning Negotiators
+David Goldwich, 2011
+
+30.
+The Power of Noticing: What the Best Leaders See
+Max H. Bazerman, 2014
+
+31.
+Brian Tracy Success Series: LEADERSHIP
+Brian Tracy, 2014
+
+32.
+Pre-Suasion: A Revolutionary Way to Influence and Persuade
+Robert Cialdini, 2016
+
+33.
+Thanks for the Feedback: The Science and Art of Receiving Feedback Well
+Douglas Stone, 2014
+
+34.
+The Power of a Positive No
+William Ury, 2007
+
+35.
+Entrepreneurial Negotiation: Understanding and Managing the Relationships that Determine Your Entrepreneurial Success
+Lawrence Susskind, 2018
+
+36.
+Real Leaders Negotiate! Gaining, Using, and Keeping the Power to Lead Through Negotiation
+Jeswald Salacuse, 2017
+
+37.
+Negotiate Or Stagnate: Have it Your Way, Without Showing the Highway!
+Prakash Chugani, 2024
+
+38.
+How To Negotiate
+Christopher Copper-Ind, 2019
+
+39.
+The Only Negotiating Guide You'll Ever Need: 101 Ways to Win Every Time in Any Situation
+Peter B. Stark, 2003
+
+40.
+How to Win Friends and Influence People
+Dale Carnegie, 1936
+
+41.
+Negotiation Quotient: Opening the Door to a Successful Deal
+Anuj Jagannathan, 2019
+
+42.
+HBR's 10 Must Reads on Negotiation
+Daniel Kahneman, 2019
+
+43.
+Women Don't Ask
+Linda Babcock, 2003
+
+44.
+Secrets of Power Negotiating, 25th Anniversary Edition
+Roger Dawson, 2021
+
+45.
+Getting to Yes with Yourself: How to Get What You Truly Want
+William Ury, 2016
+
+46.
+Negotiation: Learn How to Negotiate for Greater Business Success, and Avoid Mistakes (Master Tips and Strategies for Work, Love, Friendship and Business)
+James Wardell, 2022
+
+<i class="blue">47.
+He wins, she wins. Learning the art of marital negotiation
+Willard F. Harley Jr.
+Revell (2013)</i>
+</pre>
+
+<span style="display: none;">Tags: List of Books,Negotiation,</span>
