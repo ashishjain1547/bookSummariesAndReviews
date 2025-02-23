@@ -1,0 +1,200 @@
+<head>
+    <script crossorigin="anonymous" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <!-- Google AdSense Using Machine Learning Code -->
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-3071098372371409",
+            enable_page_level_ads: true
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $.ajax({
+                url: "https://raw.githubusercontent.com/ashishjain1547/bookSummariesAndReviews/main/links_to_book_clubs.json",
+                success: function (result) {
+                    let grouplink = JSON.parse(result)['current book club'];
+                    $("#customWhatsAppGroupLinkWrapper").html(
+                        `
+                        <h2 class="custom_link_h2"><a href="${grouplink}" target="_blank"> 
+                            <span>हमसे जुड़ें:</span>
+                            <span class="customLink"><i class="fa fa-whatsapp"></i> Whatsapp </span>
+                            </a>
+                        </h2>
+                        `
+                    );
+                }
+            });
+        });
+    </script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        pre {
+            white-space: pre-wrap;
+            white-space: -moz-pre-wrap;
+            white-space: -pre-wrap;
+            white-space: -o-pre-wrap;
+            word-wrap: break-word;
+        }
+
+        .customLink {
+            background-color: #4CAF50;
+            border: none;
+            color: white !important;
+            padding: 8px 13px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        .customLink:hover {
+            text-decoration: none;
+        }
+
+        div.code-block-decoration.footer {
+            display: none;
+        }
+
+        button.export-sheets-button-wrapper {
+            display: none;
+        }
+    </style>
+
+    <style>
+        .custom_link_h2 a {
+            color: black;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .custom_link_h2 a:hover {
+            color: black;
+        }
+
+        .custom_link_h2 a:active {
+            color: black;
+        }
+
+        .custom_link_h2 span {
+            translate: 0px -5px;
+            display: inline-block;
+        }
+
+        .custom_link_h2 img {
+            width: 100px;
+            padding: 0px;
+            border: none;
+            box-shadow: none;
+        }
+
+        .customul {
+            list-style: none;
+        }
+
+        [aria-hidden='true'] {
+            display: none;
+        }
+    </style>
+
+    <style>
+        pre {
+            white-space: pre-wrap;
+            white-space: -moz-pre-wrap;
+            white-space: -pre-wrap;
+            white-space: -o-pre-wrap;
+            word-wrap: break-word;
+        }
+
+        .dot {
+            height: 12px;
+            width: 12px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        .arrow {
+            border: solid black;
+            border-width: 0 3px 3px 0;
+            display: inline-block;
+            padding: 3px;
+        }
+
+        .right {
+            transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+        }
+
+        .left {
+            transform: rotate(135deg);
+            -webkit-transform: rotate(135deg);
+        }
+
+        .up {
+            transform: rotate(-135deg);
+            -webkit-transform: rotate(-135deg);
+        }
+
+        .down {
+            transform: rotate(45deg);
+            -webkit-transform: rotate(45deg);
+        }
+    </style>
+</head>
+
+<div class="separator" style="clear: both;"><a
+        href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSIUpTgQKKZTC7pXn4gkZm8DMyXZPJ_SwSKD-AfQSuQUISlqE4CT-o0Qh_Yw4Ji58UCru3RlWPrP8sf0kLviVc1qslaClNS2dwDfJ8vowR_5UWMtZCDYgfuHYR-n_kOsjO4CSUUuMR5sQNnUoctLuy9f5dGCE_DLmiOUVex6W2FhiZ9f7KNRIpmyLQpJxB/s820/cover2.jpeg"
+        style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="600"
+            data-original-height="459" data-original-width="820"
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSIUpTgQKKZTC7pXn4gkZm8DMyXZPJ_SwSKD-AfQSuQUISlqE4CT-o0Qh_Yw4Ji58UCru3RlWPrP8sf0kLviVc1qslaClNS2dwDfJ8vowR_5UWMtZCDYgfuHYR-n_kOsjO4CSUUuMR5sQNnUoctLuy9f5dGCE_DLmiOUVex6W2FhiZ9f7KNRIpmyLQpJxB/s600/cover2.jpeg" /></a>
+</div>
+
+<div id="customWhatsAppGroupLinkWrapper"></div>
+
+
+<h3>गैर-काल्पनिक</h3>
+<ol>
+    <li>तेज़ सोचें, स्मार्ट बोलें (मैट अब्राहम्स)
+        <ul>
+            <li>
+                <a href="https://survival8.blogspot.com/2025/02/blog-post.html" target="_blank">पूर्णता का पीछा छोड़ो: आत्मविश्वासी संवाद का विपरीत रहस्य (CH2)</a>
+            </li>
+        </ul>
+    </li>
+
+    <li>लक्ष्य (ब्रायन ट्रेसी)
+        <ul>
+            <li>
+                <a href="https://survival8.blogspot.com/2025/02/blog-post_20.html" target="_blank">लक्ष्य निर्धारण की शक्ति से अपनी क्षमता को अनलॉक करें (CH1)</a>
+            </li>
+        </ul>
+    </li>
+
+    <li>पुरुष मंगल से हैं, महिलाएँ शुक्र से हैं (जॉन ग्रे)
+        <ul>
+            <li>
+                <a href="https://survival8.blogspot.com/2025/02/blog-post_21.html" target="_blank">
+                    क्या आप अपने साथी की भाषा बोल रहे हैं? (CH2)
+                </a>
+            </li>
+        </ul>
+    </li>
+
+    <li>थिंकिंग, फास्ट एंड स्लो (डैनियल काहनमैन)
+        <ul>
+            <li>
+                <a href="https://survival8.blogspot.com/2025/02/blog-post_22.html" target="_blank">
+                    हमारी दिमागी गलतियाँ (CH1-2)
+                </a>
+            </li>
+        </ul>
+    </li>
+</ol>
