@@ -1,0 +1,169 @@
+<head>
+    <script crossorigin="anonymous" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <!-- Google AdSense Using Machine Learning Code -->
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-3071098372371409",
+            enable_page_level_ads: true
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $.ajax({
+                url: "https://raw.githubusercontent.com/ashishjain1547/bookSummariesAndReviews/main/links_to_book_clubs.json",
+                success: function (result) {
+                    let grouplink = JSON.parse(result)['current book club'];
+                    $("#customWhatsAppGroupLinkWrapper").html(
+                        `
+                        <h2 class="custom_link_h2"><a href="${grouplink}" target="_blank"> 
+                            <span>Join us on:</span>
+                            <span class="customLink"><i class="fa fa-whatsapp"></i> Whatsapp </span>
+                            </a>
+                        </h2>
+                        `
+                    );
+                }
+            });
+        });
+    </script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        pre {
+            white-space: pre-wrap;
+            white-space: -moz-pre-wrap;
+            white-space: -pre-wrap;
+            white-space: -o-pre-wrap;
+            word-wrap: break-word;
+        }
+
+        .customLink {
+            background-color: #4CAF50;
+            border: none;
+            color: white !important;
+            padding: 8px 13px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        .customLink:hover {
+            text-decoration: none;
+        }
+
+        div.code-block-decoration.footer {
+            display: none;
+        }
+
+        button.export-sheets-button-wrapper {
+            display: none;
+        }
+    </style>
+
+    <style>
+        .custom_link_h2 a {
+            color: black;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .custom_link_h2 a:hover {
+            color: black;
+        }
+
+        .custom_link_h2 a:active {
+            color: black;
+        }
+
+        .custom_link_h2 span {
+            translate: 0px -5px;
+            display: inline-block;
+        }
+
+        .custom_link_h2 img {
+            width: 100px;
+            padding: 0px;
+            border: none;
+            box-shadow: none;
+        }
+
+        .customul {
+            list-style: none;
+        }
+
+        [aria-hidden='true'] {
+            display: none;
+        }
+    </style>
+
+    <style>
+        pre {
+            white-space: pre-wrap;
+            white-space: -moz-pre-wrap;
+            white-space: -pre-wrap;
+            white-space: -o-pre-wrap;
+            word-wrap: break-word;
+        }
+
+        .dot {
+            height: 12px;
+            width: 12px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        .arrow {
+            border: solid black;
+            border-width: 0 3px 3px 0;
+            display: inline-block;
+            padding: 3px;
+        }
+
+        .right {
+            transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+        }
+
+        .left {
+            transform: rotate(135deg);
+            -webkit-transform: rotate(135deg);
+        }
+
+        .up {
+            transform: rotate(-135deg);
+            -webkit-transform: rotate(-135deg);
+        }
+
+        .down {
+            transform: rotate(45deg);
+            -webkit-transform: rotate(45deg);
+        }
+
+        .custom_iframe {
+            width: 100%;
+            height: 305px;
+        }
+    </style>
+</head>
+<div id="customWhatsAppGroupLinkWrapper"></div>
+<br>
+<a class="customLink" href="https://survival8.blogspot.com/2022/12/index-of-book-summaries.html" target="_blank">All Book Summaries</a>
+<br>
+<div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoV3VZta2zNV84jY0P1pwAD2r_QVNRZWzyPidJlYu8MxZuGQvvGFV7W3lPwldfXbmi4QzQYmv5GZXulU71rhegXtQ1Dkc5RV08Mab58TMngX55Ok3xnGM0IbcrXWDcQ3MIz-hYo22BeqsgAGjEwM34QsTvTwRodZKbfue1hrB3oKk3DhoZ3dn8TPVk9ebO/s225/images.png" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="600" data-original-height="225" data-original-width="225" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoV3VZta2zNV84jY0P1pwAD2r_QVNRZWzyPidJlYu8MxZuGQvvGFV7W3lPwldfXbmi4QzQYmv5GZXulU71rhegXtQ1Dkc5RV08Mab58TMngX55Ok3xnGM0IbcrXWDcQ3MIz-hYo22BeqsgAGjEwM34QsTvTwRodZKbfue1hrB3oKk3DhoZ3dn8TPVk9ebO/s600/images.png"/></a></div>
+
+<br>
+
+<iframe class="custom_iframe" src="https://www.youtube.com/embed/wLn28DrSF68" title="Building a Life - Howard H. Stevenson (2013)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<div class="ds-markdown ds-markdown--block" style="--ds-md-zoom: 1.143;"><p class="ds-markdown-paragraph"><strong>Howard Stevenson’s Unfiltered Guide to Success, Failure, and the Art of Living</strong></p><p class="ds-markdown-paragraph"><em>“I failed once at retirement, three times at dying, and 71 times at making the Forbes list. I’m used to failure. Let’s talk about building a life.”</em></p><p class="ds-markdown-paragraph">Howard Stevenson, legendary Harvard Business School professor, serial entrepreneur, and survivor of cardiac arrest (and life’s many curveballs), doesn’t sugarcoat success. In a recent talk, he dismantled clichés about achievement, legacy, and happiness, offering hard-won wisdom from a life spent juggling boardrooms, parenting, and near-death experiences. Here’s his no-BS playbook for redefining success—and why you’ll want to steal his “quiz” at the end.</p><hr><h3><strong>Success Isn’t a Trophy—It’s a Moving Target</strong></h3><p class="ds-markdown-paragraph">Stevenson opens with a brutal truth: <em>“No one is successful until they die.”</em> Society’s metrics—money, power, accolades—are fleeting. True success, he argues, is a four-dimensional puzzle:</p><ol start="1"><li><p class="ds-markdown-paragraph"><strong>Achievement</strong>: Crushing goals (but not at the cost of your soul).</p></li><li><p class="ds-markdown-paragraph"><strong>Significance</strong>: Impacting people who matter (without becoming a martyr).</p></li><li><p class="ds-markdown-paragraph"><strong>Happiness</strong>: Finding joy <em>now</em>, not in some distant “someday.”</p></li><li><p class="ds-markdown-paragraph"><strong>Legacy</strong>: Building something that outlives you (without micromanaging your great-grandkids).</p></li></ol><p class="ds-markdown-paragraph">The catch? These dimensions often clash. “You can’t maximize all four. Life’s a juggling act—drop one ball to keep others in the air.”</p><hr><h3><strong>The Four Myths That Derail Us</strong></h3><p class="ds-markdown-paragraph">Stevenson eviscerates common success advice:</p><ul><li><p class="ds-markdown-paragraph"><strong>“Follow your passion”</strong>: *“Tell that to the 50-year-old ‘actor’ still couch-surfing in LA.”*</p></li><li><p class="ds-markdown-paragraph"><strong>“Have it all”</strong>: <em>“You’re not Dr. Ruth in the bedroom and Elon Musk in the boardroom. Pick your battles.”</em></p></li><li><p class="ds-markdown-paragraph"><strong>“Balance”</strong>: <em>“Forget balance. Juggling isn’t about symmetry—it’s about not letting the glass balls shatter.”</em></p></li><li><p class="ds-markdown-paragraph"><strong>“Legacy planning”</strong>: *“Legacy isn’t a 1,000-year trust fund. It’s the ripples you create, not the splashes.”*</p></li></ul><hr><h3><strong>The “Enough” Mindset: Stevenson’s Secret Weapon</strong></h3><p class="ds-markdown-paragraph">The antidote to burnout? Define <em>enough</em>.</p><ul><li><p class="ds-markdown-paragraph"><strong>Money</strong>: <em>“My richest friend would pay $250K to get off the Forbes list. I track what I’ve given away—it keeps me sane.”</em></p></li><li><p class="ds-markdown-paragraph"><strong>Achievement</strong>: <em>“If you’re still chasing ‘more’ at 72, you’ve missed the point.”</em></p></li><li><p class="ds-markdown-paragraph"><strong>Time</strong>: <em>“Live forward. You can’t change the past, but you can stop obsessing over it.”</em></p></li></ul><hr><h3><strong>Howard’s Gift: The Quiz You Can’t Cheat On</strong></h3><p class="ds-markdown-paragraph">Stevenson ends with a gut-check—a quiz he’s used to mentor CEOs, parents, and himself. <strong>Keep this honest, or don’t bother</strong>:</p><ol start="1"><li><p class="ds-markdown-paragraph"><strong>Who are you?</strong><br><em>“Not your job title. What values would your obituary highlight?”</em></p></li><li><p class="ds-markdown-paragraph"><strong>What satisfactions are you missing?</strong><br><em>“Achievement addicts: When’s the last time you prioritized joy over a promotion?”</em></p></li><li><p class="ds-markdown-paragraph"><strong>Who’s on your “board of directors”?</strong><br><em>“Mentors are overrated. Build a personal board—one for finance, one for parenting, one for sanity.”</em></p></li><li><p class="ds-markdown-paragraph"><strong>Are you cheating at solitaire?</strong><br><em>“If you’re lying to yourself about your choices, the game’s already over.”</em></p></li><li><p class="ds-markdown-paragraph"><strong>What’s your “ripple” metric?</strong><br><em>“Forget the splash. What small act today will outlive you?”</em></p></li></ol><hr><h3><strong>Final Lesson: Live Forward</strong></h3><p class="ds-markdown-paragraph">Stevenson’s parting shot: <em>“Life’s risky. Control what you can—like taking your damn meds—and let go of the rest. And if you’re still comparing yourself to Bill Gates, get therapy.”</em></p><p class="ds-markdown-paragraph"><strong>Your move</strong>: Take the quiz. Then ask: <em>“Is the juice worth the squeeze?”</em></p><hr><p class="ds-markdown-paragraph"><em>Howard Stevenson’s book,</em> Howard’s Gift (<em>written after surviving cardiac arrest</em>), <em>is a masterclass in unflinching self-assessment. Available wherever brutally honest advice is sold.</em></p></div>
+
+<span style="display: none;">Tags: Book Summary,</span>
