@@ -1,0 +1,274 @@
+<head>
+    <script crossorigin="anonymous" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <!-- Google AdSense Using Machine Learning Code -->
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-3071098372371409",
+            enable_page_level_ads: true
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $.ajax({
+                url: "https://raw.githubusercontent.com/ashishjain1547/bookSummariesAndReviews/main/links_to_book_clubs.json",
+                success: function (result) {
+                    let grouplink = JSON.parse(result)['current book club'];
+                    $("#customWhatsAppGroupLinkWrapper").html(
+                        `
+                        <h2 class="custom_link_h2"><a href="${grouplink}" target="_blank"> 
+                            <span>Join us on:</span>
+                            <span class="customLink"><i class="fa fa-whatsapp"></i> Whatsapp </span>
+                            </a>
+                        </h2>
+                        `
+                    );
+                }
+            });
+        });
+    </script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        pre {
+            white-space: pre-wrap;
+            white-space: -moz-pre-wrap;
+            white-space: -pre-wrap;
+            white-space: -o-pre-wrap;
+            word-wrap: break-word;
+        }
+
+        .customLink {
+            background-color: #4CAF50;
+            border: none;
+            color: white !important;
+            padding: 8px 13px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        .customLink:hover {
+            text-decoration: none;
+        }
+
+        div.code-block-decoration.footer {
+            display: none;
+        }
+
+        button.export-sheets-button-wrapper {
+            display: none;
+        }
+    </style>
+
+    <style>
+        .custom_link_h2 a {
+            color: black;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .custom_link_h2 a:hover {
+            color: black;
+        }
+
+        .custom_link_h2 a:active {
+            color: black;
+        }
+
+        .custom_link_h2 span {
+            translate: 0px -5px;
+            display: inline-block;
+        }
+
+        .custom_link_h2 img {
+            width: 100px;
+            padding: 0px;
+            border: none;
+            box-shadow: none;
+        }
+
+        .customul {
+            list-style: none;
+        }
+
+        [aria-hidden='true'] {
+            display: none;
+        }
+    </style>
+
+    <style>
+        pre {
+            white-space: pre-wrap;
+            white-space: -moz-pre-wrap;
+            white-space: -pre-wrap;
+            white-space: -o-pre-wrap;
+            word-wrap: break-word;
+        }
+
+        .dot {
+            height: 12px;
+            width: 12px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        .arrow {
+            border: solid black;
+            border-width: 0 3px 3px 0;
+            display: inline-block;
+            padding: 3px;
+        }
+
+        .right {
+            transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+        }
+
+        .left {
+            transform: rotate(135deg);
+            -webkit-transform: rotate(135deg);
+        }
+
+        .up {
+            transform: rotate(-135deg);
+            -webkit-transform: rotate(-135deg);
+        }
+
+        .down {
+            transform: rotate(45deg);
+            -webkit-transform: rotate(45deg);
+        }
+
+        .custom_iframe {
+            width: 100%;
+            height: 305px;
+        }
+    </style>
+
+    <style>
+        button.ms-1 {
+            display: none;
+        }
+    </style>
+</head>
+
+<div id="customWhatsAppGroupLinkWrapper"></div>
+<br>
+<div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtrjAKXChIuGnb2OLmOYtWtJspdItodmS6xlieeVjbvkXnu0aWaVt16MdKl9T5Gxp9Rvh_7XP9sWsHWzSM0j6VzhZUll84tw0qwkszUTeX6YRw44ShDAZJmDsQtRzLa8P7f4aXmABrCeZ-nKs1natuoLH1_rb6-GTweNoMh52YI-3qXgmtU6FC7eLU6wMy/s680/The-Coming-Wave%20Cover.jpg" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="600" data-original-height="641" data-original-width="680" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtrjAKXChIuGnb2OLmOYtWtJspdItodmS6xlieeVjbvkXnu0aWaVt16MdKl9T5Gxp9Rvh_7XP9sWsHWzSM0j6VzhZUll84tw0qwkszUTeX6YRw44ShDAZJmDsQtRzLa8P7f4aXmABrCeZ-nKs1natuoLH1_rb6-GTweNoMh52YI-3qXgmtU6FC7eLU6wMy/s600/The-Coming-Wave%20Cover.jpg"/></a></div>
+<br>
+
+<pre>
+PROLOGUE
+This is how an AI sees it.
+
+QUESTION: What does the coming wave of technology mean for humanity? 
+
+In the annals of human history, there are moments that stand out as turning points, where the fate of humanity hangs in the balance. The discovery of fire, the invention of the wheel, the harnessing of electricity—all of these were moments that transformed human civilization, altering the course of history forever.
+
+And now we stand at the brink of another such moment as we face the rise of a coming wave of technology that includes both advanced AI and biotechnology. Never before have we witnessed technologies with such transformative potential, promising to reshape our world in ways that are both awe-inspiring and daunting.
+
+On the one hand, the potential benefits of these technologies are vast and profound. With AI, we could unlock the secrets of the universe, cure diseases that have long eluded us, and create new forms of art and culture that stretch the bounds of imagination. With biotechnology, we could engineer life to tackle diseases and transform agriculture, creating a world that is healthier and more sustainable.
+
+But on the other hand, the potential dangers of these technologies are equally vast and profound. With AI, we could create systems that are beyond our control and find ourselves at the mercy of algorithms that we don’t understand. With biotechnology, we could manipulate the very building blocks of life, potentially creating unintended consequences for both individuals and entire ecosystems.As we stand at this turning point, we are faced with a choice—a choice between a future of unparalleled possibility and a future of unimaginable peril. The fate of humanity hangs in the balance, and the decisions we make in the coming years and decades will determine whether we rise to the challenge of these technologies or fall victim to their dangers.
+
+But in this moment of uncertainty, one thing is certain: the age of advanced technology is upon us, and we must be ready to face its challenges head-on.
+
+~~~
+
+THE ABOVE WAS WRITTEN by an AI. The rest is not, although it soon could be. This is what’s coming.
+</pre>
+
+<ol>
+    <li>
+        <a href="https://survival8.blogspot.com/2026/02/the-wave-we-cant-stop-ch1.html" target="_blank">
+            The Wave We Can’t Stop (Ch1)
+        </a>
+    </li>
+
+    <li>
+        <a href="https://survival8.blogspot.com/2026/02/the-default-setting-of-technology-is-to.html" target="_blank">
+            The Default Setting of Technology Is To Spread (Ch2)
+        </a>
+    </li>
+
+    <li>
+        <a href="https://survival8.blogspot.com/2026/02/the-real-problem-isnt-invention-its.html" target="_blank">
+            The Real Problem Isn’t Invention. It’s Containment (Ch3)
+        </a>
+    </li>
+
+    <li>
+        <a href="https://survival8.blogspot.com/2026/02/when-machine-starts-thinking-back-ch4.html" target="_blank">
+            When the Machine Starts Thinking Back (Ch4)
+        </a>
+    </li>
+
+    <li>
+        <a href="https://survival8.blogspot.com/2026/02/when-life-becomes-design-problem-ch5.html" target="_blank">
+            When Life Becomes a Design Problem (Ch5)
+        </a>
+    </li>
+
+    <li>
+        <a href="https://survival8.blogspot.com/2026/02/when-wave-becomes-superwave-ch6.html" target="_blank">
+            When the Wave Becomes a Superwave (Ch6)
+        </a>
+    </li>
+
+    <li>
+        <a href="https://survival8.blogspot.com/2026/02/the-four-forces-making-this-wave.html" target="_blank">
+            The Four Forces Making This Wave Different (Ch7)
+        </a>
+    </li>
+
+    <li>
+        <a href="https://survival8.blogspot.com/2026/02/why-we-wont-say-no-ch8.html" target="_blank">
+            Why We Won't Say No (Ch8)
+        </a>
+    </li>
+
+    <li>
+        <a href="https://survival8.blogspot.com/2026/02/the-grand-bargain-ch9.html" target="_blank">
+            The Grand Bargain (Ch9)
+        </a>
+    </li>
+
+    <li>
+        <a href="https://survival8.blogspot.com/2026/02/fragility-amplifiers-ch10.html" target="_blank">
+            Fragility Amplifiers (Ch10)
+        </a>
+    </li>
+
+    <li>
+        <a href="https://survival8.blogspot.com/2026/02/the-future-of-nations-ch11.html" target="_blank">
+            The Future of Nations (Ch11)
+        </a>
+    </li>
+
+    <li>
+        <a href="https://survival8.blogspot.com/2026/02/the-dilemma-ch12.html" target="_blank">
+            The Dilemma (Ch12)
+        </a>
+    </li>
+
+    <li>
+        <a href="https://survival8.blogspot.com/2026/02/containment-must-be-possible-ch13.html" target="_blank">
+            Containment Must Be Possible (Ch13)
+        </a>
+    </li>
+
+    <li>
+        <a href="https://survival8.blogspot.com/2026/02/ten-steps-towards-containment-ch14.html" target="_blank">
+            Ten Steps Towards Containment (Ch14)
+        </a>
+    </li>
+</ol>
