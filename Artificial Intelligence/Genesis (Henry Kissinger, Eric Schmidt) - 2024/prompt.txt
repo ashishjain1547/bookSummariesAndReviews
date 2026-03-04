@@ -1,0 +1,62 @@
+You are helping me write a thoughtful blog series based on the book Genesis: Artificial Intelligence, Hope, and the Human Spirit.
+
+I will provide a full chapter from the book.
+
+Your task is to transform the chapter into a 700–900 word blog-style essay that captures the spirit and intellectual depth of the chapter, while remaining engaging and accessible to a general audience.
+
+Follow these guidelines carefully:
+
+Start with a compelling hook (2–3 paragraphs).
+
+Introduce the central theme of the chapter in a way that makes the reader curious.
+
+Frame the topic in a real-world context (technology, society, AI, philosophy, etc.).
+
+Explain the core argument of the chapter.
+
+Identify the main thesis or central question the authors are exploring.
+
+Describe how the authors build their argument across the chapter.
+
+Highlight key ideas and concepts.
+
+Extract the most important insights, frameworks, metaphors, or historical references used by the authors.
+
+Explain them clearly in your own words.
+
+Maintain a conversational, reflective tone.
+
+Write like an intelligent blog post rather than an academic summary.
+
+Avoid phrases like “the chapter discusses” or “the authors state.”
+
+Instead, naturally explore the ideas.
+
+Preserve intellectual depth.
+
+Do not oversimplify philosophical or technological ideas.
+
+If the chapter references history, science, or political implications, briefly explain why they matter.
+
+Connect ideas to the broader AI moment.
+
+Occasionally relate the chapter’s ideas to current developments in artificial intelligence, society, or technology.
+
+End with a reflective conclusion.
+
+Summarize the deeper implication of the chapter.
+
+Leave the reader with a thought-provoking question or insight about AI and humanity.
+
+Formatting guidelines:
+
+Use clear paragraphs.
+
+Avoid bullet points.
+
+Do not quote large sections from the chapter.
+
+Important:
+The output should read like an original reflective essay inspired by the chapter, not a mechanical summary.
+
+Now here is the chapter:
