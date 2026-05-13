@@ -1,0 +1,809 @@
+<head>
+    <script crossorigin="anonymous" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <!-- Google AdSense Using Machine Learning Code -->
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-3071098372371409",
+            enable_page_level_ads: true
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $.ajax({
+                url: "https://raw.githubusercontent.com/ashishjain1547/bookSummariesAndReviews/main/links_to_book_clubs.json",
+                success: function (result) {
+                    let grouplink = JSON.parse(result)['current book club'];
+                    $("#customWhatsAppGroupLinkWrapper").html(
+                        `
+                        <h2 class="custom_link_h2"><a href="${grouplink}" target="_blank"> 
+                            <span>Join us on:</span>
+                            <span class="customLink"><i class="fa fa-whatsapp"></i> Whatsapp </span>
+                            </a>
+                        </h2>
+                        `
+                    );
+                }
+            });
+        });
+    </script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        pre {
+            white-space: pre-wrap;
+            white-space: -moz-pre-wrap;
+            white-space: -pre-wrap;
+            white-space: -o-pre-wrap;
+            word-wrap: break-word;
+        }
+
+        .customLink {
+            background-color: #4CAF50;
+            border: none;
+            color: white !important;
+            padding: 8px 13px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        .customLink:hover {
+            text-decoration: none;
+        }
+
+        div.code-block-decoration.footer {
+            display: none;
+        }
+
+        button.export-sheets-button-wrapper {
+            display: none;
+        }
+    </style>
+
+    <style>
+        .custom_link_h2 a {
+            color: black;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .custom_link_h2 a:hover {
+            color: black;
+        }
+
+        .custom_link_h2 a:active {
+            color: black;
+        }
+
+        .custom_link_h2 span {
+            translate: 0px -5px;
+            display: inline-block;
+        }
+
+        .custom_link_h2 img {
+            width: 100px;
+            padding: 0px;
+            border: none;
+            box-shadow: none;
+        }
+
+        .customul {
+            list-style: none;
+        }
+
+        [aria-hidden='true'] {
+            display: none;
+        }
+    </style>
+
+    <style>
+        pre {
+            white-space: pre-wrap;
+            white-space: -moz-pre-wrap;
+            white-space: -pre-wrap;
+            white-space: -o-pre-wrap;
+            word-wrap: break-word;
+        }
+
+        .dot {
+            height: 12px;
+            width: 12px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        .arrow {
+            border: solid black;
+            border-width: 0 3px 3px 0;
+            display: inline-block;
+            padding: 3px;
+        }
+
+        .right {
+            transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+        }
+
+        .left {
+            transform: rotate(135deg);
+            -webkit-transform: rotate(135deg);
+        }
+
+        .up {
+            transform: rotate(-135deg);
+            -webkit-transform: rotate(-135deg);
+        }
+
+        .down {
+            transform: rotate(45deg);
+            -webkit-transform: rotate(45deg);
+        }
+
+        .custom_iframe {
+            width: 100%;
+            height: 305px;
+        }
+    </style>
+</head>
+<div id="customWhatsAppGroupLinkWrapper"></div>
+<br>
+
+<a href="https://survival8.blogspot.com/2022/12/index-of-book-summaries.html#customInvestmentBooksHeader" target="_blank" class="customLink">
+  See Other Book Summaries on Investment</a> 
+&nbsp;&nbsp;
+<a href="https://github.com/ashishjain1547/public_financial_iq_books/blob/main/9_Retire%20Rich%2C%20Invest%20Rs40%20a%20day%20-%20PV%20Subramanyam%20-%202010/Retire%20Rich%3B%20Invest%20Rs40%20a%20day%20--%20P%20V%20Subramanyam%20--%202010.pdf" target="_blank" class="customLink">
+  Download Book
+</a> 
+&nbsp;&nbsp;
+<a href="https://github.com/ashishjain1547/public_financial_iq_books/blob/main/9_Retire%20Rich%2C%20Invest%20Rs40%20a%20day%20-%20PV%20Subramanyam%20-%202010/chapters/ch1.pdf" target="_blank" class="customLink">
+  Download Chapter
+</a> 
+&nbsp;&nbsp;
+<a href="https://survival8.blogspot.com/2026/05/index-of-retire-rich-invest-40-inr-day.html" target="_blank" class="customLink">Book Index</a> 
+&nbsp;&nbsp;
+<a href="https://survival8.blogspot.com/2026/05/index-of-retire-rich-invest-40-inr-day.html" target="_blank" class="customLink">&laquo; Previously</a> 
+&nbsp;&nbsp;
+<!-- <a href="" target="_blank" class="customLink">Next &raquo;</a> 
+&nbsp;&nbsp; -->
+<br>
+<div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiamHAQwkjElA_Vt8E3gU01HfXUG-jbZy38I1bEgEDfYYI2AlToVV3jRCARUDE6h5hqahGXpSOWM9ZUxOtR9dp-UjwRyKoMmkwDxRcLrReC6fR2IeRJmmn4mEZaRlQ-kLNFSbCNEWisc8q_79MLWTTYuYMjIHIf0b-O3e3OiDT5LYAhytiGicc3BrdJ-cLG/s600/ChatGPT%20Image%20May%2013,%202026,%2009_42_43%20PM.png" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="600" data-original-height="338" data-original-width="600" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiamHAQwkjElA_Vt8E3gU01HfXUG-jbZy38I1bEgEDfYYI2AlToVV3jRCARUDE6h5hqahGXpSOWM9ZUxOtR9dp-UjwRyKoMmkwDxRcLrReC6fR2IeRJmmn4mEZaRlQ-kLNFSbCNEWisc8q_79MLWTTYuYMjIHIf0b-O3e3OiDT5LYAhytiGicc3BrdJ-cLG/s600/ChatGPT%20Image%20May%2013,%202026,%2009_42_43%20PM.png"/></a></div>
+
+<br>
+<div class="customOuterWrapper2114">
+
+  <!-- Header -->
+  <div class="cow-header">
+    <div class="cow-book-meta">
+      <span class="cow-label">Book Report</span>
+      <span class="cow-divider">*</span>
+      <span class="cow-label">Chapter 1</span>
+    </div>
+    <h1 class="cow-title">Is Retirement an Age<br/><em>or an Amount of Money?</em></h1>
+    <div class="cow-subtitle-block">
+      <p class="cow-source">From <strong>Retire Rich: Invest Rs. 40 a Day</strong> &mdash; P.V. Subramanyam (2010)</p>
+    </div>
+    <div class="cow-ornament">&#9670; &#9670; &#9670;</div>
+  </div>
+
+  <!-- Section 1 -->
+  <div class="cow-section">
+    <div class="cow-section-label">Section 01</div>
+    <h2 class="cow-section-title">What Does "Retirement" Even Mean?</h2>
+    <div class="cow-body">
+      <p>The author opens with a thought-provoking observation: retirement is far easier to <em>describe</em> than to <em>define</em>. Most of us picture retirement as an age — a fixed number on a calendar — but the author argues it is better understood as a state of mind: the point at which you no longer <em>have to</em> work for money.</p>
+      <p>Retirement age, it turns out, is deeply tied to profession. The author illustrates this with a memorable sweep across careers:</p>
+
+      <table class="cow-table">
+        <thead>
+          <tr>
+            <th>Profession</th>
+            <th>Typical Retirement Age</th>
+            <th>Reason</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Gymnast</td><td>~20</td><td>Physical peak is brief</td></tr>
+          <tr><td>Cricketer</td><td>~34</td><td>Athletic stamina wanes</td></tr>
+          <tr><td>Actress</td><td>~32</td><td>Industry norms</td></tr>
+          <tr><td>Actor</td><td>~75</td><td>Character roles extend careers</td></tr>
+          <tr><td>Salesperson</td><td>~50</td><td>Energy-intensive role</td></tr>
+          <tr><td>Salaried employee</td><td>58–60</td><td>Government/company mandates</td></tr>
+          <tr><td>Doctor / Lawyer</td><td>Until body fails</td><td>Expertise-driven, not physical</td></tr>
+          <tr class="cow-table-highlight"><td>Politician</td><td>~90 (or never!)</td><td>The author's wry joke</td></tr>
+        </tbody>
+      </table>
+
+      <p>The key insight here is not the humour — it is the underlying truth: retirement is not a universal age. It is a personal threshold shaped by your body, your profession, your finances, and your choices.</p>
+    </div>
+  </div>
+
+  <!-- Section 2 -->
+  <div class="cow-section">
+    <div class="cow-section-label">Section 02</div>
+    <h2 class="cow-section-title">Will We Ever Retire? The Psychology of Stopping Work</h2>
+    <div class="cow-body">
+      <p>The author makes an honest observation that many people <em>say</em> they want to retire but do almost nothing to prepare for it. There is a telling irony: the same people who daydream about retirement refuse to even take a proper vacation.</p>
+
+      <div class="cow-callout">
+        <span class="cow-callout-icon">&#10077;</span>
+        <p>People who wish they were retired rarely prepare for retirement — and often don't even take a vacation, which is merely a temporary form of it.</p>
+      </div>
+
+      <p>The author also introduces the idea of <strong>semi-retirement</strong> — slowing down rather than stopping entirely. He uses a vivid analogy:</p>
+      <ul class="cow-list">
+        <li>Sachin Tendulkar stepping back from T20, then ODIs, to preserve his body for Test cricket — extending his productive career by managing intensity.</li>
+        <li>A Sales Head, instead of burning out at 55, transitioning to training and mentoring at 52 — thereby remaining active and useful until 65 or beyond.</li>
+      </ul>
+      <p>The benefit of semi-retirement is mutual: the individual extends their productive life; the organisation retains hard-won experience. The positions become non-competitive — no one is trying to climb over the semi-retired person — which makes the arrangement sustainable for both sides.</p>
+    </div>
+  </div>
+
+  <!-- Section 3 -->
+  <div class="cow-section">
+    <div class="cow-section-label">Section 03</div>
+    <h2 class="cow-section-title">When Can We Retire? The Math Behind the Dream</h2>
+    <div class="cow-body">
+      <p>This is the chapter's most sobering section. The author walks through a realistic life-stage calculation to show just how long retirement can actually last — and why this makes financial planning so critical.</p>
+
+      <div class="cow-life-stages">
+        <div class="cow-stage">
+          <div class="cow-stage-num">24 yrs</div>
+          <div class="cow-stage-label">Student</div>
+          <div class="cow-stage-desc">Dependent on parents; no income of your own</div>
+        </div>
+        <div class="cow-stage-arrow">&#8594;</div>
+        <div class="cow-stage">
+          <div class="cow-stage-num">31 yrs</div>
+          <div class="cow-stage-label">Working Life</div>
+          <div class="cow-stage-desc">Age 24 to 55; you earn and support yourself</div>
+        </div>
+        <div class="cow-stage-arrow">&#8594;</div>
+        <div class="cow-stage cow-stage-accent">
+          <div class="cow-stage-num">32 yrs</div>
+          <div class="cow-stage-label">Retirement</div>
+          <div class="cow-stage-desc">Age 55 to 87; you must create your own pay cheque</div>
+        </div>
+      </div>
+
+      <p>The striking reality: if you retire at 55 and live to 87, <strong>your retirement is longer than your working life</strong>. And if you live to 95 (as some of the author's acquaintances have), the gap becomes even more dramatic. All the money earned across 31 working years must cover education costs, a lifetime of expenses, and 32+ years of post-retirement living.</p>
+
+      <div class="cow-callout cow-callout-warning">
+        <span class="cow-callout-icon">&#9888;</span>
+        <p>The author's central lesson: "When can you retire?" has a simple answer — when you have enough money to do so. That could be at 35, 40, 55, or 85. It depends entirely on how well you have managed your money.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section 4 -->
+  <div class="cow-section">
+    <div class="cow-section-label">Section 04</div>
+    <h2 class="cow-section-title">How to Retire Successfully: A Practical Framework</h2>
+
+    <h3 class="cow-sub-heading">Step 1 — Estimate Your Expenses</h3>
+    <div class="cow-body">
+      <p>Begin by calculating your current annual household expenses in today's rupees. Then adjust for what will change at retirement:</p>
+      <ul class="cow-list">
+        <li>Mortgage or rent payments may end</li>
+        <li>You might go from two cars to one</li>
+        <li>Commuting costs will fall, but leisure spending (travel, golf, hobbies) may rise</li>
+      </ul>
+      <p>The author notes that these assumptions are deeply personal — only you can estimate them correctly. And the surprise is often a pleasant one: many people find they can live comfortably on <strong>less than 70% of their current income</strong> in retirement.</p>
+    </div>
+
+    <h3 class="cow-sub-heading">Step 2 — Add Up Your Investments</h3>
+    <div class="cow-body">
+      <p>Once you know your retirement budget, assess what you have already saved and invested. The author encourages checking this number at least once a year — many people are unaware of their actual net worth and are pleasantly surprised. A planned downsizing (moving to a smaller home or cheaper city) can also generate a meaningful lump sum.</p>
+    </div>
+
+    <h3 class="cow-sub-heading">The Four Unknowns That Remain</h3>
+    <div class="cow-body">
+      <p>Even after those two steps, the author is honest: four major variables cannot be precisely predicted, only estimated conservatively:</p>
+
+      <table class="cow-table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Variable</th>
+            <th>Why It Matters</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td>How long you (and your spouse) live</td><td>A longer life means a longer withdrawal period</td></tr>
+          <tr><td>2</td><td>How your investment portfolio performs</td><td>Equity markets can fall 62% in a bad year</td></tr>
+          <tr><td>3</td><td>Inflation</td><td>India has seen inflation in mid-teens; erodes purchasing power</td></tr>
+          <tr><td>4</td><td>Expense management in retirement</td><td>Drawing too freely from your corpus depletes it early</td></tr>
+        </tbody>
+      </table>
+
+      <p>The author's advice: estimate conservatively, but do not become so obsessed with saving that you fail to live a fulfilling life today. Balance is everything.</p>
+    </div>
+  </div>
+
+  <!-- Section 5 -->
+  <div class="cow-section">
+    <div class="cow-section-label">Section 05</div>
+    <h2 class="cow-section-title">Investment Strategy: Accumulation vs. Withdrawal</h2>
+    <div class="cow-body">
+      <p>The author frames retirement finance around two distinct phases that require very different approaches:</p>
+      <ul class="cow-list">
+        <li><strong>Accumulation Stage</strong> (while working): Build the corpus aggressively. If you start young, invest heavily in equities. Start rebalancing toward safer instruments around age 50.</li>
+        <li><strong>Withdrawal Stage</strong> (during retirement): Your money must outlive you. Keep a significant portion in growth mode even in retirement — simply shifting everything to fixed deposits is a slow way to run out of money.</li>
+      </ul>
+
+      <div class="cow-callout">
+        <span class="cow-callout-icon">&#9670;</span>
+        <p>The author assumes a 4% <em>real return</em> (10% portfolio yield minus 6% inflation) as a reasonable benchmark. For those with 15+ years left, targeting 6–7% real returns via equity-heavy portfolios is achievable — but requires meaningful equity allocation, not just token amounts.</p>
+      </div>
+
+      <p>For those within 10 years of retirement, conservative planning becomes essential — there is simply not enough time to recover from a major market correction.</p>
+    </div>
+  </div>
+
+  <!-- Key Takeaways -->
+  <div class="cow-section cow-section-final">
+    <div class="cow-section-label">Summary</div>
+    <h2 class="cow-section-title">Key Takeaways from Chapter 1</h2>
+    <div class="cow-takeaways">
+      <div class="cow-takeaway">
+        <div class="cow-takeaway-num">01</div>
+        <p>Retirement is not an age — it is the point at which your money can sustain your lifestyle without requiring you to work.</p>
+      </div>
+      <div class="cow-takeaway">
+        <div class="cow-takeaway-num">02</div>
+        <p>Retirement can last longer than your working life. Plan for a 30+ year withdrawal period, not just a few years.</p>
+      </div>
+      <div class="cow-takeaway">
+        <div class="cow-takeaway-num">03</div>
+        <p>Semi-retirement is a practical and often underutilised option — slowing down while staying productive extends both your career and your savings runway.</p>
+      </div>
+      <div class="cow-takeaway">
+        <div class="cow-takeaway-num">04</div>
+        <p>Start investing early, invest in equity when young, and rebalance as you approach retirement. Your money must grow — not just sit.</p>
+      </div>
+      <div class="cow-takeaway">
+        <div class="cow-takeaway-num">05</div>
+        <p>Estimate expenses, measure your corpus, plan conservatively — but do not sacrifice life today for a theoretically perfect tomorrow.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="cow-footer">
+    <p>Report based on Chapter 1 of <em>Retire Rich: Invest Rs. 40 a Day</em> by P.V. Subramanyam &copy; 2010</p>
+  </div>
+
+</div>
+
+<style>
+div.customOuterWrapper2114 {
+  font-family: 'Lora', Georgia, serif;
+  background-color: #0d1b2a;
+  color: #e8dfc8;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0;
+  line-height: 1.75;
+}
+
+div.customOuterWrapper2114 * {
+  box-sizing: border-box;
+}
+
+/* ── HEADER ── */
+div.customOuterWrapper2114 .cow-header {
+  background: linear-gradient(160deg, #0d1b2a 0%, #122540 60%, #0d1b2a 100%);
+  border-bottom: 3px solid #b8902a;
+  padding: 60px 48px 48px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+div.customOuterWrapper2114 .cow-header::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 60% 40% at 20% 80%, rgba(184,144,42,0.07) 0%, transparent 70%),
+    radial-gradient(ellipse 50% 50% at 80% 20%, rgba(184,144,42,0.05) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+div.customOuterWrapper2114 .cow-book-meta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+div.customOuterWrapper2114 .cow-label {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #b8902a;
+}
+
+div.customOuterWrapper2114 .cow-divider {
+  color: #b8902a;
+  opacity: 0.5;
+}
+
+div.customOuterWrapper2114 .cow-title {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 42px;
+  font-weight: 900;
+  color: #f5ecd5;
+  line-height: 1.2;
+  margin: 0 0 20px;
+  letter-spacing: -0.01em;
+}
+
+div.customOuterWrapper2114 .cow-title em {
+  font-style: italic;
+  color: #d4a83a;
+}
+
+div.customOuterWrapper2114 .cow-subtitle-block {
+  margin-bottom: 20px;
+}
+
+div.customOuterWrapper2114 .cow-source {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 14px;
+  color: #a09880;
+  margin: 0;
+}
+
+div.customOuterWrapper2114 .cow-source strong {
+  color: #c8b880;
+}
+
+div.customOuterWrapper2114 .cow-ornament {
+  color: #b8902a;
+  font-size: 10px;
+  letter-spacing: 0.5em;
+  opacity: 0.7;
+  margin-top: 8px;
+}
+
+/* ── SECTIONS ── */
+div.customOuterWrapper2114 .cow-section {
+  padding: 48px 48px 0;
+  border-bottom: 1px solid rgba(184,144,42,0.15);
+  padding-bottom: 40px;
+}
+
+div.customOuterWrapper2114 .cow-section-final {
+  border-bottom: none;
+}
+
+div.customOuterWrapper2114 .cow-section-label {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: #b8902a;
+  margin-bottom: 8px;
+}
+
+div.customOuterWrapper2114 .cow-section-title {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 26px;
+  font-weight: 700;
+  color: #f0e6cc;
+  margin: 0 0 24px;
+  line-height: 1.3;
+  border-left: 3px solid #b8902a;
+  padding-left: 16px;
+}
+
+div.customOuterWrapper2114 .cow-sub-heading {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: italic;
+  color: #d4b870;
+  margin: 28px 0 12px;
+}
+
+div.customOuterWrapper2114 .cow-body p {
+  font-size: 15px;
+  color: #d4c9b0;
+  margin: 0 0 16px;
+}
+
+div.customOuterWrapper2114 .cow-body p strong {
+  color: #e8d898;
+  font-weight: 600;
+}
+
+div.customOuterWrapper2114 .cow-body p em {
+  color: #c8b880;
+  font-style: italic;
+}
+
+/* ── TABLE ── */
+div.customOuterWrapper2114 .cow-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 24px 0 28px;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 14px;
+}
+
+div.customOuterWrapper2114 .cow-table thead tr {
+  background-color: #1a2e44;
+  border-bottom: 2px solid #b8902a;
+}
+
+div.customOuterWrapper2114 .cow-table thead th {
+  text-align: left;
+  padding: 12px 14px;
+  color: #b8902a;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+div.customOuterWrapper2114 .cow-table tbody tr {
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+div.customOuterWrapper2114 .cow-table tbody tr:hover {
+  background-color: rgba(184,144,42,0.06);
+}
+
+div.customOuterWrapper2114 .cow-table tbody td {
+  padding: 11px 14px;
+  color: #c8bfa8;
+  vertical-align: top;
+}
+
+div.customOuterWrapper2114 .cow-table tbody td:first-child {
+  color: #e0d4b4;
+  font-weight: 600;
+}
+
+div.customOuterWrapper2114 .cow-table-highlight td {
+  background-color: rgba(184,144,42,0.1) !important;
+  color: #d4b870 !important;
+  font-style: italic;
+}
+
+/* ── LIST ── */
+div.customOuterWrapper2114 .cow-list {
+  margin: 0 0 16px 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+div.customOuterWrapper2114 .cow-list li {
+  font-size: 15px;
+  color: #c8bfa8;
+  padding: 6px 0 6px 24px;
+  position: relative;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+}
+
+div.customOuterWrapper2114 .cow-list li::before {
+  content: '>';
+  position: absolute;
+  left: 0;
+  color: #b8902a;
+  font-size: 12px;
+  top: 8px;
+}
+
+div.customOuterWrapper2114 .cow-list li strong {
+  color: #e0d0a0;
+}
+
+/* ── CALLOUT ── */
+div.customOuterWrapper2114 .cow-callout {
+  background: linear-gradient(135deg, rgba(184,144,42,0.1), rgba(184,144,42,0.04));
+  border-left: 4px solid #b8902a;
+  border-radius: 0 6px 6px 0;
+  padding: 18px 20px 18px 50px;
+  margin: 24px 0;
+  position: relative;
+}
+
+div.customOuterWrapper2114 .cow-callout-warning {
+  background: linear-gradient(135deg, rgba(200,80,60,0.1), rgba(200,80,60,0.03));
+  border-left-color: #c85040;
+}
+
+div.customOuterWrapper2114 .cow-callout-icon {
+  position: absolute;
+  left: 16px;
+  top: 18px;
+  font-size: 20px;
+  color: #b8902a;
+  line-height: 1;
+}
+
+div.customOuterWrapper2114 .cow-callout-warning .cow-callout-icon {
+  color: #c85040;
+}
+
+div.customOuterWrapper2114 .cow-callout p {
+  font-size: 15px;
+  color: #ddd4b4;
+  margin: 0;
+  font-style: italic;
+}
+
+/* ── LIFE STAGES ── */
+div.customOuterWrapper2114 .cow-life-stages {
+  display: flex;
+  align-items: stretch;
+  gap: 0;
+  margin: 28px 0;
+  flex-wrap: wrap;
+}
+
+div.customOuterWrapper2114 .cow-stage {
+  flex: 1;
+  min-width: 140px;
+  background-color: #122540;
+  border: 1px solid rgba(184,144,42,0.2);
+  padding: 20px 16px;
+  text-align: center;
+}
+
+div.customOuterWrapper2114 .cow-stage-accent {
+  background: linear-gradient(160deg, #1c3050, #142240);
+  border-color: #b8902a;
+}
+
+div.customOuterWrapper2114 .cow-stage-num {
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  font-weight: 900;
+  color: #d4a83a;
+  line-height: 1;
+  margin-bottom: 6px;
+}
+
+div.customOuterWrapper2114 .cow-stage-label {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #b8a888;
+  margin-bottom: 8px;
+}
+
+div.customOuterWrapper2114 .cow-stage-desc {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 12px;
+  color: #8090a8;
+  line-height: 1.4;
+}
+
+div.customOuterWrapper2114 .cow-stage-arrow {
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+  color: #b8902a;
+  font-size: 20px;
+  opacity: 0.5;
+}
+
+/* ── TAKEAWAYS ── */
+div.customOuterWrapper2114 .cow-takeaways {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin-top: 24px;
+}
+
+div.customOuterWrapper2114 .cow-takeaway {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(184,144,42,0.12);
+}
+
+div.customOuterWrapper2114 .cow-takeaway:last-child {
+  border-bottom: none;
+}
+
+div.customOuterWrapper2114 .cow-takeaway-num {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  font-weight: 900;
+  color: rgba(184,144,42,0.3);
+  line-height: 1;
+  min-width: 48px;
+  padding-top: 2px;
+}
+
+div.customOuterWrapper2114 .cow-takeaway p {
+  font-size: 15px;
+  color: #c8bfa8;
+  margin: 0;
+  line-height: 1.65;
+}
+
+/* ── FOOTER ── */
+div.customOuterWrapper2114 .cow-footer {
+  background-color: #0a1520;
+  border-top: 2px solid #b8902a;
+  padding: 24px 48px;
+  text-align: center;
+}
+
+div.customOuterWrapper2114 .cow-footer p {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 12px;
+  color: #607080;
+  margin: 0;
+  letter-spacing: 0.03em;
+}
+
+div.customOuterWrapper2114 .cow-footer em {
+  color: #8090a0;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 640px) {
+  div.customOuterWrapper2114 .cow-header,
+  div.customOuterWrapper2114 .cow-section,
+  div.customOuterWrapper2114 .cow-footer {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  div.customOuterWrapper2114 .cow-title {
+    font-size: 28px;
+  }
+  div.customOuterWrapper2114 .cow-life-stages {
+    flex-direction: column;
+  }
+  div.customOuterWrapper2114 .cow-stage-arrow {
+    transform: rotate(90deg);
+    padding: 4px 0;
+    justify-content: center;
+  }
+  div.customOuterWrapper2114 .cow-table {
+    font-size: 12px;
+  }
+}
+</style>
+<br>
+<a href="https://survival8.blogspot.com/2022/12/index-of-book-summaries.html#customInvestmentBooksHeader" target="_blank" class="customLink">
+  See Other Book Summaries on Investment</a> 
+&nbsp;&nbsp;
+<a href="https://github.com/ashishjain1547/public_financial_iq_books/blob/main/9_Retire%20Rich%2C%20Invest%20Rs40%20a%20day%20-%20PV%20Subramanyam%20-%202010/Retire%20Rich%3B%20Invest%20Rs40%20a%20day%20--%20P%20V%20Subramanyam%20--%202010.pdf" target="_blank" class="customLink">
+  Download Book
+</a> 
+&nbsp;&nbsp;
+<a href="https://github.com/ashishjain1547/public_financial_iq_books/blob/main/9_Retire%20Rich%2C%20Invest%20Rs40%20a%20day%20-%20PV%20Subramanyam%20-%202010/chapters/ch1.pdf" target="_blank" class="customLink">
+  Download Chapter
+</a> 
+&nbsp;&nbsp;
+<a href="https://survival8.blogspot.com/2026/05/index-of-retire-rich-invest-40-inr-day.html" target="_blank" class="customLink">Book Index</a> 
+&nbsp;&nbsp;
+<a href="https://survival8.blogspot.com/2026/05/index-of-retire-rich-invest-40-inr-day.html" target="_blank" class="customLink">&laquo; Previously</a> 
+&nbsp;&nbsp;
+<!-- <a href="" target="_blank" class="customLink">Next &raquo;</a> 
+&nbsp;&nbsp; -->
+
+
+<span style="opacity: 0;">Tags: Investment,Book Summary,</span>
