@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Retirement Planning Report | Book: Retire Rich (Ch 2)</title>
+    <!-- Chart.js CDN for simple charts -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <style>
+        /* No global CSS outside wrapper */
+    </style>
+</head>
+<body>
+<div class="customOuterWrapper">
+    <style>
+        /* All CSS rules scoped inside .customOuterWrapper */
+        div.customOuterWrapper {
+            font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            max-width: 1280px;
+            margin: 0 auto;
+            background: #f9fafc;
+            color: #1e2a3e;
+            line-height: 1.5;
+            padding: 2rem 1.5rem;
+            border-radius: 28px;
+            box-shadow: 0 10px 25px -5px rgba(0,0,0,0.05);
+        }
+        div.customOuterWrapper h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-top: 0;
+            margin-bottom: 0.25rem;
+            color: #0f3b2c;
+            border-left: 6px solid #2c7a4d;
+            padding-left: 1rem;
+        }
+        div.customOuterWrapper .book-subtitle {
+            font-size: 1rem;
+            color: #2c5f3e;
+            margin-bottom: 1rem;
+            padding-left: 1.5rem;
+            font-style: italic;
+        }
+        div.customOuterWrapper h2 {
+            font-size: 1.6rem;
+            margin: 1.8rem 0 0.8rem 0;
+            color: #1e4a3b;
+            border-bottom: 2px solid #cbd5e1;
+            padding-bottom: 0.3rem;
+        }
+        div.customOuterWrapper h3 {
+            font-size: 1.3rem;
+            margin: 1.2rem 0 0.5rem 0;
+            color: #2d6a4f;
+        }
+        div.customOuterWrapper p, div.customOuterWrapper li {
+            font-size: 1rem;
+            margin-bottom: 0.75rem;
+        }
+        div.customOuterWrapper ul, div.customOuterWrapper ol {
+            padding-left: 1.6rem;
+            margin: 0.5rem 0 1rem;
+        }
+        div.customOuterWrapper li {
+            margin-bottom: 0.4rem;
+        }
+        /* Force plain bullet symbols: using default list-style but no extra special chars, fine */
+        div.customOuterWrapper ul {
+            list-style-type: disc;
+        }
+        div.customOuterWrapper table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.2rem 0;
+            background: white;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+        }
+        div.customOuterWrapper th, div.customOuterWrapper td {
+            border: 1px solid #e2e8f0;
+            padding: 10px 12px;
+            text-align: left;
+            vertical-align: top;
+        }
+        div.customOuterWrapper th {
+            background-color: #eef2ef;
+            font-weight: 600;
+            color: #1e4620;
+        }
+        div.customOuterWrapper .chart-container {
+            background: #ffffff;
+            border-radius: 20px;
+            padding: 1rem;
+            margin: 1.5rem 0;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            border: 1px solid #e6edf0;
+        }
+        div.customOuterWrapper .flex-charts {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            margin: 1.5rem 0;
+        }
+        div.customOuterWrapper .flex-charts > div {
+            flex: 1 1 280px;
+            background: white;
+            border-radius: 20px;
+            padding: 0.8rem;
+            border: 1px solid #e2edf2;
+        }
+        div.customOuterWrapper canvas {
+            max-height: 300px;
+            width: 100%;
+        }
+        div.customOuterWrapper .callout {
+            background: #eef2ea;
+            padding: 1rem 1.4rem;
+            border-radius: 20px;
+            margin: 1.2rem 0;
+            border-left: 6px solid #2c7a4d;
+        }
+        div.customOuterWrapper .small-note {
+            font-size: 0.85rem;
+            color: #4a5b6e;
+            margin-top: 0.3rem;
+        }
+        div.customOuterWrapper hr {
+            margin: 1.5rem 0;
+            border: 0;
+            height: 1px;
+            background: linear-gradient(90deg, #cbd5e1, transparent);
+        }
+        @media (max-width: 720px) {
+            div.customOuterWrapper {
+                padding: 1.2rem;
+            }
+            div.customOuterWrapper h1 {
+                font-size: 1.7rem;
+            }
+        }
+    </style>
+
+    <!-- Header info -->
+    <h1>📘 Planning for Retirement: Not Planning is Dangerous!</h1>
+    <div class="book-subtitle">Based on Chapter 2 of "Retire Rich; Invest Rs40 a day" – P V Subramanyam (2010)</div>
+    <p><strong>Key message from the chapter:</strong> <em>"Failing to plan, is planning to fail."</em> Retirement planning isn't just about hobbies or where to settle — it’s about <strong>financial independence</strong>, managing money wisely, and building a safety net for your older years. This report explains the core findings from Chapter 2 in simple, everyday language, with numbers and visuals to help you see why acting today matters.</p>
+
+    <!-- 1. Understanding retirement planning -->
+    <h2>🔍 What is retirement planning? (The money side)</h2>
+    <p>Most people think retirement means free time or moving to a peaceful town. But financially, retirement planning means:</p>
+    <ul>
+        <li>- Deciding when to start investing <strong>exclusively</strong> for retirement</li>
+        <li>- Choosing at what age you want to stop full-time work</li>
+        <li>- Managing life insurance, medical insurance, and critical care needs</li>
+        <li>- Creating your own "pay cheque" when you no longer have a salary</li>
+    </ul>
+    <p>Without a plan, even a high earner can run out of money. The chapter warns: <strong>ignoring retirement is like planning to struggle</strong> in your sixties and beyond.</p>
+
+    <!-- 2. Reasons to plan - table summary -->
+    <h2>⚠️ Why you need to plan for retirement (11 solid reasons)</h2>
+    <p>The author lists several practical reasons. Here are the most important ones:</p>
+    <table>
+        <thead>
+            <tr><th>Reason</th><th>Why it matters</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>1. Protect against financial risks</td><td>Early death, illness, or accidents can destroy income. A plan builds a safety net.</td></tr>
+            <tr><td>2. Reduce / eliminate debt</td><td>High-interest debt (like credit card at 51% p.a.) kills your ability to save.</td></tr>
+            <tr><td>3. Ensure lifestyle if you live long</td><td>Life expectancy is rising – you may need 30+ years of retirement income.</td></tr>
+            <tr><td>4. Support career switches or big expenses</td><td>Children’s education, weddings, or even starting a new passion career needs backup funds.</td></tr>
+            <tr><td>5. Cost of raising kids</td><td>A professional degree or foreign MBA can cost upwards of ₹1 crore today.</td></tr>
+            <tr><td>6. Unforeseen risks</td><td>Unexpected loss of money or income – retirement buffer helps you stay afloat.</td></tr>
+            <tr><td>7. Afford assets (house, car, luxuries)</td><td>We call them assets – they require planning even after retirement.</td></tr>
+            <tr><td>8. Retire on your own terms</td><td>You don’t want to depend on children for money – retirement corpus gives dignity.</td></tr>
+            <tr><td>9. Pay for un-insurable medical expenses</td><td>Old-age nursing, maid, or assisted living costs money. Insurance has limits.</td></tr>
+            <tr><td>10. Leave wealth for children/grandchildren</td><td>If you wish to pass on assets, include that in the plan.</td></tr>
+            <tr><td>11. Deal with life’s unexpected surprises</td><td>Funny situations (or hard times) need financial preparedness.</td></tr>
+        </tbody>
+    </table>
+
+    <!-- women section -->
+    <h2>👩 Women & retirement – why planning is even more critical</h2>
+    <p>The chapter highlights that women in India often earn less, take career breaks (child rearing, family care), and <strong>live longer than men</strong>. On average, a woman may need retirement income for 5-8 more years than her male partner. Many married women do not actively manage family finances, leaving them vulnerable if widowed or divorced.</p>
+    <div class="callout">
+        <strong>✔ Take charge!</strong> Women should understand risk & return, inflation, long-term care costs, and learn about demat accounts, mutual funds, and unit-linked plans. Managing a house means you already make daily money decisions — you can master retirement finance too.
+    </div>
+
+    <!-- Steps summary -->
+    <h2>🧭 Step-by-step plan: From confusion to clarity</h2>
+    <p>The book simplifies retirement planning into small, manageable steps. Below are the building blocks:</p>
+    <ul>
+        <li><strong>Step 1:</strong> Estimate retirement expenses — both daily needs (food, shelter, clothes) and large costs (house, car, travel).</li>
+        <li><strong>Step 2:</strong> Separate non-negotiable expenses (nursing, medical insurance, inflation impact) from discretionary expenses (eating out, entertainment).</li>
+        <li><strong>Step 3:</strong> List all your assets (home, gold, shares) and liabilities (loans). Calculate net worth = Assets – Liabilities.</li>
+        <li><strong>Step 4:</strong> Compare retirement income vs expenses. Only safe if income is much higher than expenses, because inflation will eat the gap.</li>
+    </ul>
+    <p>Also, don't forget to make a <strong>Will</strong> so your assets go where you wish. And always check insurance coverage after adjusting for 20 years of inflation!</p>
+
+    <!-- assets and cash flows table -->
+    <h3>📋 What to track: Assets, Liabilities & Cash flows</h3>
+    <table>
+        <tr><th>Assets (what you own)</th><th>Liabilities (what you owe)</th></tr>
+        <tr><td>Home, property, gold, equity shares, provident fund, life insurance cash value</td><td>Home loan, car loan, personal loan, credit card debt</td></tr>
+        <tr><td colspan="2">✅ Ask: Is there a nominee? Any tax liability? How liquid is the asset? Is it insured?</td></tr>
+    </table>
+    <p>For cash flows: identify certain inflows (pension, annuity, RBI bonds), reasonably certain (dividends from blue chips), and uncertain inflows. This helps you build realistic retirement income.</p>
+
+    <!-- 3 income-expense scenarios & shocker -->
+    <h2>📊 The three income vs expense scenarios</h2>
+    <p>When you compare your retirement income and expenses, only one situation is safe:</p>
+    <ul>
+        <li>❌ Expenses = Income (dangerous, any shock breaks the balance)</li>
+        <li>❌ Expenses > Income (disaster)</li>
+        <li>✅ Expenses <strong>&lt;</strong> Income — but only if income is <strong>far higher</strong> than expenses, because inflation will push you into the danger zone over time.</li>
+    </ul>
+    <div class="chart-container">
+        <canvas id="expenseIncomeBarChart" style="max-height: 280px; width:100%"></canvas>
+        <div class="small-note">*Hypothetical monthly values (₹ thousands) illustrating how expenses can easily equal or exceed income without proper planning. The goal: keep income well above expenses.</div>
+    </div>
+
+    <!-- real cost: food example -->
+    <h2>🍛 Eye-opening calculation: Your food bill alone (no inflation!)</h2>
+    <p>The author gives a simple but powerful example: If each meal costs ₹75 on average, and you eat 3 meals a day, your daily food cost = ₹225 per person. For a retired life of 25 years (age 65 to 90), total food cost per person = ₹20,25,000. For a couple = ₹40.5 lakhs. And this ignores inflation, medical costs, housing, or entertainment!</p>
+    <div class="flex-charts">
+        <div>
+            <canvas id="foodCostBarChart"></canvas>
+            <div class="small-note">25-year basic food cost (no inflation). The real number will be much higher due to rising prices.</div>
+        </div>
+        <div>
+            <canvas id="retirementPhasesPieChart"></canvas>
+            <div class="small-note">Retirement can be split into 4 blocks (10 years each). Each phase has different needs and energy levels.</div>
+        </div>
+    </div>
+
+    <!-- housing & monthly expenses -->
+    <h2>🏠 Housing & hidden monthly expenses: Where money leaks</h2>
+    <p>After food, housing is the second biggest cost. A big house costs much more to maintain (maid, gardener, electricity, taxes, society charges). If children have moved out, <strong>downsizing</strong> can dramatically lower your outflow. Also check recurring "monthlies":</p>
+    <ul>
+        <li>- Two landlines? multiple mobiles?</li>
+        <li>- Unused magazine subscriptions or gym memberships paid by former employer</li>
+        <li>- Spare car or extra household help</li>
+    </ul>
+    <p>Small but recurring expenses often hurt the most. The trick: use credit cards like a charge card (pay full each month) – interest on credit is a strict NO for retirees.</p>
+
+    <!-- inflation line chart -->
+    <h2>📈 The silent killer: Inflation even on basic food</h2>
+    <p>If inflation runs at 6% per year, the couple's annual food expense (today ₹1,64,250) grows year after year. The line chart below shows how the same meals become heavier on the pocket over 25 years.</p>
+    <div class="chart-container">
+        <canvas id="inflationLineChart" style="max-height: 300px; width:100%"></canvas>
+        <div class="small-note">Annual food cost for a couple (₹) with 6% inflation. Without planning, even basic expenses skyrocket.</div>
+    </div>
+
+    <!-- rule of thumb caution -->
+    <h2>⚠️ Beware of generic rules: "70% of pre-retirement expenses"</h2>
+    <p>Many advisors suggest you need 70% of your current income post-retirement. The author says: <strong>take this with a pinch of salt</strong>. Everyone’s lifestyle, medical needs, and location differ. Instead, do a detailed, personalised estimate. Don’t forget big-ticket items: buying a house, cars, white goods, travel, and uninsured medical bills.</p>
+
+    <!-- final actionable summary table -->
+    <h2>✅ Action checklist – Start today, even if you are in your 20s</h2>
+    <table>
+        <tr><th>What to do</th><th>Why it matters</th></tr>
+        <tr><td>Start early & maintain a financial plan</td><td>Compound interest works magic – small savings grow huge over decades.</td></tr>
+        <tr><td>Build an emergency + retirement fund separately</td><td>So you don’t dip into retirement corpus for urgent needs.</td></tr>
+        <tr><td>Review insurance coverage every 5 years</td><td>Inflation erodes cover; increase sum assured accordingly.</td></tr>
+        <tr><td>Estimate realistic retirement expenses (non-negotiable first)</td><td>Prevents nasty surprises when income stops.</td></tr>
+        <tr><td>Women: take active role in family investments</td><td>Because women live longer and often outlive spouses.</td></tr>
+        <tr><td>Downsize home if children have left</td><td>Reduces monthly maintenance, taxes, utilities.</td></tr>
+        <tr><td>Create a will & nominate for all assets</td><td>Ensures your money goes where you intend.</td></tr>
+    </table>
+    <div class="callout">
+        💡 <strong>Final thought from Chapter 2</strong>: Retirement planning isn’t scary. Break it into small steps, list your assets and expenses, and remember that “failing to plan is planning to fail.” The best time to start was yesterday; the next best time is <strong>today</strong>.
+    </div>
+    <hr>
+    <div class="small-note">Source: Retire Rich; Invest Rs40 a day by P V Subramanyam (2010) – Chapter 2: Planning For Retirement: Not Planning is Dangerous! All charts are for explanatory purpose based on the concepts discussed in the chapter.</div>
+</div>
+
+<script>
+    // Wait for DOM to fully load before drawing charts
+    document.addEventListener('DOMContentLoaded', function () {
+        // 1. Bar chart: expense vs income scenarios (illustrative numbers in thousands)
+        const ctxBar = document.getElementById('expenseIncomeBarChart').getContext('2d');
+        new Chart(ctxBar, {
+            type: 'bar',
+            data: {
+                labels: ['Monthly Income (low)', 'Monthly Expenses (moderate)', 'Monthly Income (safe scenario)'],
+                datasets: [{
+                    label: 'Amount (₹ Thousands)',
+                    data: [45, 50, 80],
+                    backgroundColor: ['#a5d6a5', '#f4a261', '#2c7a4d'],
+                    borderRadius: 8
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: true,
+                plugins: {
+                    legend: { position: 'top' },
+                    tooltip: { callbacks: { label: (ctx) => `₹${ctx.raw}K per month` } }
+                }
+            }
+        });
+
+        // 2. Food cost bar chart: individual vs couple (25 years, no inflation)
+        const ctxFood = document.getElementById('foodCostBarChart').getContext('2d');
+        new Chart(ctxFood, {
+            type: 'bar',
+            data: {
+                labels: ['Single person', 'Couple'],
+                datasets: [{
+                    label: 'Total food cost over 25 years (₹ Lakhs)',
+                    data: [20.25, 40.5],
+                    backgroundColor: ['#3b8c5a', '#e9b35f'],
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: { tooltip: { callbacks: { label: (ctx) => `₹${ctx.raw} Lakh` } } }
+            }
+        });
+
+        // 3. Pie chart: 4 retirement phases (equal 10-year blocks: 55-65,65-75,75-85,85-95)
+        const ctxPie = document.getElementById('retirementPhasesPieChart').getContext('2d');
+        new Chart(ctxPie, {
+            type: 'pie',
+            data: {
+                labels: ['Phase 1: 55-65 (active)', 'Phase 2: 65-75 (moderate)', 'Phase 3: 75-85 (supported)', 'Phase 4: 85-95 (care focus)'],
+                datasets: [{
+                    data: [25, 25, 25, 25],
+                    backgroundColor: ['#40916c', '#74c69d', '#b7e4c7', '#d8f3dc'],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: { legend: { position: 'right', labels: { boxWidth: 12, font: { size: 11 } } } }
+            }
+        });
+
+        // 4. Line chart: inflation effect on couple's annual food expense over 25 years (starting ₹1,64,250 today, 6% inflation)
+        const years = Array.from({ length: 25 }, (_, i) => i + 1);
+        let annualCost = 164250;  // base year 1 (today)
+        const inflatedCosts = [];
+        for (let i = 0; i < 25; i++) {
+            if (i === 0) inflatedCosts.push(annualCost);
+            else {
+                annualCost = annualCost * 1.06;
+                inflatedCosts.push(Math.round(annualCost));
+            }
+        }
+        const ctxLine = document.getElementById('inflationLineChart').getContext('2d');
+        new Chart(ctxLine, {
+            type: 'line',
+            data: {
+                labels: years.map(y => `Year ${y}`),
+                datasets: [{
+                    label: 'Annual food cost for couple (₹) with 6% inflation',
+                    data: inflatedCosts,
+                    borderColor: '#1f6e43',
+                    backgroundColor: 'rgba(47, 127, 78, 0.05)',
+                    fill: true,
+                    tension: 0.3,
+                    pointRadius: 2,
+                    pointBackgroundColor: '#2c7a4d'
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    tooltip: { callbacks: { label: (ctx) => `₹ ${ctx.raw.toLocaleString('en-IN')}` } },
+                    legend: { position: 'top' }
+                },
+                scales: {
+                    y: { ticks: { callback: (val) => '₹' + val.toLocaleString('en-IN') }, title: { display: true, text: 'Annual Food Expense (₹)' } },
+                    x: { title: { display: true, text: 'Retirement year (1 = today)' }, ticks: { stepSize: 5, autoSkip: true } }
+                }
+            }
+        });
+    });
+</script>
+</body>
+</html>
