@@ -1,0 +1,653 @@
+<head>
+    <script crossorigin="anonymous" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <!-- Google AdSense Using Machine Learning Code -->
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-3071098372371409",
+            enable_page_level_ads: true
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $.ajax({
+                url: "https://raw.githubusercontent.com/ashishjain1547/bookSummariesAndReviews/main/links_to_book_clubs.json",
+                success: function (result) {
+                    let grouplink = JSON.parse(result)['current book club'];
+                    $("#customWhatsAppGroupLinkWrapper").html(
+                        `
+                        <h2 class="custom_link_h2"><a href="${grouplink}" target="_blank"> 
+                            <span>Join us on:</span>
+                            <span class="customLink"><i class="fa fa-whatsapp"></i> Whatsapp </span>
+                            </a>
+                        </h2>
+                        `
+                    );
+                }
+            });
+        });
+    </script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        pre {
+            white-space: pre-wrap;
+            white-space: -moz-pre-wrap;
+            white-space: -pre-wrap;
+            white-space: -o-pre-wrap;
+            word-wrap: break-word;
+        }
+
+        .customLink {
+            background-color: #4CAF50;
+            border: none;
+            color: white !important;
+            padding: 8px 13px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        .customLink:hover {
+            text-decoration: none;
+        }
+
+        div.code-block-decoration.footer {
+            display: none;
+        }
+
+        button.export-sheets-button-wrapper {
+            display: none;
+        }
+    </style>
+
+    <style>
+        .custom_link_h2 a {
+            color: black;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .custom_link_h2 a:hover {
+            color: black;
+        }
+
+        .custom_link_h2 a:active {
+            color: black;
+        }
+
+        .custom_link_h2 span {
+            translate: 0px -5px;
+            display: inline-block;
+        }
+
+        .custom_link_h2 img {
+            width: 100px;
+            padding: 0px;
+            border: none;
+            box-shadow: none;
+        }
+
+        .customul {
+            list-style: none;
+        }
+
+        [aria-hidden='true'] {
+            display: none;
+        }
+    </style>
+
+    <style>
+        pre {
+            white-space: pre-wrap;
+            white-space: -moz-pre-wrap;
+            white-space: -pre-wrap;
+            white-space: -o-pre-wrap;
+            word-wrap: break-word;
+        }
+
+        .dot {
+            height: 12px;
+            width: 12px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        .arrow {
+            border: solid black;
+            border-width: 0 3px 3px 0;
+            display: inline-block;
+            padding: 3px;
+        }
+
+        .right {
+            transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+        }
+
+        .left {
+            transform: rotate(135deg);
+            -webkit-transform: rotate(135deg);
+        }
+
+        .up {
+            transform: rotate(-135deg);
+            -webkit-transform: rotate(-135deg);
+        }
+
+        .down {
+            transform: rotate(45deg);
+            -webkit-transform: rotate(45deg);
+        }
+
+        .custom_iframe {
+            width: 100%;
+            height: 305px;
+        }
+    </style>
+</head>
+<div id="customWhatsAppGroupLinkWrapper"></div>
+<br>
+
+<a href="https://survival8.blogspot.com/2022/12/index-of-book-summaries.html#customInvestmentBooksHeader" target="_blank" class="customLink">
+  See Other Book Summaries on Investment</a> 
+&nbsp;&nbsp;
+<a href="https://github.com/ashishjain1547/public_financial_iq_books/blob/main/9_Retire%20Rich%2C%20Invest%20Rs40%20a%20day%20-%20PV%20Subramanyam%20-%202010/Retire%20Rich%3B%20Invest%20Rs40%20a%20day%20--%20P%20V%20Subramanyam%20--%202010.pdf" target="_blank" class="customLink">
+  Download Book
+</a> 
+&nbsp;&nbsp;
+<a href="https://github.com/ashishjain1547/public_financial_iq_books/blob/main/9_Retire%20Rich%2C%20Invest%20Rs40%20a%20day%20-%20PV%20Subramanyam%20-%202010/chapters/ch3.pdf" target="_blank" class="customLink">
+  Download Chapter
+</a> 
+&nbsp;&nbsp;
+<a href="https://survival8.blogspot.com/2026/05/index-of-retire-rich-invest-40-inr-day.html" target="_blank" class="customLink">Book Index</a> 
+&nbsp;&nbsp;
+<a href="https://survival8.blogspot.com/2026/05/planning-for-retirement-chapter-2.html" target="_blank" class="customLink">&laquo; Previously</a> 
+&nbsp;&nbsp;
+<!-- <a href="" target="_blank" class="customLink">Next &raquo;</a> 
+&nbsp;&nbsp; -->
+<br>
+
+<br>
+
+<div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEZBPzUHE-MihjZfwofHwhaZmzaYxLWEi5rM4bAaxyE1YoxEcdaMiDPJjuCWSuAKn-Mq10rmT_cxXnbwCOuxM7R87JO3Cs7nfmq1FPWscr4vbIY6OLdvoAnQKWc6TExNqHxAtfMPTlbWmShC5FAan4MFNwlDr-YMpTZ_7GsmlV08uNOYdaQaNoaBcJWEhi/s600/May%2030,%202026.png" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="600" data-original-height="337" data-original-width="600" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEZBPzUHE-MihjZfwofHwhaZmzaYxLWEi5rM4bAaxyE1YoxEcdaMiDPJjuCWSuAKn-Mq10rmT_cxXnbwCOuxM7R87JO3Cs7nfmq1FPWscr4vbIY6OLdvoAnQKWc6TExNqHxAtfMPTlbWmShC5FAan4MFNwlDr-YMpTZ_7GsmlV08uNOYdaQaNoaBcJWEhi/s600/May%2030,%202026.png"/></a></div>
+
+<br>
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+    /* All styles are strictly scoped under .customOuterWrapper1721 – no global rules */
+    div.customOuterWrapper1721 {
+        max-width: 1280px;
+        margin: 0 auto;
+        background: #fefef7;
+        font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+        color: #1e2a2e;
+        line-height: 1.55;
+        padding: 2rem 1.8rem;
+        border-radius: 28px;
+        box-shadow: 0 12px 28px rgba(0, 0, 0, 0.05);
+    }
+
+    div.customOuterWrapper1721 h1 {
+        font-size: 1.9rem;
+        border-left: 6px solid #e67e22;
+        padding-left: 1rem;
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+        font-weight: 600;
+        color: #2c3e2f;
+    }
+
+    div.customOuterWrapper1721 h2 {
+        font-size: 1.6rem;
+        margin-top: 2rem;
+        margin-bottom: 0.75rem;
+        padding-bottom: 0.3rem;
+        border-bottom: 2px solid #ffd966;
+        color: #1f4f2b;
+        font-weight: 500;
+    }
+
+    div.customOuterWrapper1721 h3 {
+        font-size: 1.35rem;
+        margin: 1.2rem 0 0.6rem 0;
+        color: #c4450c;
+        font-weight: 500;
+    }
+
+    div.customOuterWrapper1721 p {
+        margin: 0.8rem 0;
+        font-size: 1rem;
+    }
+
+    div.customOuterWrapper1721 ul,
+    div.customOuterWrapper1721 ol {
+        margin: 0.5rem 0 1rem 1.5rem;
+        padding-left: 0.2rem;
+    }
+
+    div.customOuterWrapper1721 li {
+        margin: 0.4rem 0;
+    }
+
+    /* Use keyboard symbols for bullets – simple hyphens and asterisks via list-style */
+    div.customOuterWrapper1721 ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+    div.customOuterWrapper1721 ul li::before {
+        content: "- ";
+        font-weight: bold;
+        color: #e67e22;
+    }
+
+    div.customOuterWrapper1721 ol {
+        list-style-type: decimal;
+        padding-left: 1.2rem;
+    }
+
+    div.customOuterWrapper1721 table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 1.2rem 0;
+        background: #ffffff;
+        border-radius: 16px;
+        overflow: hidden;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    }
+
+    div.customOuterWrapper1721 th,
+    div.customOuterWrapper1721 td {
+        border: 1px solid #ddd9ce;
+        padding: 0.75rem 0.9rem;
+        text-align: left;
+        vertical-align: top;
+    }
+
+    div.customOuterWrapper1721 th {
+        background-color: #f9eec1;
+        font-weight: 600;
+        color: #2c3e2f;
+    }
+
+    div.customOuterWrapper1721 .chart-container {
+        background: #ffffff;
+        border-radius: 24px;
+        padding: 1rem;
+        margin: 1.8rem 0;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        border: 1px solid #eee5d8;
+    }
+
+    div.customOuterWrapper1721 canvas {
+        max-height: 380px;
+        width: 100%;
+    }
+
+    div.customOuterWrapper1721 .insight-box {
+        background: #fef5e8;
+        border-left: 5px solid #e67e22;
+        padding: 0.8rem 1.2rem;
+        margin: 1.2rem 0;
+        border-radius: 18px;
+    }
+
+    div.customOuterWrapper1721 .caption {
+        font-size: 0.85rem;
+        text-align: center;
+        color: #5d6e5a;
+        margin-top: 0.4rem;
+    }
+
+    div.customOuterWrapper1721 hr {
+        margin: 1.5rem 0;
+        border: none;
+        height: 1px;
+        background: #e2dccd;
+    }
+
+    div.customOuterWrapper1721 .flex-charts {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+        justify-content: space-between;
+    }
+
+    div.customOuterWrapper1721 .flex-charts>div {
+        flex: 1 1 280px;
+    }
+
+    @media (max-width: 720px) {
+        div.customOuterWrapper1721 {
+            padding: 1.2rem;
+        }
+
+        div.customOuterWrapper1721 h1 {
+            font-size: 1.6rem;
+        }
+    }
+</style>
+
+
+
+<div class="customOuterWrapper1721">
+    <h1>📘 Chapter 3: Retirement Goal Setting</h1>
+    <p><strong>Book:</strong> <em>Retire Rich; Invest Rs 40 a day</em> – P V Subramanyam, 2010<br>
+
+
+        <!-- Quote from the chapter -->
+    <div class="insight-box">
+        <p>✍️ <em>"Without goals, and plans to reach them, you are like a ship that has set sail with no
+                destination."</em> – Fitzhugh Dodson<br>
+            Retirement planning is exactly that: setting a precise, money-backed destination.</p>
+    </div>
+
+    <h2>1. SMART goals: The foundation of retirement planning</h2>
+    <p>The chapter insists that any retirement goal must follow the SMART principle. Below is how each element applies
+        to your retirement journey:</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Letter</th>
+                <th>Meaning</th>
+                <th>Application to retirement (from chapter)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>S</strong></td>
+                <td>Specific</td>
+                <td>"I want to retire when my portfolio is worth ₹2 crores" (not just 'retire early'). Or retire at age
+                    55 with defined corpus.</td>
+            </tr>
+            <tr>
+                <td><strong>M</strong></td>
+                <td>Measurable</td>
+                <td>Quantify in rupees: monthly investment, target corpus, expenses. Example: Rahul’s goals were
+                    rewritten in exact monthly amounts.</td>
+            </tr>
+            <tr>
+                <td><strong>A</strong></td>
+                <td>Achievable</td>
+                <td>Can you really invest ₹40,000/month? If not, adjust expenses, delay retirement or downsize other
+                    wishes.</td>
+            </tr>
+            <tr>
+                <td><strong>R</strong></td>
+                <td>Realistic</td>
+                <td>Based on income, inflation, life expectancy. Don’t assume unrealistic returns. Be honest with
+                    yourself.</td>
+            </tr>
+            <tr>
+                <td><strong>T</strong></td>
+                <td>Tracked</td>
+                <td>Use portfolio tracker or simple Excel sheet. Like checking train stations to ensure you're on right
+                    track.</td>
+            </tr>
+        </tbody>
+    </table>
+    <p>Why it matters: vague dreams stay dreams. Written, trackable goals become tangible financial targets.</p>
+
+    <h2>2. Real-life transformation: Mr. Rahul Agarwal’s journey</h2>
+    <p>The chapter narrates a powerful case: <strong>Rahul, age 43, monthly investing ability ₹33,000</strong>.
+        Initially he was saving for his daughter’s education (₹18k/month), a foreign tour (₹12k/month), and only ₹3k for
+        retirement. But when the true retirement need was calculated, he needed to invest ₹40,000/month for 15 years —
+        an emotional shock (denial, then anger). After re-evaluating, he reprioritized ruthlessly: retirement became top
+        priority.</p>
+
+    <div class="chart-container">
+        <h3 style="margin-top:0;">📊 Goal reprioritization: before vs after</h3>
+        <canvas id="rahulComparisonChart" width="600" height="350" style="max-width:100%; height:auto;"></canvas>
+        <div class="caption">Figure 1: Monthly allocation shift – Rahul moved retirement from ₹3k to ₹24k, funded by
+            reducing daughter's goal and postponing foreign trip to bonuses only. This made the retirement goal
+            achievable.</div>
+    </div>
+    <p><strong>Key insight from Rahul's case:</strong> Retirement cannot be downsized or avoided. If you delay saving,
+        the required monthly investment grows dramatically. Prioritization is hard, but numbers never lie.</p>
+    <ul>
+        <li>Initial ranking: Daughter > Foreign trip > Retirement</li>
+        <li>Revised ranking: Retirement > Daughter's needs > Foreign trip (only if annual bonus permits)</li>
+        <li>Result: Clearer financial peace, no Singapore trip guilt, and a solid retirement plan.</li>
+    </ul>
+
+    <h2>3. Why retirement is non-negotiable</h2>
+    <p>The author highlights a harsh truth: "Retirement cannot be downsized, postponed or avoided! Even if one spouse
+        dies, the other still needs financial security." That makes retirement the most important incentive to save.
+        Many people put children's goals or luxuries first, but neglecting retirement leads to dependency in old age.
+    </p>
+    <div class="insight-box">
+        <p>💡 <strong>Practical rule:</strong> Before saving for vacation, car or lavish wedding, first secure your
+            retirement kitty. You can borrow for education but not for old age survival.</p>
+    </div>
+
+    <h2>4. Understanding retirement expenses – major categories</h2>
+    <p>Chapter 3 includes a detailed retirement expense calculator. Tracking your likely expenses (with inflation) is
+        the only way to know your target. Based on the categories listed (Home, Utilities, Food, Health, Transport,
+        etc.), we can visualise a typical retiree's monthly expense pie.</p>
+    <div class="chart-container">
+        <h3 style="margin-top:0;">🥧 Typical retirement monthly expenses (illustrative breakdown)</h3>
+        <canvas id="expensePieChart" width="500" height="350" style="max-width:100%; height:auto;"></canvas>
+        <div class="caption">Figure 2: Common expense buckets derived from the "Retirement expenses calculator" in the
+            chapter. Housing, healthcare and food often dominate. Inflation increases these amounts every year.</div>
+    </div>
+    <p>In the book, the worksheet includes entries for mortgage, electricity, groceries, medical insurance, car
+        maintenance, and even pet care. The message: <strong>list every single outflow</strong>. Without this, you
+        cannot compute the required retirement corpus.</p>
+
+    <h2>5. Making your goal ACHIEVABLE & REALISTIC</h2>
+    <p>After setting a specific number, you might realize your monthly savings are insufficient. The chapter gives four
+        practical levers to pull:</p>
+    <ul>
+        <li>Reduce current expenses (cut lifestyle inflation, eating out, unnecessary subscriptions).</li>
+        <li>Invest more – redirect money from less critical goals.</li>
+        <li>Downsize other goals (like wedding, house renovation, luxury travel).</li>
+        <li>Retire later (extend working years by 2–3 years if health allows).</li>
+    </ul>
+    <p>Rahul’s revised plan used exactly these steps: instead of ₹40k shortfall, he cut his daughter’s education
+        allocation in half and used bonus for foreign trip. That made retirement realistic.</p>
+
+    <h2>6. The power of consistency: growth of ₹40,000 monthly over 15 years</h2>
+    <p>To appreciate why Rahul needed ₹40k/month, the chapter implies the power of compounding. Though returns vary, a
+        disciplined saver can build a sizeable corpus. The line chart below shows a <strong>hypothetical growth at 8%
+            annual return</strong> – illustrating how steady investing builds wealth over time.</p>
+    <div class="chart-container">
+        <h3 style="margin-top:0;">📈 Compounding in action: monthly ₹40,000 over 15 years</h3>
+        <canvas id="growthLineChart" width="650" height="350" style="max-width:100%; height:auto;"></canvas>
+        <div class="caption">Figure 3: Hypothetical corpus growth (₹ in lakhs) – assuming ₹40,000 invested each month,
+            8% annual return, compounded monthly. Actual returns vary, but regular investing creates momentum.</div>
+    </div>
+    <p>The chart shows that contributions alone would be ~₹72 lakhs (180 months × 40k), but with compounding the final
+        amount could be around ₹1.39 crore, providing a strong retirement base. This explains why the author insists on
+        hitting the required monthly investment rather than skipping months.</p>
+
+    <h2>7. Track your goals – the last "T" in SMART</h2>
+    <p>The train analogy is simple: when travelling by train, you check stations to know you're on course. Similarly,
+        track your retirement portfolio at least once a quarter. Use a portfolio tracker or a plain excel sheet. The
+        author advises writing down your goal explicitly: "unwritten goals are just dreams, written goals suddenly seem
+        tangible."</p>
+    <ul>
+        <li>Set the goal (specific corpus & timeline).</li>
+        <li>Ensure it is SMART (use the table above).</li>
+        <li>Write it down on paper/digital tracker.</li>
+        <li>Start investing systematically (SIPs, PPF, equity, etc.).</li>
+        <li>Keep track – rebalance and review annually.</li>
+    </ul>
+
+    <h2>8. Caveats: Beware of bull market traps</h2>
+    <div class="insight-box">
+        <p>⚠️ <strong>Important warning from chapter:</strong> A strong bull run may tempt you to reduce your monthly
+            retirement savings. For example, if your portfolio jumps 45% in two years, you might think "I can invest
+            less now because returns will make up the shortfall." This is dangerous – markets are unpredictable. Stick
+            to your planned monthly investment. Over-optimism can derail a decade of hard work.</p>
+    </div>
+    <p>Never assume that a temporary rally will continue. True retirement readiness comes from consistent saving, not
+        timing the market.</p>
+
+    <h2>9. Actionable steps – Your retirement blueprint</h2>
+    <p>Based on the entire chapter, here’s a clear summary checklist:</p>
+    <ol>
+        <li>Calculate realistic retirement expenses (use an expense worksheet like the one in the book). Factor
+            inflation (usually 6–7%).</li>
+        <li>Define your target retirement corpus (e.g., ₹2 crore, ₹3 crore depending on lifestyle).</li>
+        <li>Use a retirement goal calculator (<a href="https://www.rachanaranade.com/s/pages/retirementplanning"
+                target="_blank">like the one given here</a>) to find required monthly savings.</li>
+        <li>Compare with current monthly investing ability – if short, reprioritize other goals (education, vacation,
+            gadget, home upgrades).</li>
+        <li>Rank retirement as #1 goal – treat it as a fixed mandatory expense.</li>
+        <li>Invest that amount every month without fail. Use a mix of equity (for growth) and debt (for stability).</li>
+        <li>Every year, track your progress: update portfolio value, check if you are on track to meet the target.
+            Adjust if required (increase investment with salary hikes).</li>
+    </ol>
+
+    <h2>10. Final takeaway from chapter 3</h2>
+    <p>Retirement goal setting is not about age alone – it's about <strong>money and prioritisation</strong>. The story
+        of Rahul shows that honest number-crunching may trigger emotional resistance, but reprioritising brings freedom.
+        Retirement can't be downsized, so treat it as the non-negotiable pillar of your financial life. Start early, be
+        SMART, and track regularly. As the author says: "Numbers don't lie."</p>
+    <hr>
+    <p style="font-size:0.85rem; color:#6f5b3a;">Report based on Chapter 3 – "Retirement Goal Setting" from <em>Retire
+            Rich; Invest Rs 40 a day</em> by P V Subramanyam (2010). All examples, tables, and charts are for
+        educational explanation, consistent with the chapter's insights.</p>
+
+</div>
+
+<script>
+    // Ensure that charts render after the DOM is fully loaded, using the custom wrapper context
+    document.addEventListener('DOMContentLoaded', function () {
+        // ---- BAR CHART: Rahul's allocation before vs after ----
+        const ctxBar = document.getElementById('rahulComparisonChart')?.getContext('2d');
+        if (ctxBar) {
+            new Chart(ctxBar, {
+                type: 'bar',
+                data: {
+                    labels: ["Daughter's Education / Needs", "Foreign Tour / Vacation", "Retirement"],
+                    datasets: [
+                        {
+                            label: 'Initial allocation (₹ per month)',
+                            data: [18000, 12000, 3000],
+                            backgroundColor: '#f4a261',
+                            borderRadius: 8,
+                            barPercentage: 0.65
+                        },
+                        {
+                            label: 'Revised allocation (₹ per month)',
+                            data: [9000, 0, 24000],
+                            backgroundColor: '#2a9d8f',
+                            borderRadius: 8,
+                            barPercentage: 0.65
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: true,
+                    plugins: {
+                        tooltip: { callbacks: { label: (ctx) => `${ctx.dataset.label}: ₹${ctx.raw.toLocaleString('en-IN')}/month` } },
+                        legend: { position: 'top' }
+                    },
+                    scales: {
+                        y: { title: { display: true, text: 'Monthly amount (₹)', font: { weight: 'bold' } }, beginAtZero: true, grid: { color: '#e9e3d5' } },
+                        x: { title: { display: true, text: 'Financial goals', font: { weight: 'bold' } } }
+                    }
+                }
+            });
+        }
+
+        // ---- PIE CHART: Typical retirement expense categories based on chapter expense table ----
+        const ctxPie = document.getElementById('expensePieChart')?.getContext('2d');
+        if (ctxPie) {
+            new Chart(ctxPie, {
+                type: 'pie',
+                data: {
+                    labels: ['Housing (rent/mortgage+repairs)', 'Utilities (elec, water, phone)', 'Food (groceries, eating out)', 'Health & Medical (insurance, fitness)', 'Transportation (car, fuel, public)', 'Entertainment & Hobbies', 'Miscellaneous (gifts, clothing)'],
+                    datasets: [{
+                        data: [30, 10, 20, 15, 10, 5, 10],
+                        backgroundColor: ['#e76f51', '#f4a261', '#e9c46a', '#6a994e', '#86af49', '#bc6c25', '#d4a373'],
+                        borderWidth: 1,
+                        borderColor: '#fff'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: true,
+                    plugins: {
+                        legend: { position: 'right', labels: { font: { size: 11 } } },
+                        tooltip: { callbacks: { label: (ctx) => `${ctx.label}: ${ctx.raw}% of monthly expenses` } }
+                    }
+                }
+            });
+        }
+
+        // ---- LINE CHART: Growth of monthly ₹40,000 over 15 years (illustrative 8% annual return) ----
+        // Calculation basis: Monthly investment = 40000, rate = 8%/12 = 0.6667%, periods: 180 months
+        // At year 5 (60 months): FV = 40000 * [ (1+0.006667)^60 -1 ] / 0.006667 ≈ 29,60,000 => ~29.6 Lakhs -> showing 30 Lakhs for simplicity
+        // Year 10 (120 months): FV ≈ 74 Lakhs; Year 15 (180 months): FV ≈ 1.39 Cr -> 139 Lakhs
+        const lineCtx = document.getElementById('growthLineChart')?.getContext('2d');
+        if (lineCtx) {
+            new Chart(lineCtx, {
+                type: 'line',
+                data: {
+                    labels: ['Today (0 years)', '5 years', '10 years', '15 years'],
+                    datasets: [{
+                        label: 'Estimated retirement corpus (₹ in lakhs)',
+                        data: [0, 30, 74, 139],
+                        borderColor: '#e67e22',
+                        backgroundColor: 'rgba(230, 126, 34, 0.05)',
+                        borderWidth: 3,
+                        pointBackgroundColor: '#c4450c',
+                        pointBorderColor: '#fff',
+                        pointRadius: 5,
+                        pointHoverRadius: 7,
+                        fill: true,
+                        tension: 0.3
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: true,
+                    plugins: {
+                        tooltip: { callbacks: { label: (ctx) => `Corpus: ₹${ctx.raw} Lakhs (approx.)` } },
+                        legend: { position: 'top' }
+                    },
+                    scales: {
+                        y: { title: { display: true, text: 'Corpus (₹ lakhs)', font: { weight: 'bold' } }, beginAtZero: true, grid: { color: '#e2dccd' } },
+                        x: { title: { display: true, text: 'Investment horizon', font: { weight: 'bold' } } }
+                    }
+                }
+            });
+        }
+    });
+</script>
+
+<br>
+
+<a href="https://survival8.blogspot.com/2022/12/index-of-book-summaries.html#customInvestmentBooksHeader" target="_blank" class="customLink">
+  See Other Book Summaries on Investment</a> 
+&nbsp;&nbsp;
+<a href="https://github.com/ashishjain1547/public_financial_iq_books/blob/main/9_Retire%20Rich%2C%20Invest%20Rs40%20a%20day%20-%20PV%20Subramanyam%20-%202010/Retire%20Rich%3B%20Invest%20Rs40%20a%20day%20--%20P%20V%20Subramanyam%20--%202010.pdf" target="_blank" class="customLink">
+  Download Book
+</a> 
+&nbsp;&nbsp;
+<a href="https://github.com/ashishjain1547/public_financial_iq_books/blob/main/9_Retire%20Rich%2C%20Invest%20Rs40%20a%20day%20-%20PV%20Subramanyam%20-%202010/chapters/ch3.pdf" target="_blank" class="customLink">
+  Download Chapter
+</a> 
+&nbsp;&nbsp;
+<a href="https://survival8.blogspot.com/2026/05/index-of-retire-rich-invest-40-inr-day.html" target="_blank" class="customLink">Book Index</a> 
+&nbsp;&nbsp;
+<a href="https://survival8.blogspot.com/2026/05/planning-for-retirement-chapter-2.html" target="_blank" class="customLink">&laquo; Previously</a> 
+&nbsp;&nbsp;
+<!-- <a href="" target="_blank" class="customLink">Next &raquo;</a> 
+&nbsp;&nbsp; -->
+
+<span style="opacity: 0;">Tags: Investment,Book Summary,</span>
