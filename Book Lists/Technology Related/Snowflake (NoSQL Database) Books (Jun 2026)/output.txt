@@ -1,0 +1,210 @@
+<b>1:</b>
+Build Pipelines for AI: An Essential Guide to Smarter Data Engineering
+By: 
+Year Published: 2024
+
+<b>2:</b>
+Building the Interoperable Lakehouse: Data Strategies for AI Leaders
+By: 
+Year Published: 2024
+
+<b>3:</b>
+Bulk loading from Amazon S3 using COPY
+By: Snowflake
+Year Published: 2020
+
+<b>4:</b>
+Bulk loading from a local file system using COPY
+By: Snowflake
+Year Published: 2023
+
+<b>5:</b>
+Cassandra: The Definitive Guide
+By: Unknown
+Year Published: 2010
+
+<b>6:</b>
+Create users and grant roles
+By: Snowflake
+Year Published: 2023
+
+<b>7:</b>
+Data Modeling with Snowflake: A practical guide to accelerating Snowflake development using universal data modeling techniques
+By: Serge Gershkovich
+Year Published: 2022
+
+<b>8:</b>
+Data Trends 2026: Manufacturing
+By: 
+Year Published: 
+
+<b>9:</b>
+Database Performance at Scale: A Practical Guide
+By: Unknown
+Year Published: 2023
+
+<b>10:</b>
+Getting Started with NoSQL
+By: unknown
+Year Published: 2013
+
+<b>11:</b>
+Getting Started with Snowflake
+By: Snowflake
+Year Published: 2020
+
+<b>12:</b>
+JSON basics
+By: Snowflake
+Year Published: 
+
+<b>13:</b>
+Learning Snowflake SQL and Scripting
+By: Alan Beaulieu
+Year Published: 2022
+
+<b>14:</b>
+Load and query sample data using SQL
+By: Snowflake
+Year Published: 2024
+
+<b>15:</b>
+Load data from cloud storage (Amazon S3)
+By: Snowflake
+Year Published: 
+
+<b>16:</b>
+Load data from cloud storage (Google Cloud Storage)
+By: Snowflake
+Year Published: 2023
+
+<b>17:</b>
+Load data from cloud storage (Microsoft Azure)
+By: Snowflake
+Year Published: 
+
+<b>18:</b>
+Loading JSON data into a relational table
+By: Snowflake
+Year Published: 
+
+<b>19:</b>
+Loading and unloading Parquet data
+By: Snowflake
+Year Published: 2022
+
+<b>20:</b>
+Making Sense of NoSQL
+By: unknown
+Year Published: 2014
+
+<b>21:</b>
+Next Generation Databases: NoSQL and Big Data
+By: Guy Harrison
+Year Published: 2015
+
+<b>22:</b>
+NoSQL Distilled
+By: unknown
+Year Published: 2012
+
+<b>23:</b>
+NoSQL Distilled
+By: Pramod Sadalage and Martin Fowler
+Year Published: 2012
+
+<b>24:</b>
+NoSQL For Dummies
+By: unknown
+Year Published: 2015
+
+<b>25:</b>
+NoSQL and SQL Data Modeling
+By: unknown
+Year Published: 
+
+<b>26:</b>
+NoSQL for Mere Mortals
+By: Dan Sullivan
+Year Published: 2015
+
+<b>27:</b>
+NoSQL the Ruby Way
+By: Durran Jordan
+Year Published: 2012
+
+<b>28:</b>
+NoSQL with MongoDB in 24 Hours
+By: Brad Dayley
+Year Published: 2015
+
+<b>29:</b>
+Seven Databases in Seven Weeks: A Guide to Modern Databases and the NoSQL Movement
+By: Unknown
+Year Published: 2012
+
+<b>30:</b>
+Snowflake - The Complete Masterclass 2023
+By: Unknown
+Year Published: 2023
+
+<b>31:</b>
+Snowflake - The Definitive Guide: Architecting, Designing, and Deploying on the Snowflake Data Cloud
+By: Joyce Kay Avila
+Year Published: 2022
+
+<b>32:</b>
+Snowflake Data Engineering
+By: Maja Ferle
+Year Published: 2021
+
+<b>33:</b>
+Snowflake Essentials
+By: Frank Bell
+Year Published: 2021
+
+<b>34:</b>
+Snowflake Intelligence for CFOs
+By: 
+Year Published: 
+
+<b>35:</b>
+Snowflake PDF
+By: Tom Coffing and Dave Cook
+Year Published: 2016
+
+<b>36:</b>
+Snowflake Security: Securing Your Snowflake Data Cloud
+By: Ben Herzberg and Yoav Cohen
+Year Published: 2023
+
+<b>37:</b>
+Snowflake and SAP: Powering Enterprise AI with Unified Data and Context
+By: 
+Year Published: 2024
+
+<b>38:</b>
+Snowflake in 20 Minutes
+By: Snowflake
+Year Published: Unknown
+
+<b>39:</b>
+Snowflake the Definitive Guide
+By: O'Reilly
+Year Published: 2022
+
+<b>40:</b>
+The Essential Guide to Transactional, Analytical and Hybrid Data
+By: 
+Year Published: 2016
+
+<b>41:</b>
+The Snowflake Dummies Guide Series
+By: Snowflake Inc.
+Year Published: 
+
+<b>42:</b>
+Tuning the Snowflake Data Cloud: Optimizing Your Data Platform to Minimize Cost and Maximize Performance
+By: Andrew Carruthers
+Year Published: 2022
+

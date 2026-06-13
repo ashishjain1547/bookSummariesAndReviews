@@ -1,0 +1,43 @@
+title,author,year
+Build Pipelines for AI: An Essential Guide to Smarter Data Engineering,,2024
+Building the Interoperable Lakehouse: Data Strategies for AI Leaders,,2024
+Bulk loading from Amazon S3 using COPY,Snowflake,2020
+Bulk loading from a local file system using COPY,Snowflake,2023
+Cassandra: The Definitive Guide,Unknown,2010
+Create users and grant roles,Snowflake,2023
+Data Modeling with Snowflake: A practical guide to accelerating Snowflake development using universal data modeling techniques,Serge Gershkovich,2022
+Data Trends 2026: Manufacturing,,
+Database Performance at Scale: A Practical Guide,Unknown,2023
+Getting Started with NoSQL,unknown,2013
+Getting Started with Snowflake,Snowflake,2020
+JSON basics,Snowflake,
+Learning Snowflake SQL and Scripting,Alan Beaulieu,2022
+Load and query sample data using SQL,Snowflake,2024
+Load data from cloud storage (Amazon S3),Snowflake,
+Load data from cloud storage (Google Cloud Storage),Snowflake,2023
+Load data from cloud storage (Microsoft Azure),Snowflake,
+Loading JSON data into a relational table,Snowflake,
+Loading and unloading Parquet data,Snowflake,2022
+Making Sense of NoSQL,unknown,2014
+Next Generation Databases: NoSQL and Big Data,Guy Harrison,2015
+NoSQL Distilled,unknown,2012
+NoSQL Distilled,Pramod Sadalage and Martin Fowler,2012
+NoSQL For Dummies,unknown,2015
+NoSQL and SQL Data Modeling,unknown,
+NoSQL for Mere Mortals,Dan Sullivan,2015
+NoSQL the Ruby Way,Durran Jordan,2012
+NoSQL with MongoDB in 24 Hours,Brad Dayley,2015
+Seven Databases in Seven Weeks: A Guide to Modern Databases and the NoSQL Movement,Unknown,2012
+Snowflake - The Complete Masterclass 2023,Unknown,2023
+"Snowflake - The Definitive Guide: Architecting, Designing, and Deploying on the Snowflake Data Cloud",Joyce Kay Avila,2022
+Snowflake Data Engineering,Maja Ferle,2021
+Snowflake Essentials,Frank Bell,2021
+Snowflake Intelligence for CFOs,,
+Snowflake PDF,Tom Coffing and Dave Cook,2016
+Snowflake Security: Securing Your Snowflake Data Cloud,Ben Herzberg and Yoav Cohen,2023
+Snowflake and SAP: Powering Enterprise AI with Unified Data and Context,,2024
+Snowflake in 20 Minutes,Snowflake,Unknown
+Snowflake the Definitive Guide,O'Reilly,2022
+"The Essential Guide to Transactional, Analytical and Hybrid Data",,2016
+The Snowflake Dummies Guide Series,Snowflake Inc.,
+Tuning the Snowflake Data Cloud: Optimizing Your Data Platform to Minimize Cost and Maximize Performance,Andrew Carruthers,2022
