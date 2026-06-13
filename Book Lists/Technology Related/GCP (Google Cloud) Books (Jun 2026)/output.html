@@ -1,0 +1,333 @@
+<head>
+    <script crossorigin="anonymous" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <!-- Google AdSense Using Machine Learning Code -->
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-3071098372371409",
+            enable_page_level_ads: true
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $.ajax({
+                url: "https://raw.githubusercontent.com/ashishjain1547/bookSummariesAndReviews/main/links_to_book_clubs.json",
+                success: function (result) {
+                    let grouplink = JSON.parse(result)['current book club'];
+                    $("#customWhatsAppGroupLinkWrapper").html(
+                        `
+                        <h2 class="custom_link_h2"><a href="${grouplink}" target="_blank"> 
+                            <span>Join us on:</span>
+                            <span class="customLink"><i class="fa fa-whatsapp"></i> Whatsapp </span>
+                            </a>
+                        </h2>
+                        `
+                    );
+                }
+            });
+        });
+    </script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        pre {
+            white-space: pre-wrap;
+            white-space: -moz-pre-wrap;
+            white-space: -pre-wrap;
+            white-space: -o-pre-wrap;
+            word-wrap: break-word;
+        }
+
+        .customLink {
+            background-color: #4CAF50;
+            border: none;
+            color: white !important;
+            padding: 8px 13px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        .customLink:hover {
+            text-decoration: none;
+        }
+
+        div.code-block-decoration.footer {
+            display: none;
+        }
+
+        button.export-sheets-button-wrapper {
+            display: none;
+        }
+    </style>
+
+    <style>
+        .custom_link_h2 a {
+            color: black;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .custom_link_h2 a:hover {
+            color: black;
+        }
+
+        .custom_link_h2 a:active {
+            color: black;
+        }
+
+        .custom_link_h2 span {
+            translate: 0px -5px;
+            display: inline-block;
+        }
+
+        .custom_link_h2 img {
+            width: 100px;
+            padding: 0px;
+            border: none;
+            box-shadow: none;
+        }
+
+        .customul {
+            list-style: none;
+        }
+
+        [aria-hidden='true'] {
+            display: none;
+        }
+    </style>
+
+    <style>
+        pre {
+            white-space: pre-wrap;
+            white-space: -moz-pre-wrap;
+            white-space: -pre-wrap;
+            white-space: -o-pre-wrap;
+            word-wrap: break-word;
+        }
+
+        .dot {
+            height: 12px;
+            width: 12px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        .arrow {
+            border: solid black;
+            border-width: 0 3px 3px 0;
+            display: inline-block;
+            padding: 3px;
+        }
+
+        .right {
+            transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+        }
+
+        .left {
+            transform: rotate(135deg);
+            -webkit-transform: rotate(135deg);
+        }
+
+        .up {
+            transform: rotate(-135deg);
+            -webkit-transform: rotate(-135deg);
+        }
+
+        .down {
+            transform: rotate(45deg);
+            -webkit-transform: rotate(45deg);
+        }
+    </style>
+</head>
+
+<!-- 
+<a class="customLink" href="" target="_blank">Download Books</a>
+&nbsp;&nbsp;
+<a class="customLink"href="" target="_blank">Download Report</a>
+<br><br>
+-->
+<div id="customWhatsAppGroupLinkWrapper"></div>
+<br>
+<div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKKUf0QXyTTutF6Yko5itBIm7Wi0VNs6vhS98OZZ6n_Sm3iiNeS_JmxhRoO7-NQUuwEID9JmkQmj0It66zSFrYZkXwAkUL7Ai_uyUfDcoBK95zmYSRwMtHQ5CDQwA1U8W3b1MEaytebknIs3BYDuWTE9jl8B_Qayq-PVfHC3N6ihSv202UN2Wt2qEkoKnc/s600/ChatGPT.png" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="600" data-original-height="338" data-original-width="600" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKKUf0QXyTTutF6Yko5itBIm7Wi0VNs6vhS98OZZ6n_Sm3iiNeS_JmxhRoO7-NQUuwEID9JmkQmj0It66zSFrYZkXwAkUL7Ai_uyUfDcoBK95zmYSRwMtHQ5CDQwA1U8W3b1MEaytebknIs3BYDuWTE9jl8B_Qayq-PVfHC3N6ihSv202UN2Wt2qEkoKnc/s600/ChatGPT.png"/></a></div>
+
+<br>
+
+<pre>
+1:
+AI for Absolute Beginners: Easy Guide with Clear Explanations and Real-World Applications of Artificial Intelligence to Quickly Gain Confidence—No Tech Skills Required
+By: Ava Sinclair
+Year Published: 
+
+2:
+AI in 10 Minutes - The Only Guide You Don't Need for 2026: Master ChatGPT, Manus, and Any AI Tool with One Simple Prompt—A Hands-On Quick Start for Complete Beginners (Generation AI)
+By: Rafi Boghosians
+Year Published: 
+
+3:
+Cracking the Kubernetes Interview: Discover expert tips and best practices to ace your Kubernetes technical interviews
+By: Viktor Vedmich
+Year Published: 
+
+4:
+Data Science on Google Cloud Platform
+By: Lak
+Year Published: 2017
+
+5:
+Essential GCP Exam Study Tips from Certified Experts
+By: Safwan Azeem
+Year Published: 
+
+6:
+Generative AI with LangChain: Build production-ready LLM applications and advanced agents using Python, LangChain, and LangGraph
+By: Ben Auffarth
+Year Published: 2024
+
+7:
+Google Cloud Associate Cloud Engineer Certification and Implementation Guide: Master the deployment, management, and monitoring of Google Cloud solutions
+By: Agnieszka Koziorowska
+Year Published: 2020
+
+8:
+Google Cloud Certified Associate Cloud Engineer Study Guide (Sybex Study Guide)
+By: Dan Sullivan
+Year Published: 2020
+
+9:
+Google Cloud Certified Professional Cloud Architect All-in-One Exam Guide
+By: Ghanizada
+Year Published: 
+
+10:
+Google Cloud Certified Professional Cloud Architect Study Guide
+By: Sullivan
+Year Published: 
+
+11:
+Google Cloud Cookbook
+By: Rui and Drew
+Year Published: 
+
+12:
+Google Cloud Digital Leader Certification Guide: A comprehensive study guide to Google Cloud concepts and technologies
+By: Bruno Beraldo Rodrigues
+Year Published: 2023
+
+13:
+Google Cloud Digital Leader Certification Study Guide: The Ultimate AI-Powered Mastery Guide to Cloud Strategy, Innovation, and Digital Transformation
+By: Rayithi, Mohan
+Year Published: 
+
+14:
+Google Cloud Digital Leader Exam Study Guide (Google Cloud Pro-Certification Series)
+By: Patil, Manoj
+Year Published: 
+
+15:
+Google Cloud Platform (GCP) Professional Cloud Network Engineer Certification Companion
+By: Dario Cabianca
+Year Published: 2020
+
+16:
+Google Cloud Platform All-In-One Guide: Get Familiar with a Portfolio of Cloud-based Services in GCP (English Edition)
+By: Praveen Kukreti
+Year Published: 2019
+
+17:
+Google Cloud Platform in Action
+By: JJ Geewax
+Year Published: 2015
+
+18:
+Google Cloud for Beginners: Build Scalable Applications on GCP Step-by-Step
+By: MIGUEL. FARMER
+Year Published: 
+
+19:
+Google Cloud: GCP: Google Cloud Platform: Learn Google Cloud Platform from the Scratch: The Ultimate Guide for Beginners
+By: Adney Ainsley
+Year Published: 
+
+20:
+Kubernetes Up & Running
+By: 
+Year Published: 2017
+
+21:
+Kubernetes in Action
+By: Marko Luksa
+Year Published: 2018
+
+22:
+Mastering Qlik Sense Modern Cloud Analytics: Unlock advanced analytics and visualization power with Qlik Sense Cloud (English Edition)
+By: Steve Rey
+Year Published: 
+
+23:
+Official Google Cloud Certified Professional Cloud Security Engineer Exam Guide
+By: Ankush Chowdhary
+Year Published: 2020
+
+24:
+Official Google Cloud Certified Professional Data Engineer Study Guide
+By: Dan Sullivan
+Year Published: 2020
+
+25:
+Practical Wisdom for Software Professionals: Lessons Learned as a Software Engineer in the Real World
+By: James N Gershfield
+Year Published: 
+
+26:
+Professional Cloud Architect Google Cloud Certification Guide
+By: Clapa & Gerrard
+Year Published: 
+
+27:
+THE AI WORKSHOP: Your Complete Beginner’s Guide to AI Prompts: An A-Z Guide to AI Prompt Engineering for Life, Work, and Business- NO CODING REQUIRED (THE AI WORKSHOP by Milo Foster)
+By: Milo Foster
+Year Published: 
+
+28:
+The Kubernetes Book
+By: Nigel Poulton
+Year Published: 2017
+
+29:
+The Only Official Google Cloud Study Guide
+By: 
+Year Published: 2018
+
+30:
+The Quick & Easy Guide to AI for Absolute Beginners: 5-Minute Lessons on What AI Is, How It Works, and How to Start Using It — No Coding or Tech Skills Needed (Generative AI Made Simple)
+By: John V. Sullivan
+Year Published: 
+
+31:
+Ultimate Snowflake Architecture for Cloud Data Warehousing: Architect, Manage, Secure, and Optimize Your Data Infrastructure Using Snowflake for ...
+By: Ganesh Bharathan
+Year Published: 
+
+32:
+VMware Certified Professional - Data Center Virtualization (VCP-DCV) Certification Guide: Master data center virtualization with expert VMware vSphere guidance (English Edition)
+By: Dinesh Shaw
+Year Published: 2020
+
+33:
+Visualizing Google Cloud
+By: Priyanka
+Year Published: 
+
+</pre>
+
+<span style="opacity: 0;">Tags: List of Books,Cloud,</span>

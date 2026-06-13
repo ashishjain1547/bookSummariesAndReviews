@@ -1,0 +1,165 @@
+1
+AI for Absolute Beginners: Easy Guide with Clear Explanations and Real-World Applications of Artificial Intelligence to Quickly Gain Confidence—No Tech Skills Required
+By: Ava Sinclair
+Year Published: 
+
+2
+AI in 10 Minutes - The Only Guide You Don't Need for 2026: Master ChatGPT, Manus, and Any AI Tool with One Simple Prompt—A Hands-On Quick Start for Complete Beginners (Generation AI)
+By: Rafi Boghosians
+Year Published: 
+
+3
+Cracking the Kubernetes Interview: Discover expert tips and best practices to ace your Kubernetes technical interviews
+By: Viktor Vedmich
+Year Published: 
+
+4
+Data Science on Google Cloud Platform
+By: Lak
+Year Published: 2017
+
+5
+Essential GCP Exam Study Tips from Certified Experts
+By: Safwan Azeem
+Year Published: 
+
+6
+Generative AI with LangChain: Build production-ready LLM applications and advanced agents using Python, LangChain, and LangGraph
+By: Ben Auffarth
+Year Published: 2024
+
+7
+Google Cloud Associate Cloud Engineer Certification and Implementation Guide: Master the deployment, management, and monitoring of Google Cloud solutions
+By: Agnieszka Koziorowska
+Year Published: 2020
+
+8
+Google Cloud Certified Associate Cloud Engineer Study Guide (Sybex Study Guide)
+By: Dan Sullivan
+Year Published: 2020
+
+9
+Google Cloud Certified Professional Cloud Architect All-in-One Exam Guide
+By: Ghanizada
+Year Published: 
+
+10
+Google Cloud Certified Professional Cloud Architect Study Guide
+By: Sullivan
+Year Published: 
+
+11
+Google Cloud Cookbook
+By: Rui and Drew
+Year Published: 
+
+12
+Google Cloud Digital Leader Certification Guide: A comprehensive study guide to Google Cloud concepts and technologies
+By: Bruno Beraldo Rodrigues
+Year Published: 2023
+
+13
+Google Cloud Digital Leader Certification Study Guide: The Ultimate AI-Powered Mastery Guide to Cloud Strategy, Innovation, and Digital Transformation
+By: Rayithi, Mohan
+Year Published: 
+
+14
+Google Cloud Digital Leader Exam Study Guide (Google Cloud Pro-Certification Series)
+By: Patil, Manoj
+Year Published: 
+
+15
+Google Cloud Platform (GCP) Professional Cloud Network Engineer Certification Companion
+By: Dario Cabianca
+Year Published: 2020
+
+16
+Google Cloud Platform All-In-One Guide: Get Familiar with a Portfolio of Cloud-based Services in GCP (English Edition)
+By: Praveen Kukreti
+Year Published: 2019
+
+17
+Google Cloud Platform in Action
+By: JJ Geewax
+Year Published: 2015
+
+18
+Google Cloud for Beginners: Build Scalable Applications on GCP Step-by-Step
+By: MIGUEL. FARMER
+Year Published: 
+
+19
+Google Cloud: GCP: Google Cloud Platform: Learn Google Cloud Platform from the Scratch: The Ultimate Guide for Beginners
+By: Adney Ainsley
+Year Published: 
+
+20
+Kubernetes Up & Running
+By: 
+Year Published: 2017
+
+21
+Kubernetes in Action
+By: Marko Luksa
+Year Published: 2018
+
+22
+Mastering Qlik Sense Modern Cloud Analytics: Unlock advanced analytics and visualization power with Qlik Sense Cloud (English Edition)
+By: Steve Rey
+Year Published: 
+
+23
+Official Google Cloud Certified Professional Cloud Security Engineer Exam Guide
+By: Ankush Chowdhary
+Year Published: 2020
+
+24
+Official Google Cloud Certified Professional Data Engineer Study Guide
+By: Dan Sullivan
+Year Published: 2020
+
+25
+Practical Wisdom for Software Professionals: Lessons Learned as a Software Engineer in the Real World
+By: James N Gershfield
+Year Published: 
+
+26
+Professional Cloud Architect Google Cloud Certification Guide
+By: Clapa & Gerrard
+Year Published: 
+
+27
+THE AI WORKSHOP: Your Complete Beginner’s Guide to AI Prompts: An A-Z Guide to AI Prompt Engineering for Life, Work, and Business- NO CODING REQUIRED (THE AI WORKSHOP by Milo Foster)
+By: Milo Foster
+Year Published: 
+
+28
+The Kubernetes Book
+By: Nigel Poulton
+Year Published: 2017
+
+29
+The Only Official Google Cloud Study Guide
+By: 
+Year Published: 2018
+
+30
+The Quick & Easy Guide to AI for Absolute Beginners: 5-Minute Lessons on What AI Is, How It Works, and How to Start Using It — No Coding or Tech Skills Needed (Generative AI Made Simple)
+By: John V. Sullivan
+Year Published: 
+
+31
+Ultimate Snowflake Architecture for Cloud Data Warehousing: Architect, Manage, Secure, and Optimize Your Data Infrastructure Using Snowflake for ...
+By: Ganesh Bharathan
+Year Published: 
+
+32
+VMware Certified Professional - Data Center Virtualization (VCP-DCV) Certification Guide: Master data center virtualization with expert VMware vSphere guidance (English Edition)
+By: Dinesh Shaw
+Year Published: 2020
+
+33
+Visualizing Google Cloud
+By: Priyanka
+Year Published: 
+
