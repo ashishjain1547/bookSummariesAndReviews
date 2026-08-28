@@ -1,0 +1,254 @@
+
+<head>
+    <script crossorigin="anonymous" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <!-- Google AdSense Using Machine Learning Code -->
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-3071098372371409",
+            enable_page_level_ads: true
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $.ajax({
+                url: "https://raw.githubusercontent.com/ashishjain1547/bookSummariesAndReviews/main/links_to_book_clubs.json",
+                success: function (result) {
+                    let grouplink = JSON.parse(result)['current book club'];
+                    $("#customWhatsAppGroupLinkWrapper").html(
+                        `
+                        <h2 class="custom_link_h2"><a href="${grouplink}" target="_blank"> 
+                            <span>Join us on:</span>
+                            <span class="customLink"><i class="fa fa-whatsapp"></i> Whatsapp </span>
+                            </a>
+                        </h2>
+                        `
+                    );
+                }
+            });
+        });
+    </script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        pre {
+            white-space: pre-wrap;
+            white-space: -moz-pre-wrap;
+            white-space: -pre-wrap;
+            white-space: -o-pre-wrap;
+            word-wrap: break-word;
+        }
+
+        .customLink {
+            background-color: #4CAF50;
+            border: none;
+            color: white !important;
+            padding: 8px 13px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        .customLink:hover {
+            text-decoration: none;
+        }
+
+        div.code-block-decoration.footer {
+            display: none;
+        }
+
+        button.export-sheets-button-wrapper {
+            display: none;
+        }
+    </style>
+
+    <style>
+        .custom_link_h2 a {
+            color: black;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .custom_link_h2 a:hover {
+            color: black;
+        }
+
+        .custom_link_h2 a:active {
+            color: black;
+        }
+
+        .custom_link_h2 span {
+            translate: 0px -5px;
+            display: inline-block;
+        }
+
+        .custom_link_h2 img {
+            width: 100px;
+            padding: 0px;
+            border: none;
+            box-shadow: none;
+        }
+
+        .customul {
+            list-style: none;
+        }
+
+        [aria-hidden='true'] {
+            display: none;
+        }
+    </style>
+
+    <style>
+        pre {
+            white-space: pre-wrap;
+            white-space: -moz-pre-wrap;
+            white-space: -pre-wrap;
+            white-space: -o-pre-wrap;
+            word-wrap: break-word;
+            font-size: 15px;
+        }
+
+        .dot {
+            height: 12px;
+            width: 12px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        .arrow {
+            border: solid black;
+            border-width: 0 3px 3px 0;
+            display: inline-block;
+            padding: 3px;
+        }
+
+        .right {
+            transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+        }
+
+        .left {
+            transform: rotate(135deg);
+            -webkit-transform: rotate(135deg);
+        }
+
+        .up {
+            transform: rotate(-135deg);
+            -webkit-transform: rotate(-135deg);
+        }
+
+        .down {
+            transform: rotate(45deg);
+            -webkit-transform: rotate(45deg);
+        }
+
+        .custom_iframe {
+            width: 100%;
+            height: 305px;
+        }
+    </style>
+</head>
+<div id="customWhatsAppGroupLinkWrapper"></div>
+<a href="https://survival8.blogspot.com/2022/12/index-of-book-summaries.html" target="_blank" class="customLink">See All Summaries</a>
+
+<iframe class="custom_iframe" src="https://www.youtube.com/embed/YkyFP_S3y18" title="&quot;My Mother Never Picked Me Up, She Taught Me To Rise&quot; - David Goggins | [ ENGLISH SPEECH ]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+<style>
+    pre { white-space: pre-wrap; }
+</style>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<div style="text-align:center; margin:20px 0;">
+  <button id="langToggle" style="width:100%; display:flex; align-items:stretch; background-color:#1e88e5; color:#fff; border:none; border-radius:22px; padding:0; overflow:hidden; font-size:16px; font-weight:bold; cursor:pointer; box-shadow:0 2px 6px rgba(30,136,229,.4);">
+    <span id="langHi" style="flex:1; display:flex; align-items:center; justify-content:center; padding:12px 0;">हिंदी</span>
+    <span style="opacity:.55; display:flex; align-items:center;">|</span>
+    <span id="langEn" style="flex:1; display:flex; align-items:center; justify-content:center; padding:12px 0;">English</span>
+  </button>
+</div>
+
+<script>
+$(function(){
+  function applyLang(lang){
+    if(lang === 'hi'){
+      $('.customPreEnglish').hide();
+      $('.customPreHindi').show();
+      $('#langHi').css({backgroundColor:'#90caf9', color:'#1e88e5'});
+      $('#langEn').css({backgroundColor:'transparent', color:'#fff'});
+    } else {
+      $('.customPreHindi').hide();
+      $('.customPreEnglish').show();
+      $('#langEn').css({backgroundColor:'#90caf9', color:'#1e88e5'});
+      $('#langHi').css({backgroundColor:'transparent', color:'#fff'});
+    }
+  }
+  applyLang('hi'); // default: Hindi view
+  $('#langToggle').on('click', function(){
+    applyLang($('.customPreEnglish').is(':visible') ? 'hi' : 'en');
+  });
+});
+</script>
+
+<pre class="customPreEnglish">
+David Goggins is a mind blowing, one-in-a-million personality.
+
+And his mother Jackie Goggins is no less of a person.
+
+I am writing this today after completing the fourth chapter of his second (2nd for me) book “Never Finished”.
+
+In this chapter he talks about how to overcome whatever that's holding you back.
+
+David says to overcome anything, however big or small, you've gotta face it, feel it and analyze it, burn in your mind whatever you can learn about it to be better able respond when next time you confront it.
+
+And the way to do that is: controlled anger and controlled exposure.
+
+Almost as if to say that “you plan for your next episode of anger and exposure.”
+
+<hr>
+
+<b>Some lines from the chapter:</b>
+
+# "What you call hell, he calls home.”
+
+# When your self-worth goes away and you don’t deal with or accept your demons, they will continue to own you, and you will become a bottom feeder.
+
+<i>On importance of pauses called "Hard Stops" in life:</i>
+
+# Hard Stops allow military units and individual soldiers to reorg. That includes reloading your empty magazines, taking inventory of your ammunition, and rearranging your gear so you have access to loaded weapons and anything else you may need in the hours ahead. You also must take a hard look at your battle plan and get a clear sense of what it is you’re facing and where it will lead.
+</pre>
+
+<pre class="customPreHindi">David Goggins एक हैरान कर देने वाली, लाखों में एक मिलने वाली शख्सियत हैं।
+
+और उनकी माँ Jackie Goggins भी किसी मायने में उनसे कम नहीं हैं।
+
+मैं यह आज लिख रहा हूँ, उनकी दूसरी किताब (मेरे लिए दूसरी) “Never Finished” का चौथा अध्याय पूरा करने के बाद।
+
+इस अध्याय में वह बात करते हैं कि जो कुछ भी आपको पीछे खींच रहा है, उसे कैसे पार किया जाए।
+
+David कहते हैं कि किसी भी चीज़ को पार करने के लिए—चाहे वह कितनी भी बड़ी या छोटी क्यों न हो—आपको उसका सामना करना होगा, उसे महसूस करना होगा और उसका विश्लेषण करना होगा। उसके बारे में जो कुछ भी आप सीख सकते हैं, उसे अपने दिमाग में इतनी गहराई से बैठाना होगा कि अगली बार जब आपका सामना उससे हो, तो आप बेहतर ढंग से प्रतिक्रिया दे सकें।
+
+और ऐसा करने का तरीका है: नियंत्रित क्रोध (Controlled Anger) और नियंत्रित सामना (Controlled Exposure)।
+
+लगभग ऐसा, जैसे वह कह रहे हों कि: “अपने अगले गुस्से और अगले सामना करने वाले क्षण की पहले से तैयारी करो।”
+
+<hr>
+
+<b>अध्याय की कुछ पंक्तियाँ:</b>
+
+# “जिसे तुम नर्क कहते हो, वह उसे अपना घर कहता है।”
+
+# जब आपका आत्म-मूल्य (self-worth) खत्म हो जाता है और आप अपने भीतर के राक्षसों का सामना नहीं करते या उन्हें स्वीकार नहीं करते, तो वे लगातार आप पर हावी होते रहेंगे और अंततः आप सबसे निचले स्तर पर पहुँच जाओगे।
+
+<i>ज़िंदगी में “Hard Stops” यानी ठहराव के महत्व पर:</i>
+
+# Hard Stops सैन्य इकाइयों और व्यक्तिगत सैनिकों को खुद को फिर से व्यवस्थित करने का अवसर देते हैं। इसमें खाली मैगज़ीन को दोबारा भरना, अपने गोला-बारूद का जायज़ा लेना और अपने सामान को इस तरह व्यवस्थित करना शामिल है कि आगे आने वाले घंटों में भरे हुए हथियारों और ज़रूरत की दूसरी चीज़ों तक आसानी से पहुँचा जा सके। आपको अपनी युद्ध-योजना पर भी एक कठोर नज़र डालनी होती है और यह स्पष्ट रूप से समझना होता है कि आपके सामने क्या है और वह आपको कहाँ ले जाएगा।
+</pre>
