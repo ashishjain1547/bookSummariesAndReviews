@@ -1,0 +1,257 @@
+
+<head>
+    <script crossorigin="anonymous" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <!-- Google AdSense Using Machine Learning Code -->
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-3071098372371409",
+            enable_page_level_ads: true
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $.ajax({
+                url: "https://raw.githubusercontent.com/ashishjain1547/bookSummariesAndReviews/main/links_to_book_clubs.json",
+                success: function (result) {
+                    let grouplink = JSON.parse(result)['current book club'];
+                    $("#customWhatsAppGroupLinkWrapper").html(
+                        `
+                        <h2 class="custom_link_h2"><a href="${grouplink}" target="_blank"> 
+                            <span>Join us on:</span>
+                            <span class="customLink"><i class="fa fa-whatsapp"></i> Whatsapp </span>
+                            </a>
+                        </h2>
+                        `
+                    );
+                }
+            });
+        });
+    </script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        pre {
+            white-space: pre-wrap;
+            white-space: -moz-pre-wrap;
+            white-space: -pre-wrap;
+            white-space: -o-pre-wrap;
+            word-wrap: break-word;
+        }
+
+        .customLink {
+            background-color: #4CAF50;
+            border: none;
+            color: white !important;
+            padding: 8px 13px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        .customLink:hover {
+            text-decoration: none;
+        }
+
+        div.code-block-decoration.footer {
+            display: none;
+        }
+
+        button.export-sheets-button-wrapper {
+            display: none;
+        }
+    </style>
+
+    <style>
+        .custom_link_h2 a {
+            color: black;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .custom_link_h2 a:hover {
+            color: black;
+        }
+
+        .custom_link_h2 a:active {
+            color: black;
+        }
+
+        .custom_link_h2 span {
+            translate: 0px -5px;
+            display: inline-block;
+        }
+
+        .custom_link_h2 img {
+            width: 100px;
+            padding: 0px;
+            border: none;
+            box-shadow: none;
+        }
+
+        .customul {
+            list-style: none;
+        }
+
+        [aria-hidden='true'] {
+            display: none;
+        }
+    </style>
+
+    <style>
+        pre {
+            white-space: pre-wrap;
+            white-space: -moz-pre-wrap;
+            white-space: -pre-wrap;
+            white-space: -o-pre-wrap;
+            word-wrap: break-word;
+            font-size: 15px;
+        }
+
+        .dot {
+            height: 12px;
+            width: 12px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        .arrow {
+            border: solid black;
+            border-width: 0 3px 3px 0;
+            display: inline-block;
+            padding: 3px;
+        }
+
+        .right {
+            transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+        }
+
+        .left {
+            transform: rotate(135deg);
+            -webkit-transform: rotate(135deg);
+        }
+
+        .up {
+            transform: rotate(-135deg);
+            -webkit-transform: rotate(-135deg);
+        }
+
+        .down {
+            transform: rotate(45deg);
+            -webkit-transform: rotate(45deg);
+        }
+
+        .custom_iframe {
+            width: 100%;
+            height: 305px;
+        }
+    </style>
+</head>
+<div id="customWhatsAppGroupLinkWrapper"></div>
+
+<br>
+<a class="customLink" href="https://survival8.blogspot.com/2022/12/index-of-book-summaries.html" target="_blank">All Book Summaries</a>
+&nbsp;&nbsp; 
+<a class="customLink" href="https://survival8.blogspot.com/2026/07/index-of-notes-on-leadership-wisdom.html" target="_blank">Book Index</a>
+&nbsp;&nbsp; 
+<a class="customLink" href="https://survival8.blogspot.com/2026/07/ch56-be-model.html" target="_blank">&laquo; Previously</a>
+<!-- &nbsp;&nbsp; 
+<a class="customLink" href="" target="_blank">Next &raquo;</a> -->
+<br>
+
+<style>
+    pre { white-space: pre-wrap; }
+</style>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<div style="text-align:center; margin:20px 0;">
+  <button id="langToggle" style="width:100%; display:flex; align-items:stretch; background-color:#1e88e5; color:#fff; border:none; border-radius:22px; padding:0; overflow:hidden; font-size:16px; font-weight:bold; cursor:pointer; box-shadow:0 2px 6px rgba(30,136,229,.4);">
+    <span id="langHi" style="flex:1; display:flex; align-items:center; justify-content:center; padding:12px 0;">हिंदी</span>
+    <span style="opacity:.55; display:flex; align-items:center;">|</span>
+    <span id="langEn" style="flex:1; display:flex; align-items:center; justify-content:center; padding:12px 0;">English</span>
+  </button>
+</div>
+
+<script>
+$(function(){
+  function applyLang(lang){
+    if(lang === 'hi'){
+      $('.customPreEnglish').hide();
+      $('.customPreHindi').show();
+      $('#langHi').css({backgroundColor:'#90caf9', color:'#1e88e5'});
+      $('#langEn').css({backgroundColor:'transparent', color:'#fff'});
+    } else {
+      $('.customPreHindi').hide();
+      $('.customPreEnglish').show();
+      $('#langEn').css({backgroundColor:'#90caf9', color:'#1e88e5'});
+      $('#langHi').css({backgroundColor:'transparent', color:'#fff'});
+    }
+  }
+  applyLang('hi'); // default: Hindi view
+  $('#langToggle').on('click', function(){
+    applyLang($('.customPreEnglish').is(':visible') ? 'hi' : 'en');
+  });
+});
+</script>
+
+<pre class="customPreEnglish">
+<b>Let Go Your Imperfections One By One... Be The Model</b>
+    
+# "The imperfections of your character empower the imperfections of all those you lead."
+
+# "When you are rude to someone an employee, you implicitly give him permission to be rude to someone else. When you lie to someone, you condone lying to someone else. When you are late for a meeting, you silently say that punctuality is not important."
+
+# First step to change is to do your:
+
+"Leadership Audit": Go deep within your heart and reflect on your strengths, and even more importantly on your weaknesses, as a leader. Get to know yourself. As I said earlier, awareness precedes change. Then as with all change initiatives, whether personal or organizational, start off small.
+
+Small acts can lead to great results. Never forget that your people are looking to you to see what is acceptable behavior and what is not. So be the ideal of what you want your people to be. Get out of your palatial office suite you have barricaded yourself into and go talk to the people that really count - the men and women who look to you for leadership. Listen to them. Find out what makes them tick. Listen to their hopes and their dreams and their frustrations. Get a clear sense of what the environment is really like within your company. Most leaders haven't a clue about things like that.
+
+As Yogi Raman once told me," The fish is often the last to notice the water in which it swims."
+</pre>
+
+<pre class="customPreHindi">
+<b>अपनी कमियों को एक-एक करके छोड़िए... स्वयं आदर्श बनिए</b>
+
+# "आपके चरित्र की कमियाँ, आपके नेतृत्व में आने वाले लोगों की कमियों को और अधिक ताकत देती हैं।"
+
+# "जब आप किसी कर्मचारी के साथ रूखा व्यवहार करते हैं, तो अनजाने में आप उसे किसी और के साथ रूखा व्यवहार करने की अनुमति दे देते हैं। जब आप किसी से झूठ बोलते हैं, तो आप किसी और से झूठ बोलने को मौन स्वीकृति दे देते हैं। जब आप किसी बैठक के लिए देर से पहुँचते हैं, तो आप बिना कुछ कहे यह संदेश देते हैं कि समय की पाबंदी महत्वपूर्ण नहीं है।"
+
+# बदलाव की पहली सीढ़ी है अपना "लीडरशिप ऑडिट" (Leadership Audit):
+अपने हृदय की गहराइयों में जाइए और एक नेता के रूप में अपनी शक्तियों पर विचार कीजिए—और उससे भी अधिक महत्वपूर्ण, अपनी कमजोरियों पर। स्वयं को जानिए। जैसा कि मैंने पहले कहा है, **जागरूकता बदलाव से पहले आती है।**
+
+फिर, हर बदलाव की पहल की तरह—चाहे वह व्यक्तिगत हो या संगठनात्मक—छोटे कदमों से शुरुआत कीजिए।
+
+छोटे-छोटे कार्य बड़े परिणाम दे सकते हैं। यह कभी मत भूलिए कि आपके लोग आपकी ओर देखते हैं ताकि यह समझ सकें कि कौन-सा व्यवहार स्वीकार्य है और कौन-सा नहीं।
+
+इसलिए, <b>आप जो चाहते हैं कि आपके लोग बनें, उसका आदर्श स्वयं बनिए।</b>
+
+अपने उस आलीशान कार्यालय से बाहर निकलिए, जिसमें आपने स्वयं को चारों ओर से अलग-थलग कर रखा है, और उन लोगों से जाकर बात कीजिए जो वास्तव में मायने रखते हैं—वे स्त्री-पुरुष जो नेतृत्व के लिए आपकी ओर देखते हैं।
+
+उनकी बात सुनिए। जानिए कि उन्हें किस चीज़ से प्रेरणा मिलती है, क्या चीज़ उन्हें उत्साहित करती है। उनकी आशाओं और सपनों को सुनिए, उनकी निराशाओं को समझिए। अपनी कंपनी के भीतर का वास्तविक वातावरण कैसा है, इसका स्पष्ट बोध प्राप्त कीजिए।
+
+अधिकांश नेताओं को इन बातों की ज़रा भी वास्तविक समझ नहीं होती।
+
+जैसा कि योगी रमन ने एक बार मुझसे कहा था:
+
+<b>"मछली अक्सर सबसे अंत में उस पानी को महसूस करती है जिसमें वह तैर रही होती है।"</b>
+</pre>
+<br>
+<a class="customLink" href="https://survival8.blogspot.com/2022/12/index-of-book-summaries.html" target="_blank">All Book Summaries</a>
+&nbsp;&nbsp; 
+<a class="customLink" href="https://survival8.blogspot.com/2026/07/index-of-notes-on-leadership-wisdom.html" target="_blank">Book Index</a>
+&nbsp;&nbsp; 
+<a class="customLink" href="https://survival8.blogspot.com/2026/07/ch56-be-model.html" target="_blank">&laquo; Previously</a>
+<!-- &nbsp;&nbsp; 
+<a class="customLink" href="" target="_blank">Next &raquo;</a> -->
+<br>
