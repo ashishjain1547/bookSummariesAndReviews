@@ -1,0 +1,258 @@
+
+<head>
+    <script crossorigin="anonymous" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <!-- Google AdSense Using Machine Learning Code -->
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-3071098372371409",
+            enable_page_level_ads: true
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $.ajax({
+                url: "https://raw.githubusercontent.com/ashishjain1547/bookSummariesAndReviews/main/links_to_book_clubs.json",
+                success: function (result) {
+                    let grouplink = JSON.parse(result)['current book club'];
+                    $("#customWhatsAppGroupLinkWrapper").html(
+                        `
+                        <h2 class="custom_link_h2"><a href="${grouplink}" target="_blank"> 
+                            <span>Join us on:</span>
+                            <span class="customLink"><i class="fa fa-whatsapp"></i> Whatsapp </span>
+                            </a>
+                        </h2>
+                        `
+                    );
+                }
+            });
+        });
+    </script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        pre {
+            white-space: pre-wrap;
+            white-space: -moz-pre-wrap;
+            white-space: -pre-wrap;
+            white-space: -o-pre-wrap;
+            word-wrap: break-word;
+        }
+
+        .customLink {
+            background-color: #4CAF50;
+            border: none;
+            color: white !important;
+            padding: 8px 13px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        .customLink:hover {
+            text-decoration: none;
+        }
+
+        div.code-block-decoration.footer {
+            display: none;
+        }
+
+        button.export-sheets-button-wrapper {
+            display: none;
+        }
+    </style>
+
+    <style>
+        .custom_link_h2 a {
+            color: black;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .custom_link_h2 a:hover {
+            color: black;
+        }
+
+        .custom_link_h2 a:active {
+            color: black;
+        }
+
+        .custom_link_h2 span {
+            translate: 0px -5px;
+            display: inline-block;
+        }
+
+        .custom_link_h2 img {
+            width: 100px;
+            padding: 0px;
+            border: none;
+            box-shadow: none;
+        }
+
+        .customul {
+            list-style: none;
+        }
+
+        [aria-hidden='true'] {
+            display: none;
+        }
+    </style>
+
+    <style>
+        pre {
+            white-space: pre-wrap;
+            white-space: -moz-pre-wrap;
+            white-space: -pre-wrap;
+            white-space: -o-pre-wrap;
+            word-wrap: break-word;
+            font-size: 15px;
+        }
+
+        .dot {
+            height: 12px;
+            width: 12px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        .arrow {
+            border: solid black;
+            border-width: 0 3px 3px 0;
+            display: inline-block;
+            padding: 3px;
+        }
+
+        .right {
+            transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+        }
+
+        .left {
+            transform: rotate(135deg);
+            -webkit-transform: rotate(135deg);
+        }
+
+        .up {
+            transform: rotate(-135deg);
+            -webkit-transform: rotate(-135deg);
+        }
+
+        .down {
+            transform: rotate(45deg);
+            -webkit-transform: rotate(45deg);
+        }
+
+        .custom_iframe {
+            width: 100%;
+            height: 305px;
+        }
+    </style>
+</head>
+<div id="customWhatsAppGroupLinkWrapper"></div>
+<a href="https://survival8.blogspot.com/2022/12/index-of-book-summaries.html" target="_blank" class="customLink">See All Summaries</a>
+&nbsp;&nbsp;
+<a href="https://github.com/ashishjain1547/books_on_biographies_and_autobiographies/blob/main/10_Never%20Finished_David%20Goggins_2022/Ch5%20-%20Disciple%20of%20Discipline.pdf" target="_blank" class="customLink">Download Chapter</a>
+&nbsp;&nbsp;
+<a href="https://survival8.blogspot.com/2026/08/notes-from-another-chapter-of-book.html" target="_blank" class="customLink">&laquo; Previously</a>
+<br>
+
+<iframe class="custom_iframe" src="https://www.youtube.com/embed/Jip1eWLlh0I" title="Get Up. Get It Done. No Pity. Just Action - David Goggins Motivational Speech" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<style>
+    pre { white-space: pre-wrap; }
+</style>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<div style="text-align:center; margin:20px 0;">
+  <button id="langToggle" style="width:100%; display:flex; align-items:stretch; background-color:#1e88e5; color:#fff; border:none; border-radius:22px; padding:0; overflow:hidden; font-size:16px; font-weight:bold; cursor:pointer; box-shadow:0 2px 6px rgba(30,136,229,.4);">
+    <span id="langHi" style="flex:1; display:flex; align-items:center; justify-content:center; padding:12px 0;">हिंदी</span>
+    <span style="opacity:.55; display:flex; align-items:center;">|</span>
+    <span id="langEn" style="flex:1; display:flex; align-items:center; justify-content:center; padding:12px 0;">English</span>
+  </button>
+</div>
+
+<script>
+$(function(){
+  function applyLang(lang){
+    if(lang === 'hi'){
+      $('.customPreEnglish').hide();
+      $('.customPreHindi').show();
+      $('#langHi').css({backgroundColor:'#90caf9', color:'#1e88e5'});
+      $('#langEn').css({backgroundColor:'transparent', color:'#fff'});
+    } else {
+      $('.customPreHindi').hide();
+      $('.customPreEnglish').show();
+      $('#langEn').css({backgroundColor:'#90caf9', color:'#1e88e5'});
+      $('#langHi').css({backgroundColor:'transparent', color:'#fff'});
+    }
+  }
+  applyLang('hi'); // default: Hindi view
+  $('#langToggle').on('click', function(){
+    applyLang($('.customPreEnglish').is(':visible') ? 'hi' : 'en');
+  });
+});
+</script>
+
+<pre class="customPreEnglish">
+<b><i>Notes from the Chapter 5: Disciple of Discipline</i></b>
+
+The fifth chapter of the book "Never Finished" is about Discipline.
+
+In this chapter, David talks about his maternal grandfather and the lessons he gave in not-so-good packaging.
+
+But despite loathing every bit of the routine and treatment he got from Sergeant Jack, David followed through, David endured.
+
+It's funny because from Indian societies (where I come from) perspective, nana ji (as we call our maternal grandfather) is the most loving person after or equal to your paternal grandparents.
+
+And if you'd read the book, you'd find that David loathed his maternal grandmother even more as jokingly described in the below excerpt by the author:
+
+<b><i>"All things being equal, I preferred to be outside. I considered most of the house a no-go zone because as badly as I felt I was being treated by Sgt. Jack, I much preferred him to Morna. She was also of mixed race and could pass for White if or when she needed to. She celebrated that fact by spraying the N-word around like an Ecolab exterminator hunting for a hive of cockroaches. More often than not, her favorite word landed on my head. For all the racists I met in Brazil, nobody called me “nigger” more than sweet grandma Morna, which only heightened the feeling that I was their personal slave."</i></b>
+
+But as David recalls later in his books, the kind of love that Sergeant Jack showed was "Tough love". Rather than organizing a pity party for David, Sergeant Jack shaped David in his formative years, building him up from the ground up.
+
+~~~
+
+<i>"That's only a borderline difference between a stepping stone and a stumbling block."</i>
+</pre>
+
+<pre class="customPreHindi">
+<b><i>अध्याय 5: अनुशासन के शिष्य से मिले नोट्स</i></b>
+
+किताब <i>"Never Finished"</i> का पाँचवाँ अध्याय <b>अनुशासन (Discipline)</b> के बारे में है।
+
+इस अध्याय में डेविड अपने नाना जी और उन सीखों के बारे में बताते हैं, जो उन्होंने डेविड को बहुत अच्छे तरीके से नहीं, बल्कि कुछ हद तक कठोर तरीके से दीं।
+
+लेकिन Sergeant Jack से मिले व्यवहार और उस पूरी दिनचर्या के हर हिस्से से नफ़रत करने के बावजूद, डेविड उससे पीछे नहीं हटे। उन्होंने उसे पूरा किया, सहा और उसके साथ डटे रहे।
+
+यह बात थोड़ी मज़ेदार लगती है, क्योंकि भारतीय समाज के नज़रिए से (जहाँ से मैं आता हूँ), <b>नाना जी</b> — जैसा कि हम अपने maternal grandfather को कहते हैं — अपने दादा-दादी के बराबर या उनके बाद सबसे ज़्यादा प्यार करने वाले व्यक्ति माने जाते हैं।
+
+और अगर आपने यह किताब पढ़ी होगी, तो आपको पता चलेगा कि डेविड अपनी नानी से तो और भी ज़्यादा नफ़रत करते थे। लेखक ने नीचे दिए गए अंश में इसे कुछ मज़ाकिया अंदाज़ में बताया है:
+
+<b><i>"बाकी सारी परिस्थितियाँ एक जैसी हों, तो मैं बाहर रहना ही पसंद करता था। मैंने घर के ज़्यादातर हिस्से को अपने लिए 'नो-गो ज़ोन' मान रखा था, क्योंकि Sergeant Jack मेरे साथ जितना बुरा व्यवहार करता था, उसके बावजूद मैं उसे Morna से कहीं ज़्यादा पसंद करता था। वह भी मिश्रित नस्ल की थीं और ज़रूरत पड़ने पर खुद को श्वेत बता सकती थीं। वह इस बात का जश्न इस तरह मनाती थीं कि 'N-word' को ऐसे चारों ओर बिखेरती रहती थीं, जैसे कोई Ecolab का कीट-नाशक कर्मचारी कॉकरोचों के छत्ते की तलाश कर रहा हो। ज़्यादातर बार उनका पसंदीदा शब्द मेरे सिर पर ही आकर गिरता था। ब्राज़ील में जितने भी नस्लवादी लोगों से मैं मिला, उनमें से किसी ने मुझे 'nigger' उतनी बार नहीं कहा, जितनी मेरी प्यारी नानी Morna ने — और इससे यह एहसास और भी गहरा हो जाता था कि मैं उनका निजी गुलाम था।"</i></b>
+
+लेकिन जैसा कि डेविड अपनी किताबों में बाद में याद करते हैं, Sergeant Jack ने जिस तरह का प्यार दिखाया, वह <b>"Tough Love"</b> था।
+
+डेविड के लिए सहानुभूति की महफ़िल सजाने के बजाय, Sergeant Jack ने उनके शुरुआती और निर्णायक वर्षों में उन्हें गढ़ा — उन्हें बिल्कुल ज़मीन से उठाकर, नींव से मजबूत बनाया।
+
+~~~
+
+<i>"<b>सीढ़ी के पत्थर (stepping stone)</b> और <b>ठोकर के पत्थर (stumbling block)</b> में सिर्फ़ नाम भर का अंतर होता है—फ़र्क़ इस बात से पड़ता है कि <b>तुम उन पर गिरते हो या उन्हें पार करके आगे बढ़ते हो।</b>"</i>
+</pre>
+<br>
+<a href="https://survival8.blogspot.com/2022/12/index-of-book-summaries.html" target="_blank" class="customLink">See All Summaries</a>
+&nbsp;&nbsp;
+<a href="https://github.com/ashishjain1547/books_on_biographies_and_autobiographies/blob/main/10_Never%20Finished_David%20Goggins_2022/Ch5%20-%20Disciple%20of%20Discipline.pdf" target="_blank" class="customLink">Download Chapter</a>
+&nbsp;&nbsp;
+<a href="https://survival8.blogspot.com/2026/08/notes-from-another-chapter-of-book.html" target="_blank" class="customLink">&laquo; Previously</a>
+<br>
+
+<span style="opacity: 0;">Tags:Biography,Book Summary,</span>
