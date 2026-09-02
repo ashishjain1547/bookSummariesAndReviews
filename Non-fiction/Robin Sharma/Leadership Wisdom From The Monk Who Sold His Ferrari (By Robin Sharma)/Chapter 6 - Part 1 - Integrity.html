@@ -1,0 +1,254 @@
+
+<head>
+    <script crossorigin="anonymous" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <!-- Google AdSense Using Machine Learning Code -->
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-3071098372371409",
+            enable_page_level_ads: true
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $.ajax({
+                url: "https://raw.githubusercontent.com/ashishjain1547/bookSummariesAndReviews/main/links_to_book_clubs.json",
+                success: function (result) {
+                    let grouplink = JSON.parse(result)['current book club'];
+                    $("#customWhatsAppGroupLinkWrapper").html(
+                        `
+                        <h2 class="custom_link_h2"><a href="${grouplink}" target="_blank"> 
+                            <span>Join us on:</span>
+                            <span class="customLink"><i class="fa fa-whatsapp"></i> Whatsapp </span>
+                            </a>
+                        </h2>
+                        `
+                    );
+                }
+            });
+        });
+    </script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        pre {
+            white-space: pre-wrap;
+            white-space: -moz-pre-wrap;
+            white-space: -pre-wrap;
+            white-space: -o-pre-wrap;
+            word-wrap: break-word;
+        }
+
+        .customLink {
+            background-color: #4CAF50;
+            border: none;
+            color: white !important;
+            padding: 8px 13px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        .customLink:hover {
+            text-decoration: none;
+        }
+
+        div.code-block-decoration.footer {
+            display: none;
+        }
+
+        button.export-sheets-button-wrapper {
+            display: none;
+        }
+    </style>
+
+    <style>
+        .custom_link_h2 a {
+            color: black;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .custom_link_h2 a:hover {
+            color: black;
+        }
+
+        .custom_link_h2 a:active {
+            color: black;
+        }
+
+        .custom_link_h2 span {
+            translate: 0px -5px;
+            display: inline-block;
+        }
+
+        .custom_link_h2 img {
+            width: 100px;
+            padding: 0px;
+            border: none;
+            box-shadow: none;
+        }
+
+        .customul {
+            list-style: none;
+        }
+
+        [aria-hidden='true'] {
+            display: none;
+        }
+    </style>
+
+    <style>
+        pre {
+            white-space: pre-wrap;
+            white-space: -moz-pre-wrap;
+            white-space: -pre-wrap;
+            white-space: -o-pre-wrap;
+            word-wrap: break-word;
+            font-size: 15px;
+        }
+
+        .dot {
+            height: 12px;
+            width: 12px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        .arrow {
+            border: solid black;
+            border-width: 0 3px 3px 0;
+            display: inline-block;
+            padding: 3px;
+        }
+
+        .right {
+            transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+        }
+
+        .left {
+            transform: rotate(135deg);
+            -webkit-transform: rotate(135deg);
+        }
+
+        .up {
+            transform: rotate(-135deg);
+            -webkit-transform: rotate(-135deg);
+        }
+
+        .down {
+            transform: rotate(45deg);
+            -webkit-transform: rotate(45deg);
+        }
+
+        .custom_iframe {
+            width: 100%;
+            height: 305px;
+        }
+
+        pre.customPreHindi {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<div id="customWhatsAppGroupLinkWrapper"></div>
+
+<br>
+<a class="customLink" href="https://survival8.blogspot.com/2022/12/index-of-book-summaries.html" target="_blank">All Book Summaries</a>
+&nbsp;&nbsp; 
+<a class="customLink" href="https://survival8.blogspot.com/2026/07/index-of-notes-on-leadership-wisdom.html" target="_blank">Book Index</a>
+&nbsp;&nbsp; 
+<a class="customLink" href="https://survival8.blogspot.com/2026/08/ch57-let-go-your-imperfections.html" target="_blank">&laquo; Previously</a>
+<!-- &nbsp;&nbsp; 
+<a class="customLink" href="" target="_blank">Next &raquo;</a> -->
+<br>
+
+<style>
+    pre { white-space: pre-wrap; }
+</style>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<div style="text-align:center; margin:20px 0;">
+  <button id="langToggle" style="width:100%; display:flex; align-items:stretch; background-color:#1e88e5; color:#fff; border:none; border-radius:22px; padding:0; overflow:hidden; font-size:16px; font-weight:bold; cursor:pointer; box-shadow:0 2px 6px rgba(30,136,229,.4);">
+    <span id="langHi" style="flex:1; display:flex; align-items:center; justify-content:center; padding:12px 0;">हिंदी</span>
+    <span style="opacity:.55; display:flex; align-items:center;">|</span>
+    <span id="langEn" style="flex:1; display:flex; align-items:center; justify-content:center; padding:12px 0;">English</span>
+  </button>
+</div>
+
+<script>
+$(function(){
+  function applyLang(lang){
+    if(lang === 'hi'){
+      $('.customPreEnglish').hide();
+      $('.customPreHindi').show();
+      $('#langHi').css({backgroundColor:'#90caf9', color:'#1e88e5'});
+      $('#langEn').css({backgroundColor:'transparent', color:'#fff'});
+    } else {
+      $('.customPreHindi').hide();
+      $('.customPreEnglish').show();
+      $('#langEn').css({backgroundColor:'#90caf9', color:'#1e88e5'});
+      $('#langHi').css({backgroundColor:'transparent', color:'#fff'});
+    }
+  }
+  applyLang('hi'); // default: Hindi view
+  $('#langToggle').on('click', function(){
+    applyLang($('.customPreEnglish').is(':visible') ? 'hi' : 'en');
+  });
+});
+</script>
+
+<pre class="customPreEnglish">
+<b><i>Few lines on Integrity:</i></b>
+
+# "Cultivate the discipline of doing what should do when you have to do it."
+
+# "Don't put off the important things in favor of easy and immediate things."
+
+# ...Late in their lives, a lot of people regret all the missed opportunities and lost chances. But sadly, by then it's too late. It's like the saying, "If youth only knew, if age only could."
+
+# "When the student is ready, the teacher appears." — Robin Sharma
+
+# "When you enrich the relationship, you enhance the leadership."
+
+# "Chickens come home to roost."
+
+# "What goes around, comes around."
+
+# "Every promise you break, no matter how small and seemingly inconsequential, steadily chips away at your character."
+
+# "Every time you avoid doing right, you fuel the habit of doing wrong."
+</pre>
+
+<pre class="customPreHindi">
+<b><i>ईमानदारी और नैतिक दृढ़ता (Integrity) पर कुछ पंक्तियाँ:</i></b>
+
+# "जब जो करना चाहिए, उसे जब करना हो, उसी समय करने का अनुशासन विकसित करें।"
+
+# "महत्वपूर्ण कार्यों को आसान और तुरंत किए जा सकने वाले कामों के पक्ष में टालते न रहें।"
+
+# "...जीवन के अंतिम पड़ाव में बहुत से लोग उन अवसरों और संभावनाओं को खो देने का पछतावा करते हैं, जिन्हें उन्होंने कभी हाथ से जाने दिया था। लेकिन अफ़सोस, तब तक बहुत देर हो चुकी होती है। यह कहावत बिल्कुल सटीक बैठती है—<i>“यदि जवानी को समझ होती और यदि बुढ़ापे में वह सामर्थ्य होती।”</i>"
+
+# "जब शिष्य तैयार होता है, तब गुरु प्रकट हो जाता है।" — रॉबिन शर्मा
+
+# "जब आप रिश्ते को समृद्ध करते हैं, तो आप अपने नेतृत्व को भी सशक्त बनाते हैं।"
+
+# "जैसा बोओगे, वैसा ही काटोगे।"
+
+# "जो आपके साथ होता है, वही घूम-फिरकर आपके पास वापस आता है।"
+
+# "आप जो भी वादा तोड़ते हैं—चाहे वह कितना ही छोटा और महत्वहीन क्यों न लगे—वह धीरे-धीरे आपके चरित्र की नींव को कमजोर करता जाता है।"
+
+# "हर बार जब आप सही काम करने से बचते हैं, आप गलत काम करने की आदत को और मजबूत करते हैं।"
+
+</pre>
